@@ -103,7 +103,7 @@
 					<inherited>true</inherited>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>${project.basedir}/${RegressionPath}</suiteXmlFile>
+							<suiteXmlFile>TestNGTestScripts/chpbr_prod_Regression.xml</suiteXmlFile>
 						</suiteXmlFiles>
 						<testFailureIgnore>true</testFailureIgnore>
 					</configuration>
