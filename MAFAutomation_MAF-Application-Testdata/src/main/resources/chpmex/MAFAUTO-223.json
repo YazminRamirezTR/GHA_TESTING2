@@ -1,0 +1,11 @@
+{
+"_comment":"Verify Suspend Alert",
+ "MAFAUTO-223":
+    [
+	   {
+	     "alertname": "Suspend-Automation",
+	     "suspendtodate":"30/12/2019",
+	     "validate-non-existent fields": ["ID Cliente,Formato,Notificacion"]
+	   }
+	]
+}

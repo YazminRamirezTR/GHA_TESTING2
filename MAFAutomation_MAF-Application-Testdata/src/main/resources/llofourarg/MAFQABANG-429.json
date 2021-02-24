@@ -1,0 +1,9 @@
+{
+"_comment":"Verify search using freeword value on the Doctrine page",
+ "MAFQABANG-429":
+    [
+	   {
+	    "freeword":"aduana" 
+       }
+	]
+}

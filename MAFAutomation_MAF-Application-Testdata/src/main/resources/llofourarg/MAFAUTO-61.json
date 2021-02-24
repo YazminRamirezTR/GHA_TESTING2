@@ -1,0 +1,19 @@
+{
+"_comment":"Search using freeword on Legislation to Deliver Results using Email",
+ "MAFAUTO-61":
+	[
+		{
+			"freeword":"governo",
+			"citaonline":"AR/LCON/32HI",
+			"documentnumber":"1",
+			"emailto":"Vignesh.Rajendran@thomsonreuters.com"
+		},
+		{
+			"freeword":"ley",
+			"citaonline":"CL/LCON/0YGR",
+			"documentnumber":"1",
+			"emailto":"Vignesh.Rajendran@thomsonreuters.com"
+		}
+		
+	]
+}

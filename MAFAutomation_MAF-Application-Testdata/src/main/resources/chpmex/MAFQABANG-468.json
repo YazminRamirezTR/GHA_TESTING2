@@ -1,0 +1,10 @@
+{
+"_comment":"Verified Advance Search Doctrine with Filter Facet",
+ "MAFQABANG-468":
+	[
+		{
+			"freeword":"aduana",
+			"contenttypelinkname":["Doctrina","Jurisprudencia","Legislación"]
+		}
+	]
+}

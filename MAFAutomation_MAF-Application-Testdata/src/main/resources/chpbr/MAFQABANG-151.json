@@ -1,0 +1,15 @@
+{
+"_comment":"Validate unique links in the header section",
+ "MAFQABANG-151":
+    [
+	   {
+	     "name":"Kavya1",
+		 "email":"kavya1@tr.com",
+		 "phone":"0123456789",
+		 "company":"TR",
+		 "Message":"Good",
+		 "rtbrazilurl":"https://www.revistadostribunais.com.br/maf/app/authentication/formLogin",
+		 "elearningurl":"https://thomsonreuters.loja.voxeldigital.com.br/"
+	   }
+	]
+}

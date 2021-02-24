@@ -1,0 +1,10 @@
+{
+"_comment":"Verify search using First level Thematic on Jurisprudence",
+ "MAFQABANG-589":
+    [
+	   {
+	     "Thematic": "CONTRATO DE TRABAJO",
+	     "suggestiontobeselected":"CARACTERES DEL CONTRATO DE TRABAJO"  
+	   }
+	]
+}

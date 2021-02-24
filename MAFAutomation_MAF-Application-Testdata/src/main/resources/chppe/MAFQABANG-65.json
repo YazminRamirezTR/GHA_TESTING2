@@ -1,0 +1,10 @@
+{
+"_comment":"Verify Advance search for Doctrine with Author and Title",
+ "MAFQABANG-65":
+	[
+		{
+		 "author":"Caballero Bustamante",
+	     "title":"Sistema"
+		}
+	]
+}

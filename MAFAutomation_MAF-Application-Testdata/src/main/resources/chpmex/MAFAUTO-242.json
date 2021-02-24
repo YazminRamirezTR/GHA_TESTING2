@@ -1,0 +1,15 @@
+{
+"_comment":"Suggestions drop down getting dispalyed for Advance Search",
+ "MAFAUTO-242":
+	[
+		{
+			"thematicarea":"Todas",
+			"thematicsearch":"action",
+			"thematicsuggestion":"grupo de acción financiera internacional",
+			"searchkey":"sec",
+			"suggestionkey":"secretaría de economía",
+			"advancedsearch":["Legislación","Doctrina","Jurisprudencia","Formularios"]			
+		}
+		
+	]
+}

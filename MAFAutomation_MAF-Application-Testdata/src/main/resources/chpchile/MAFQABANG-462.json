@@ -1,0 +1,10 @@
+{
+"_comment":"Verify  the search with in search result for Advance Search doctrine",
+ "MAFQABANG-462":
+	[
+		{
+			"freeword":"aduana",
+			"searchwithintext": "maria"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+"_comment":"Verfiy Search template and no Result Alert Message",
+ "MAFQABANG-477":
+    [
+	   {
+	     "alertmsg": "Debe completar al menos un campo de búsqueda."
+	   }
+	]
+}

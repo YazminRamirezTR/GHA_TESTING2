@@ -1,0 +1,10 @@
+{
+"_comment":"Search with freeword using quick search on Home and Verify document display",
+ "MAFQABANG-207":
+	[
+		{
+			"freeword":"aduana"
+		}
+		
+	]
+}

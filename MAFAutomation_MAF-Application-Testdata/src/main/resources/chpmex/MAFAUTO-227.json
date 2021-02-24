@@ -1,0 +1,9 @@
+{
+"_comment":"Home Page - Removed Thematic Areas",
+ "MAFAUTO-227":
+    [
+	   {
+	     "removedthematicoptions":["Sociedades"]
+	   }
+	]
+}

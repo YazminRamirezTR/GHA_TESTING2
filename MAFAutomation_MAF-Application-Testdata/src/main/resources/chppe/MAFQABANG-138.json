@@ -1,0 +1,14 @@
+{
+"_comment":"Verify the Document sent to intended Email address with PDF attachment",
+"MAFQABANG-138":
+	[
+	 {
+		"Email_To":"jagannath.konjeti@thomsonreuters.com",
+        "Invalid_Email_To":"jagannath.konjeti@thomsonreuters.com",
+        "documentnumber":"1",
+        "freeword":"aduana"
+	 }
+	]
+	
+}
+	

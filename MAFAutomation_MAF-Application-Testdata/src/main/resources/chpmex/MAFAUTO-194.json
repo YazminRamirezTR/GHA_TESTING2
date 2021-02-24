@@ -1,0 +1,11 @@
+{
+"_comment":"Home Page Validate Frequently Asked Questions widget for Thematic Area Civil",
+ "MAFAUTO-194":
+		[
+			{
+				"thematicarea":  "Civil",
+				"expectedlinks":["Código Civil Federal",
+								  "Código Federal de Procedimientos Civiles"]
+			}
+		]
+}

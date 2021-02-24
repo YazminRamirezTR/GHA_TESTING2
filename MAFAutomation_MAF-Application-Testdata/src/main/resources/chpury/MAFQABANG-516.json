@@ -1,0 +1,10 @@
+{
+  "_comment": "Freeword Search for no results in Homepage and verify error message",
+  "MAFQABANG-516": 
+	  [
+	    {
+	      	"freeword":"ttpy",
+			"expectederrormessage":"No se encontraron documentos para su búsqueda."
+	    }
+	  ]
+}

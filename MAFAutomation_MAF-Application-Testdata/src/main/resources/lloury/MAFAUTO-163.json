@@ -1,0 +1,10 @@
+{
+"_comment":"Verify deleting of one history record",
+ "MAFAUTO-163":
+    [
+	   {
+	     "expecteddeletelink": "Borrar"
+	   }
+	     
+	]
+}

@@ -1,0 +1,11 @@
+{
+"_comment":"Thematic Search with Forms",
+ "MAFAUTO-216":
+	[
+		{
+			"thematicarea":"Todas",
+			"thematicsearchandsugestion":["res","residencia fiscal"],
+			"formssearchandsuggestion":["sec","secretaría de economía"]
+		}
+	]
+}

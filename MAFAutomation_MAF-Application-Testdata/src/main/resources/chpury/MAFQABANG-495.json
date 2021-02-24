@@ -1,0 +1,10 @@
+{
+"_comment":"Follow Document widget zero record message verification",
+ "MAFQABANG-495":
+		[
+  		   	{
+		    	"thematicarea":"Todas",
+  		    	"zeroentry_message":" Actualmente no se registran documentos en seguimiento. Para comenzar a seguir las modificaciones, acceda a un documento y haga clic en el boton \"Seguir documento\". Si desea información detallada sobre esta funcionalidad, haga clic aquí."
+  		  	}
+		]
+}

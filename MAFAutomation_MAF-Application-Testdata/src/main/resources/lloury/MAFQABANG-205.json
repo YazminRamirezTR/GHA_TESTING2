@@ -1,0 +1,10 @@
+{
+"_comment":"Search with freeword and verify Filter on resultlist",
+ "MAFQABANG-205":
+    [
+	   {
+	    "freeword":"Ley general de sociedades",
+	    "Searchonresult":"Ley general de sociedades"
+	   }
+    ]
+}

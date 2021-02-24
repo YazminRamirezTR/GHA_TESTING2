@@ -1,0 +1,10 @@
+{
+"_comment":"Verify search using index on Adminstrative page",
+	"MAFQABANG-308":
+	[
+	 {
+		"indexsearch":"arbitragem internacional"
+	 }
+	]
+	
+	}

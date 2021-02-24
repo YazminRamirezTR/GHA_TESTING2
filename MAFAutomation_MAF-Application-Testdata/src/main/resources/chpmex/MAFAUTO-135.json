@@ -1,0 +1,12 @@
+{
+"_comment":"Home Page - Widget - Historical content to legacy",
+ "MAFAUTO-135":
+    [
+	   {
+	     "yearexistingval":"2013",
+	     "yearreqval":"1981",
+	     "seconddropdowninitialvalue":"1. Porcientos de aplicación a la cuota diaria para obtener el salario fijo integ",
+	     "finalvalue": "Ley del Impuesto sobre la Renta"
+	   }
+	]
+}

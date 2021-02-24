@@ -1,0 +1,9 @@
+{
+"_comment":"To verify error after clicking search(buscar) of empty Obligaciones",
+ "MAFQABANG-489":
+    [
+	   {
+	    "errormessage":"Debe completar al menos un campo de búsqueda."
+       }
+	]
+}

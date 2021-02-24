@@ -1,0 +1,16 @@
+{
+"_comment":"Validate the options in the document display page of indicator widget",
+ "MAFQABANG-649":
+	[
+		{
+		 "indicators_widget":"Indicadores",
+	     "indicator_link1":"Tipo de cambio MEX/EUA (22 de Enero)",
+		 "indicator_link2":"INPC Diciembre",
+		 "thematicarea":"Todas",
+		 "freeword":"INPC",
+		 "firstnodeunderFiscal":"Legislación Federal",
+		 "Indicatornode":"Indicador",
+		 "firsttitle":"Cantidades actualizadas del CFF y LIF."
+		 }
+	]
+}

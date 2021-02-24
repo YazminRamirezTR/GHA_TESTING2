@@ -1,0 +1,10 @@
+{
+"_comment":"Search with freeword and deliver document using Print",
+ "MAFQABANG-239":
+	[
+		{
+			"freeword":"aduana"
+		}
+		
+	]
+}

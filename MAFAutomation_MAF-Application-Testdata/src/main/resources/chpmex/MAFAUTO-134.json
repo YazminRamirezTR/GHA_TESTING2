@@ -1,0 +1,11 @@
+{
+"_comment":"Home Page - Widget - Alerts (Scheduled Search)",
+ "MAFAUTO-134":
+    [
+	   {
+	     "widgetname":"Búsquedas programadas",
+	     "noavailablelinksmsg":"Actualmente no se registran accesos directos. Para agregar un acceso directo, haga clic sobre el ícono en la sección que desea del árbol de contenidos o documento. Si desea información detallada acerca de esta funcionalidad haga clic aquí.",
+		 "availablelinkmsg": "name/lastexecution/removelink"
+	   }
+    ]
+}

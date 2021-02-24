@@ -1,0 +1,19 @@
+{
+"_comment":"Verify expected links are displayed on the link utility page",
+"MAFQABANG-560":
+	[
+      {
+      	"links_present":[
+      					"Presidencia de la República Oriental del Uruguay",
+						"Ministerio de Economía y Finanzas",
+						"Dirección General Impositiva",
+						"Auditoría Interna de la Nación",
+						"Banco Central del Uruguay",
+						"Bolsa de Montevideo",
+						"Instituto Nacional de Estadística",
+						"Colegio de Contadores, Economistas y Administradores del Uruguay",
+						"Instituto Uruguayo de Estudios Tributarios"
+						]
+      }
+	]
+} 

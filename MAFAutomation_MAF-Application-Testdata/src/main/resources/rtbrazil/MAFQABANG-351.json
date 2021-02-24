@@ -1,0 +1,13 @@
+{
+"_comment":"Verify creation of Alert from Result List",
+ "MAFQABANG-351":
+    [
+	   {
+	     "alertname": "Test_E2E_Alert",
+	     "emailid":"Vignesh.Rajendran@thomsonreuters.com",
+	     "freeword":"Peculato",
+		 "contenttype":"Doutrina"
+	   }
+	   
+	]
+}

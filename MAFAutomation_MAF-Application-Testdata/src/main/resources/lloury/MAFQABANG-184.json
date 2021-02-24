@@ -1,0 +1,13 @@
+{
+"_comment":"Verify search using court name on Jurisprudence",
+ "MAFQABANG-184":
+    [
+	   {
+		"courtlisttreeitems":["Tribunales Provinciales","Buenos Aires","Buenos Aires"],
+	     "courtname":"Juzgado Letrado de Familia de 10° Turno",
+	      "invalidtribunal":"$%^&",
+	     "errmsg": "Su búsqueda contiene caracteres inválidos." ,
+	      "expectedfacet":"Jurisprudencia"		  
+	   }
+	]
+}

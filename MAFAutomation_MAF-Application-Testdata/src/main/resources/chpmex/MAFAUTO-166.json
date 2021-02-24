@@ -1,0 +1,10 @@
+{
+"_comment":"Trail - See Trail: Verify Record and view",
+ "MAFAUTO-166":
+    [
+	   {
+	     "header": "HISTORIAL ",
+		 "columnnames":["Tipo","Fecha y Hora","Descripción","Acciones"]  
+	   }
+	]
+}

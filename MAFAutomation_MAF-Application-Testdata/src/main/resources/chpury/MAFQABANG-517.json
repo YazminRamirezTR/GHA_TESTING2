@@ -1,0 +1,11 @@
+{
+  "_comment": "Search by Thematic and Free word in HomePage",
+  "MAFQABANG-517": 
+	  [
+	    {
+	      	"freeword": "trabajo",
+		    "thematic":"Acción de responsabilidad",
+		    "thematicsuggestiontitle":"ACCION DE RESPONSABILIDAD"
+	    }
+	  ]
+}

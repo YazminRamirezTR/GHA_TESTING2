@@ -1,0 +1,9 @@
+{
+"_comment":"Verify Search template and No Result Alert Message for Foreign Currency",
+ "MAFQABANG-554":
+    [
+	   {
+	     "alertmsg": "Debe completar al menos un campo de búsqueda."
+	   }
+	]
+}

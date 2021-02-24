@@ -1,0 +1,12 @@
+{
+"_comment":"Verify search using freeword on the quicksearch (home page)",
+ "MAFQABANG-194":
+    [
+	   {
+	     "freeword": "Constitución de la Nación"	  
+	   },
+	   {
+	     "freeword": "aduana"	  
+	   }
+	]
+}

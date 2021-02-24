@@ -1,0 +1,71 @@
+{
+"MAFQABANG-656": 
+	[
+		
+        {
+            "_comment":"MAFQABANG-656:Obligaciones de contribuciones Federales - Impuesto sobre la renta",
+			"obligaciones":"Obligaciones de contribuciones federales",
+			"obligacioneschkbox":"Impuesto sobre la renta",
+			"subjectschkbox":"Persona moral del régimen general",
+			"conceptschkbox":"Información por los fondos de inversión",
+            "expiry_year":"2017",
+			"month":"Febrero",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Contribuciones Federales"
+		},
+            
+        {
+            "_comment":"MAFQABANG-657:Obligaciones de contribuciones Federales - Impuesto al valor agregado",
+			"obligaciones":"Obligaciones de contribuciones federales",
+			"obligacioneschkbox":"Impuesto al valor agregado",
+			"subjectschkbox":"Persona física",
+			"conceptschkbox":"Pago definitivo mensual",
+            "expiry_year":"2017",
+			"month":"Febrero",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Contribuciones Federales"
+		},
+		
+		{
+		"_comment":"MAFQABANG-658:Obligaciones de contribuciones Federales - Impuesto especial sobre producción y servicios",
+			"obligaciones":"Obligaciones de contribuciones federales",
+			"obligacioneschkbox":"Impuesto especial sobre producción y servicios",
+			"subjectschkbox":"Persona física con actividad empresarial y profesional",
+			"conceptschkbox":"Información del IESPYS en declaraciones de ISR",
+            "expiry_year":"2017",
+			"month":"Marzo",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Contribuciones Federales"
+		},
+        
+        {
+		"_comment":"MAFQABANG-659:Obligaciones de contribuciones Federales - Código Fiscal de la Federación",
+			"obligaciones":"Obligaciones de contribuciones federales",
+			"obligacioneschkbox":"Código Fiscal de la Federación",
+			"subjectschkbox":"Persona moral del régimen general",
+			"conceptschkbox":"Declaración informativa sobre la situación fiscal",
+            "expiry_year":"2017",
+			"month":"Junio",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Contribuciones Federales"
+		},
+        
+        {
+		"_comment":"MAFQABANG-660:Obligaciones de contribuciones Federales - Impuesto sobre automóviles nuevos",
+			"obligaciones":"Obligaciones de contribuciones federales",
+			"obligacioneschkbox":"Impuesto sobre automóviles nuevos",
+			"subjectschkbox":"Persona física con actividad empresarial y profesional",
+			"conceptschkbox":"Pago provisional mensual",
+            "expiry_year":"2017",
+			"month":"Enero",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Contribuciones Federales"
+		},
+        
+         {
+		"_comment":"MAFQABANG-661:Obligaciones de contribuciones Federales - Ley de Ingresos de la Federación",
+			"obligaciones":"Obligaciones de contribuciones federales",
+			"obligacioneschkbox":"Ley de Ingresos de la Federación",
+			"subjectschkbox":"Persona física con actividad empresarial y profesional",
+			"conceptschkbox":"Presentación de declaraciones informativas de la LIF",
+            "expiry_year":"2017",
+			"month":"Abril",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Contribuciones Federales"
+		}
+	]
+}

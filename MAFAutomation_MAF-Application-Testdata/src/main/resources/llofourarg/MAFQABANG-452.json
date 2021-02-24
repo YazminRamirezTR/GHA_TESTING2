@@ -1,0 +1,14 @@
+{
+"_comment":"Verify message displayed when search using cita online results in zero records",
+"MAFQABANG-452":
+	[
+	 {
+		"citaonline":"AR/LCON/7C879"
+	 },
+	 {
+		"citaonline":"CL/LCON/9LV0"
+	 }
+	]
+	
+}
+	 

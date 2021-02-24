@@ -1,0 +1,9 @@
+{
+"_comment":"Verify Search template and No Result Alert Message for Valuation_of_Wheels",
+ "MAFQABANG-527":
+    [
+	   {
+	     "alertmsg": "Debe completar al menos un campo de búsqueda."
+	   }
+	]
+}

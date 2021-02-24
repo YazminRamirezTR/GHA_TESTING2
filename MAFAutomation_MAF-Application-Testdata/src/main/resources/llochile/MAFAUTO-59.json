@@ -1,0 +1,20 @@
+{
+"_comment":"Search using freeword on Jurisprudencia to Deliver Results using Email, Print and Export",
+ "MAFAUTO-59":
+	[
+		{
+			"freeword":"empr�stitos",
+			"court":"Corte Suprema de Justicia de la Naci�n",
+			"documentnumber":"1",
+			"emailto":"Vignesh.Rajendran@thomsonreuters.com"
+			
+		},
+		{
+			"freeword":"empr�stitos",
+			"court":"Corte Suprema Segunda Sala",
+			"documentnumber":"1",
+			"emailto":"mohankumar.bn@thomsonreuters.com"
+		}
+		
+	]
+}

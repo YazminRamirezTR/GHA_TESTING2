@@ -1,0 +1,14 @@
+{
+	"_comment": "Verify list of results after clicking See All and count of documents next to it from Search page",
+	"MAFQABANG-711": 
+	[
+		{
+			"freeword": "deducción",
+			"doc_type": [
+				"Legislación",
+				"Jurisprudencia",
+				"Doctrina"
+			]
+		}
+		]
+}

@@ -1,0 +1,9 @@
+{
+"_comment":"Search with freeword and verify key information on document display",
+ "MAFQABANG-418":
+	[
+		{
+			"freeword":"aduana"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+"_comment":"Delivery options from history page",
+ "MAFQABANG-316":
+    [
+	   {
+	        "emailid":"arun.karthikeyan@thomsonreuters.com",
+			"keyword":"Test Email"
+	   }
+	]
+}

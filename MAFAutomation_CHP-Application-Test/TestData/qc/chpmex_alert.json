@@ -1,0 +1,15 @@
+{
+"AlertName":"Test Alert",
+"Frequency":"Daily",
+"email":"swagatika.rath@thomsonreuters.com",
+"searchkeywordforalert":"Test Alert",
+"duplicatenameerrormessage":"There was an error with the submitted data. Please check the information and try again.",
+"suspendtodate":"30/12/2017",
+"search_freeword_legislation_1":"impuesto personas físicas",
+"search_freeword_jurisprudence_1":"impuesto sobre la renta",
+"search_freeword_doctrine_1":"reforma laboral",
+"search_freeword_global_1":"aduana",
+"search_freeword_legislation_2":"impuesto sobre la renta",
+"search_freeword_jurisprudence_2":"CUANTIFICACIÓN DE QUINQUENIOS",
+"search_freeword_legislation_scheduledsearch":"lei"
+}

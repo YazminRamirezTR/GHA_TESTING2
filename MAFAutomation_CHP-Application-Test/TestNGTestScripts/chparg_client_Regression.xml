@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CHP ARG Regression" parallel="false" preserve-order="true">
+
+ 	<parameter name="Environment"  value="client"/>
+	<parameter name="ProductToTest"  value="chparg"/>
+	<parameter name="Browser"  value="chrome"/>
+
+<listeners>
+        <listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener" />
+    </listeners>
+  <test name="LoginTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.LoginTest"/>
+   </classes>
+  </test>
+  
+   <test name="SearchTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	 	<class name="com.trgr.quality.maf.tests.SearchTest"/>
+   </classes>
+  </test>
+  
+ 
+   <test name="DeliveryTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.DeliveryTest"/>
+   </classes>
+  </test>
+  
+   <test name="DocumentDisplayTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.DocumentDisplayTest"/>
+   </classes>
+  </test>
+  
+   <test name="PreferenceTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.PreferenceTest"/>
+   </classes>
+  </test>
+  
+   <test name="MyDocumentTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.MyDocumentTest"/>
+   </classes>
+  </test>
+  
+   <test name="FavouritesTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.FavouritesTest"/>
+   </classes>
+  </test>
+  
+   <test name="HomeTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.HomeTest"/>
+   </classes>
+  </test>
+  
+   <test name="SignoffTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.SignoffTest"/>
+   </classes>
+  </test>
+  
+   <test name="HeaderSectionTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.HeaderSectionTest"/>
+   </classes>
+  </test>
+  
+   <test name="HelpTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.HelpTest"/>
+   </classes>
+  </test>
+  
+  <test name="HistoryTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.HistoryTest"/>
+   </classes>
+  </test>
+  
+   <test name="NewsTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.NewsTest"/>
+   </classes>
+  </test>
+  
+   <test name="AlertTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.AlertTest"/>
+   </classes>
+  </test>
+  
+   <test name="ToolsTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.ToolsTest"/>
+   </classes>
+  </test>
+  
+  <test name="AnnotationsTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.AnnotationsTest"/>
+   </classes>
+  </test>
+  
+  <test name="ContentTreeTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.ContentTreeTest"/>
+   </classes>
+  </test>
+  
+
+  
+   <test name="DocValidationFromSearchResultsTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.DocValidationFromSearchResultsTest"/>
+   </classes>
+  </test>
+  
+  <test name="ActionsTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.ActionsTest"/>
+   </classes>
+  </test>
+  
+  <test name="ForeignCurrencyTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.ForeignCurrencyTest"/>
+   </classes>
+  </test>
+  
+  <test name="LinkUtilityTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.LinkUtilityTest"/>
+   </classes>
+  </test>
+  
+  <test name="ObligacionesTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.ObligacionesTest"/>
+   </classes>
+  </test>
+  
+  <test name="PublicTitlesTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.PublicTitlesTest"/>
+   </classes>
+  </test>
+  
+  <test name="ValuationWheelsTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.ValuationWheelsTest"/>
+   </classes>
+  </test>
+  
+  <test name="DoctrineSearchTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.DoctrineSearchTest"/>
+   </classes>
+  </test>
+  
+  <test name="FormsSearchTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.FormsSearchTest"/>
+   </classes>
+  </test>
+  
+  <test name="JurisprudenceSearchTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.JurisprudenceSearchTest"/>
+   </classes>
+  </test>
+  
+  <test name="LegislationSearchTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.LegislationSearchTest"/>
+   </classes>
+  </test>
+  
+  <test name="RoutesSearchTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.RoutesSearchTest"/>
+   </classes>
+  </test>
+  
+  <test name="SearchUsingHomePageTest">
+   <groups>
+		<run>
+			<include name="chparg"/>
+		</run>
+  </groups>
+    <classes>
+        	<class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest"/>
+   </classes>
+  </test>
+  
+ </suite>

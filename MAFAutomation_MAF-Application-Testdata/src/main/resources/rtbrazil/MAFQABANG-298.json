@@ -1,0 +1,11 @@
+{
+"_comment":"Verify search using freeword on the news page",
+ "MAFQABANG-298":
+    [
+	   {
+		"freeword":"governo",
+		"year":"2011"
+	   }
+	  
+	]   
+}

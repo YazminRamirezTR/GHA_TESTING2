@@ -1,0 +1,11 @@
+{
+  "_comment": "<Clear Freeword & Thematic Fields in Search Page",
+  "MAFQABANG-52": 
+	  [
+	    {
+	      	 "thematicsearch": "abandono",
+	      	 "suggestionvaltoselect":"ABANDONO DE TRABAJO",
+		     "freeword":"ley"
+	    }
+	  ]
+}

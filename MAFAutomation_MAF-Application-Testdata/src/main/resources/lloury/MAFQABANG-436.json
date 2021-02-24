@@ -1,0 +1,10 @@
+{
+"_comment":"Verify search using Author value on the Doctrine page",
+ "MAFQABANG-436":
+    [
+	   {
+	    "author":"Trabaglia, Ignacio",
+	       "expectedfacet":"Doctrina"
+	   }
+	]
+}

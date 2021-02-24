@@ -1,0 +1,11 @@
+{
+"_comment":"Verify zero results message displayed using freeword on the Labor page",
+	"MAFQABANG-306":
+	[
+	 {
+		"noresults":"ttyp"
+	 }
+	 
+	]
+	
+	}

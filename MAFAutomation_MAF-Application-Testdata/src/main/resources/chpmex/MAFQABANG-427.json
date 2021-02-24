@@ -1,0 +1,10 @@
+{
+"_comment":"Verify Advance search  Forms using Issuing body",
+ "MAFQABANG-427":
+	[
+		{
+			"issuingbody": "secretaría de economía",
+			"thematicarea":"Todas"
+		}
+	]
+}

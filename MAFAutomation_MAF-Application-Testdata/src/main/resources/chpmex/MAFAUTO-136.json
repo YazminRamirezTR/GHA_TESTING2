@@ -1,0 +1,10 @@
+{
+"_comment":"Footer Usage Policy Validation in Home Page",
+ "MAFAUTO-136":
+ 	[
+		{
+			"footertext": "Políticas de uso",
+			"expurl":"http://www.dofiscal.net/legacy/checkpoint/condiciones.pdf"
+	  	}
+ 	]
+}

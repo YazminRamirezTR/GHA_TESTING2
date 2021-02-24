@@ -1,0 +1,17 @@
+{
+  "_comment": "Clear Third Thematic Search input with Three intersection inputs",
+  "MAFQABANG-521": 
+	  [
+	    {
+	    	 "thematickeyword": "ABOGADO",
+		     "thematicsuggestiontitle":"ABOGADO",
+		     
+		     "thematickeywordsecondlevel":"ADUANA",
+		     "thematicsuggestiontitlesecondlevel":"ADUANA",
+		     
+		     "thematickeywordthirdlevel":"desalojo",
+		     "thematicsuggestiontitlethirdlevel":"DESALOJO"
+		     
+		 }
+	  ]
+}

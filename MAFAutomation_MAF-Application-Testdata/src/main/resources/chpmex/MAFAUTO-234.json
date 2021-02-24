@@ -1,0 +1,13 @@
+{
+"_comment":"Validate Content Tree & Final Validity Date",
+ "MAFAUTO-234":
+	[
+		{
+			"thematicarea":"Fiscal",
+			"treeitems":"Legislación Federal,Resolución",
+			"documenttitle":"Resolución Miscelánea Fiscal para 2016",
+			"date":"Vigencia Final: 31/12/2016"
+		}
+		
+	]
+}

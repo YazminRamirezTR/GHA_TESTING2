@@ -1,0 +1,9 @@
+{
+"_comment":"Validate Go to checkpoint link on the HeaderSection",
+ "MAFQABANG-396":
+ 	[
+		{
+		"expected_url":["https://www-checkpoint-laleyonline-com-ar-clt.int.westgroup.com/maf/app","https://www.checkpoint.laleyonline.com.ar.qc.int.westgroup.com/maf/app","https://www.checkpoint.laleyonline.com.ar.dev.int.westgroup.com/maf/app/"]
+	  	}
+ 	]
+}

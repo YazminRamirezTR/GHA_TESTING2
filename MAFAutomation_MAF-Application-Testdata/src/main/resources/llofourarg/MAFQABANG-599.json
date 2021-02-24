@@ -1,0 +1,12 @@
+{
+"_comment":"Labor and Social Security - Advanced Search - Collective Bargaining Agreements - Field Search (1)",
+ "MAFQABANG-599":
+    [
+	   {
+		   "thematicsearch": "LICENCIA LABORAL",
+		   "thematicsearchwithnomatch": "PERRO",
+		   "invalidinput":"#$%&",
+		   "errorMsg":"Su búsqueda contiene caracteres inválidos."
+	   }
+	]
+}

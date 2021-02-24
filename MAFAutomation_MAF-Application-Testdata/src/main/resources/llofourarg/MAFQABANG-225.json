@@ -1,0 +1,12 @@
+{
+"_comment":"Verify loading new document from Related Information on document display",
+ "MAFQABANG-225":
+	[
+		{
+			"citaonline":"AR/LCON/3UOD"
+		},
+		{
+			"citaonline":"CL/LCON/06Z7"
+		}
+	]
+}

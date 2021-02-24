@@ -1,0 +1,11 @@
+{
+"_comment":"Verify Create New History",
+ "MAFQABANG-243":
+	[
+		{
+			"customerid": "100",
+			"sessionname": "Test"
+		}
+		
+	]
+}

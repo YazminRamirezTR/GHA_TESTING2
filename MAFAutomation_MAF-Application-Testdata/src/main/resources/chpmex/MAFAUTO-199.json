@@ -1,0 +1,14 @@
+{
+"_comment":"Home Page Validate Frequently Asked Questions widget for Thematic Area Penal",
+ "MAFAUTO-199":
+		[
+			{
+				"thematicarea":  "Penal",
+				"expectedlinks":[ "CPF - Código Penal Federal",
+								  "CNPP - Código Nacional de Procedimientos Penales",
+								  "LFCDO - Ley Federal Contra la Delincuencia Organizada",
+								  "LNMASCP - Ley Nacional de Mecanismos Alternativos de Solución de Controversias en Materia Penal"
+								  ]
+			}
+		]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-16T23:18:27Z" name="Regression Report" finished-at="2020-11-16T23:18:32Z" duration-ms="5578">
+    <groups>
+    </groups>
+    <test started-at="2020-11-16T23:18:27Z" name="ReportOfAllTestSuitesFrmJenkins" finished-at="2020-11-16T23:18:32Z" duration-ms="5578">
+      <class name="com.trgr.quality.maf.tests.ReportOfAllTestSuitesFrmJenkins">
+        <test-method signature="summaryOfAllSuites()[pri:0, instance:com.trgr.quality.maf.tests.ReportOfAllTestSuitesFrmJenkins@223f3642]" started-at="2020-11-16T20:18:27Z" name="summaryOfAllSuites" finished-at="2020-11-16T20:18:32Z" duration-ms="5560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- summaryOfAllSuites -->
+      </class> <!-- com.trgr.quality.maf.tests.ReportOfAllTestSuitesFrmJenkins -->
+    </test> <!-- ReportOfAllTestSuitesFrmJenkins -->
+  </suite> <!-- Regression Report -->
+</testng-results>

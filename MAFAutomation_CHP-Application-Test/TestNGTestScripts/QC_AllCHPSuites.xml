@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CHP ARG Regression" parallel="false" preserve-order="true">
+
+	<listeners>
+        <listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener" />
+    </listeners>
+    
+    <suite-files>
+    	<suite-file path="TestNGTestScripts/EditBrowserParameterAllSuites.xml"/>
+    	<suite-file path="TestNGTestScripts/chparg_qc_Regression.xml"/>
+    	<suite-file path="TestNGTestScripts/chpbr_qc_Regression.xml"/>
+    	<suite-file path="TestNGTestScripts/chpmex_qc_Regression.xml"/>
+    	<suite-file path="TestNGTestScripts/chppe_qc_Regression.xml"/>
+    	<suite-file path="TestNGTestScripts/chppy_qc_Regression.xml"/>
+    	<suite-file path="TestNGTestScripts/chpury_qc_Regression.xml"/>
+    </suite-files>
+</suite>

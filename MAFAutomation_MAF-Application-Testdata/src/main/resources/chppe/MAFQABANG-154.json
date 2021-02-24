@@ -1,0 +1,10 @@
+{
+"_comment":"Clearing test data Entered for News in the Filter by date",
+ "MAFQABANG-154":
+    [
+	   {
+	     	"untildate":"12/01/2017",
+      		"sincedate":"04/01/2016"
+	    }
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "_comment": "Standard number search with special characters",
+  "MAFQABANG-515": 
+	  [
+	    {
+	      	"invalidstandardnumber":"+{},.-¡?=$#",
+ 			"expectederrormessage": "Su búsqueda contiene caracteres inválidos."
+	    }
+	  ]
+}

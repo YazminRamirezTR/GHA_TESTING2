@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Report]" guice-stage="DEVELOPMENT">
+  <test name="ReportOfAllTestSuitesFrmJenkins">
+    <classes>
+      <class name="com.trgr.quality.maf.tests.ReportOfAllTestSuitesFrmJenkins"/>
+    </classes>
+  </test> <!-- ReportOfAllTestSuitesFrmJenkins -->
+</suite> <!-- Failed suite [Regression Report] -->

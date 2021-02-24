@@ -1,0 +1,12 @@
+{
+"_comment":"Home Page Validate Frequently Asked Questions widget for Thematic Area Financiero",
+ "MAFAUTO-197":
+		[
+			{
+				"thematicarea":  "Financiero",
+				"expectedlinks":["LIC - Ley de Instituciones de Crédito",
+								  "Ley Antilavado - Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita"
+								  ]
+			}
+		]
+}

@@ -1,0 +1,15 @@
+{
+"_comment":"verify  Create Alert From the SearchResults Page for Doctrine",
+ "MAFAUTO-190":
+    [
+   		{
+		 "freeword":"declaración provisional",
+		 "Namealert":"Declaración provisional",
+		 "Frecuencyalert": "Días de la semana",
+		 "Emailalert":"everardo.romero@thomsonreutrs.com",
+		 "Notifyalert": "No",
+		 "Scheduledalert":"Si"
+
+		}
+	]
+}

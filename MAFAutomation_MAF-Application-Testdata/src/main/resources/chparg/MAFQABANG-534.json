@@ -1,0 +1,13 @@
+{
+"_comment":"Verify New Search link in search results page of Valuation_of_Wheels",
+ "MAFQABANG-534":
+    [
+	   {
+	     "fiscalyear": "2010",
+	     "brand":"BMW",
+	     "kind":"RURAL 5 PUERTAS",
+	     "model":"320 IA",
+	     "yearofproduction":"2009"
+	   }
+	]
+}

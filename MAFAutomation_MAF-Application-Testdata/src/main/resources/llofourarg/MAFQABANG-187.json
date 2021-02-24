@@ -1,0 +1,10 @@
+{
+"_comment":"Verify sort in Result List",
+ "MAFQABANG-187":
+    [
+	   {
+	     "freeword": "emprestitos",
+	     "sorttypes":["Fecha","Tribunal / Sala","Partes"]
+	   }
+	]
+}

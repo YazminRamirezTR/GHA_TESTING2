@@ -1,0 +1,12 @@
+{
+"_comment":"Verify suspend and reactivate existing alert",
+ "MAFQABANG-254":
+	[
+		{
+			"alertname":"Test Alert",
+			"emailid":"brahmananda.reddy@thomsonreuters.com",
+			"suspendtodate":"30/12/2030",
+			"freeword":"lei"
+		} 
+	]
+}

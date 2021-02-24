@@ -1,0 +1,11 @@
+{
+"_comment":"Result list - incorrect filter label",
+ "LLOAR-4933":
+    [
+	   {
+	     "searchtext":"ley",
+	     "filterlabelname":"Autor",
+	     "contenttypelinkname":["Doctrina"]
+       }
+	]
+}

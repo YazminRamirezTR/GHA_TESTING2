@@ -1,0 +1,13 @@
+{
+"_comment":"Verify delivery using Email with word and PDF document attached",
+"MAFQABANG-133":
+	[
+	 {
+		"emailto":"Vignesh.Rajendran@thomsonreters.com",
+        "documentnumber":"1",
+        "freeword":"governo"
+	 }
+	]
+	
+}
+	

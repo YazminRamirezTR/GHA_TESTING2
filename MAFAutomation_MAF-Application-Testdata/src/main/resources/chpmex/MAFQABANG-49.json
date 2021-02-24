@@ -1,0 +1,10 @@
+{
+"_comment":"Verify  thematic search with valid Free text input",
+"MAFQABANG-49":
+	 [
+  		{
+  		"thematicsearch":"AGUA PLUVIAL",
+  		"suggestionvalue":"agua pluvial"
+  		}
+     ]
+}

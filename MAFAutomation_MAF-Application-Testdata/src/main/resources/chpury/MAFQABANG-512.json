@@ -1,0 +1,10 @@
+{
+  "_comment": "Search Standard Number with Letters and verify error message",
+  "MAFQABANG-512": 
+	  [
+	    {
+	      	"invalildstandardnumber":"prueba",
+   			"expectederrormessage": "No se encontraron documentos para su búsqueda."
+	    }
+	  ]
+}

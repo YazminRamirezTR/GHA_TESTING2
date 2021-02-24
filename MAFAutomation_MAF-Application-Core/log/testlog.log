@@ -1,0 +1,118 @@
+2017-04-09 22:26:21,800 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - Jira Connection is successful
+2017-04-09 22:41:40,598 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - Jira Connection is successful
+2017-04-09 22:48:16,684 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - Jira Connection is successful
+2017-04-09 22:50:43,071 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - java.lang.RuntimeException: java.util.concurrent.TimeoutException
+2017-04-09 22:58:29,577 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - Jira Connection is successful
+2017-04-09 23:01:20,447 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - java.lang.RuntimeException: java.util.concurrent.TimeoutException
+2017-04-09 23:13:48,203 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - Jira Connection is successful
+2017-04-09 23:19:07,868 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - Jira Connection is successful
+2017-04-09 23:20:55,635 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - java.lang.RuntimeException: java.util.concurrent.TimeoutException
+2017-04-09 23:23:43,133 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - Jira Connection is successful
+2017-04-09 23:26:27,500 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - Jira Connection is successful
+2017-04-09 23:34:29,748 - org.apache.http.nio.protocol.HttpAsyncRequestExecutor -ERROR - http-outgoing-2 [ACTIVE] HTTP protocol exception: An existing connection was forcibly closed by the remote host
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.http.impl.nio.reactor.SessionInputBufferImpl.fill(SessionInputBufferImpl.java:97)
+	at org.apache.http.impl.nio.codecs.AbstractMessageParser.fillBuffer(AbstractMessageParser.java:115)
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:167)
+	at org.apache.http.impl.nio.DefaultHttpClientIODispatch.onInputReady(DefaultHttpClientIODispatch.java:125)
+	at org.apache.http.impl.nio.DefaultHttpClientIODispatch.onInputReady(DefaultHttpClientIODispatch.java:50)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:112)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:160)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:342)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:320)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:280)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:106)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:604)
+	at java.lang.Thread.run(Unknown Source)
+2017-04-09 23:36:32,177 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - Jira Connection is successful
+2017-04-09 23:48:15,095 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - Jira Connection is successful
+2017-04-09 23:49:11,311 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - Jira Connection is successful
+2017-04-09 23:49:48,342 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - java.lang.RuntimeException: java.util.concurrent.TimeoutException
+2017-04-09 23:51:50,727 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - java.lang.RuntimeException: java.util.concurrent.TimeoutException
+2017-04-10 10:13:37,242 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - Jira Connection is successful
+2017-04-10 10:17:07,920 - com.trgr.quality.maf.commonutils.jiraConnector -INFO - java.lang.RuntimeException: java.util.concurrent.TimeoutException
+2017-04-10 14:23:11,263 - org.apache.http.nio.protocol.HttpAsyncRequestExecutor -ERROR - http-outgoing-2 [ACTIVE] HTTP protocol exception: Circular redirect to 'http://ent.jira.int.thomsonreuters.com/rest/api/latest/issue/MAFQABANG-1?expand=schema,names,transitions'
+org.apache.http.client.CircularRedirectException: Circular redirect to 'http://ent.jira.int.thomsonreuters.com/rest/api/latest/issue/MAFQABANG-1?expand=schema,names,transitions'
+	at org.apache.http.impl.client.DefaultRedirectStrategy.getLocationURI(DefaultRedirectStrategy.java:176)
+	at org.apache.http.impl.client.DefaultRedirectStrategy.getRedirect(DefaultRedirectStrategy.java:220)
+	at org.apache.http.impl.nio.client.DefaultAsyncRequestDirector.handleRedirect(DefaultAsyncRequestDirector.java:763)
+	at org.apache.http.impl.nio.client.DefaultAsyncRequestDirector.handleResponse(DefaultAsyncRequestDirector.java:726)
+	at org.apache.http.impl.nio.client.DefaultAsyncRequestDirector.responseReceived(DefaultAsyncRequestDirector.java:368)
+	at org.apache.http.nio.protocol.HttpAsyncRequestExecutor.responseReceived(HttpAsyncRequestExecutor.java:228)
+	at org.apache.http.impl.nio.client.LoggingAsyncRequestExecutor.responseReceived(LoggingAsyncRequestExecutor.java:120)
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:180)
+	at org.apache.http.impl.nio.DefaultHttpClientIODispatch.onInputReady(DefaultHttpClientIODispatch.java:125)
+	at org.apache.http.impl.nio.DefaultHttpClientIODispatch.onInputReady(DefaultHttpClientIODispatch.java:50)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:112)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:160)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:342)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:320)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:280)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:106)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:604)
+	at java.lang.Thread.run(Unknown Source)
+2017-04-10 16:05:29,632 - org.apache.http.nio.protocol.HttpAsyncRequestExecutor -ERROR - http-outgoing-2 [ACTIVE] HTTP protocol exception: Circular redirect to 'http://ent.jira.int.thomsonreuters.com/rest/api/latest/issue/MAFQABANG-1?expand=schema,names,transitions'
+org.apache.http.client.CircularRedirectException: Circular redirect to 'http://ent.jira.int.thomsonreuters.com/rest/api/latest/issue/MAFQABANG-1?expand=schema,names,transitions'
+	at org.apache.http.impl.client.DefaultRedirectStrategy.getLocationURI(DefaultRedirectStrategy.java:176)
+	at org.apache.http.impl.client.DefaultRedirectStrategy.getRedirect(DefaultRedirectStrategy.java:220)
+	at org.apache.http.impl.nio.client.DefaultAsyncRequestDirector.handleRedirect(DefaultAsyncRequestDirector.java:763)
+	at org.apache.http.impl.nio.client.DefaultAsyncRequestDirector.handleResponse(DefaultAsyncRequestDirector.java:726)
+	at org.apache.http.impl.nio.client.DefaultAsyncRequestDirector.responseReceived(DefaultAsyncRequestDirector.java:368)
+	at org.apache.http.nio.protocol.HttpAsyncRequestExecutor.responseReceived(HttpAsyncRequestExecutor.java:228)
+	at org.apache.http.impl.nio.client.LoggingAsyncRequestExecutor.responseReceived(LoggingAsyncRequestExecutor.java:120)
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:180)
+	at org.apache.http.impl.nio.DefaultHttpClientIODispatch.onInputReady(DefaultHttpClientIODispatch.java:125)
+	at org.apache.http.impl.nio.DefaultHttpClientIODispatch.onInputReady(DefaultHttpClientIODispatch.java:50)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:112)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:160)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:342)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:320)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:280)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:106)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:604)
+	at java.lang.Thread.run(Unknown Source)
+2017-04-10 16:09:21,494 - org.apache.http.nio.protocol.HttpAsyncRequestExecutor -ERROR - http-outgoing-2 [ACTIVE] HTTP protocol exception: Circular redirect to 'http://ent.jira.int.thomsonreuters.com/rest/api/latest/issue/MAFQABANG-1?expand=schema,names,transitions'
+org.apache.http.client.CircularRedirectException: Circular redirect to 'http://ent.jira.int.thomsonreuters.com/rest/api/latest/issue/MAFQABANG-1?expand=schema,names,transitions'
+	at org.apache.http.impl.client.DefaultRedirectStrategy.getLocationURI(DefaultRedirectStrategy.java:176)
+	at org.apache.http.impl.client.DefaultRedirectStrategy.getRedirect(DefaultRedirectStrategy.java:220)
+	at org.apache.http.impl.nio.client.DefaultAsyncRequestDirector.handleRedirect(DefaultAsyncRequestDirector.java:763)
+	at org.apache.http.impl.nio.client.DefaultAsyncRequestDirector.handleResponse(DefaultAsyncRequestDirector.java:726)
+	at org.apache.http.impl.nio.client.DefaultAsyncRequestDirector.responseReceived(DefaultAsyncRequestDirector.java:368)
+	at org.apache.http.nio.protocol.HttpAsyncRequestExecutor.responseReceived(HttpAsyncRequestExecutor.java:228)
+	at org.apache.http.impl.nio.client.LoggingAsyncRequestExecutor.responseReceived(LoggingAsyncRequestExecutor.java:120)
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:180)
+	at org.apache.http.impl.nio.DefaultHttpClientIODispatch.onInputReady(DefaultHttpClientIODispatch.java:125)
+	at org.apache.http.impl.nio.DefaultHttpClientIODispatch.onInputReady(DefaultHttpClientIODispatch.java:50)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:112)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:160)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:342)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:320)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:280)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:106)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:604)
+	at java.lang.Thread.run(Unknown Source)
+2017-04-10 16:37:14,495 - org.apache.http.nio.protocol.HttpAsyncRequestExecutor -ERROR - http-outgoing-2 [ACTIVE] HTTP protocol exception: Circular redirect to 'http://ent.jira.int.thomsonreuters.com/rest/api/latest/issue/MAFQABANG-1?expand=schema,names,transitions,transitions'
+org.apache.http.client.CircularRedirectException: Circular redirect to 'http://ent.jira.int.thomsonreuters.com/rest/api/latest/issue/MAFQABANG-1?expand=schema,names,transitions,transitions'
+	at org.apache.http.impl.client.DefaultRedirectStrategy.getLocationURI(DefaultRedirectStrategy.java:176)
+	at org.apache.http.impl.client.DefaultRedirectStrategy.getRedirect(DefaultRedirectStrategy.java:220)
+	at org.apache.http.impl.nio.client.DefaultAsyncRequestDirector.handleRedirect(DefaultAsyncRequestDirector.java:763)
+	at org.apache.http.impl.nio.client.DefaultAsyncRequestDirector.handleResponse(DefaultAsyncRequestDirector.java:726)
+	at org.apache.http.impl.nio.client.DefaultAsyncRequestDirector.responseReceived(DefaultAsyncRequestDirector.java:368)
+	at org.apache.http.nio.protocol.HttpAsyncRequestExecutor.responseReceived(HttpAsyncRequestExecutor.java:228)
+	at org.apache.http.impl.nio.client.LoggingAsyncRequestExecutor.responseReceived(LoggingAsyncRequestExecutor.java:120)
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:180)
+	at org.apache.http.impl.nio.DefaultHttpClientIODispatch.onInputReady(DefaultHttpClientIODispatch.java:125)
+	at org.apache.http.impl.nio.DefaultHttpClientIODispatch.onInputReady(DefaultHttpClientIODispatch.java:50)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:112)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:160)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:342)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:320)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:280)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:106)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:604)
+	at java.lang.Thread.run(Unknown Source)

@@ -1,0 +1,9 @@
+{
+"_comment":"Verify the new search from search result page",
+ "MAFQABANG-58":
+    [
+	    {
+	     "freeword": "lei"
+	    }
+	]
+}

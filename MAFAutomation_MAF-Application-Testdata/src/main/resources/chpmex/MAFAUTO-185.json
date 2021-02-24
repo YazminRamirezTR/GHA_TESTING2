@@ -1,0 +1,13 @@
+{
+"_comment":"Create Alert From the SearchResults Page for Legislation",
+ "MAFAUTO-185":
+    [
+   		{ "freeword":"establecimiento permanente régimen simplificado",
+		"name": "Establecimiento permanente-Régimen simplificado ",
+		"frequency":"Quincenal ",
+		"email-notification": "everardo.romero@thomsonreuters.com",
+		"empty _results":"no",
+		"Scheduled":"si"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+"_comment":"Verify search using Freeword on Legislation page",
+ "MAFQABANG-442":
+    [
+	   {
+	     "freeword": "Constitución de la Nación"	  
+	   },
+	   {
+	     "freeword": "aduana"	  
+	   }
+	]
+}

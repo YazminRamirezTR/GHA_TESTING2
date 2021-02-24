@@ -1,0 +1,10 @@
+{
+"_comment":"Verify advance search  for Legislation with Type of Order and ambit",
+ "MAFQABANG-471":
+    [
+	   {
+	     "typeoforder": "Acuerdo",
+	     "ambit": "Internacional"
+	   }
+	 ]
+}

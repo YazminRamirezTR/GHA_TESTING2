@@ -1,0 +1,13 @@
+{
+"_comment":"Verify adding relationship at the paragraph level on document",
+ "MAFAUTO-130":
+    [
+	   {
+	     "abbreviation":"LISR",
+		 "itemnumber":"29",
+		 "expectedlink":"RISR",
+		 "expectedtooltip":"Reglamento de la Ley del Impuesto sobre la Renta."
+
+	   }
+	]
+}

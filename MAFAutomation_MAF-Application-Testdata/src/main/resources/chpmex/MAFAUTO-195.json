@@ -1,0 +1,11 @@
+{
+"_comment":"Home Page Validate Frequently Asked Questions widget for Thematic Area Constitucional",
+ "MAFAUTO-195":
+		[
+			{
+				"thematicarea":  "Constitucional",
+				"expectedlinks":["CPEUM - Constitución Política de los Estados Unidos Mexicanos",
+								  "LGTAIP - Ley General de Transparencia y Acceso a la Información Pública"]
+			}
+		]
+}

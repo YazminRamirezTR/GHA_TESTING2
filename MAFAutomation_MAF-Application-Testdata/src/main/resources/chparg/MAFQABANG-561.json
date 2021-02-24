@@ -1,0 +1,10 @@
+{
+"_comment":"Search with in Search for Foreign Currency",
+ "MAFQABANG-561":
+    [
+	   {
+	     "period": "2012",
+	     "searchwithintext":"EURO"
+	   }
+	]
+}

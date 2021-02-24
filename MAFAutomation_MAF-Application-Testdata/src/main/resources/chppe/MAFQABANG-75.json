@@ -1,0 +1,12 @@
+{
+"_comment":"Types of Search Available",
+"_additionalcomment":"<Set this flag to 'Y' to check that type of search",
+
+ "MAFQABANG-75":
+	[
+		{
+			"checkthematicsearch":"Y",
+			"checkstandardnumbersearch":"Y"
+		}
+	]
+}

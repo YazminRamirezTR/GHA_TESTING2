@@ -1,0 +1,11 @@
+{
+"_comment":"Verify AdvanceSearch Jurisprudence with Tribunal,Partes and CitaOnline",
+ "MAFQABANG-425":
+    [
+	   {
+	     "citaonline": "PE/JUR/3/2011",
+	     "court":"Tribunal Fiscal",
+	     "partes":"tribunal"  
+	   }
+	]
+}

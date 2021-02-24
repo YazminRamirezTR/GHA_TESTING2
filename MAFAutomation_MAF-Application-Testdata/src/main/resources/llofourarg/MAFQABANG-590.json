@@ -1,0 +1,12 @@
+{
+"_comment":"Verify search using Second level Thematic on Jurisprudence",
+ "MAFQABANG-590":
+    [
+	   {
+	     "Thematic": "CONTRATO DE TRABAJO",
+	     "suggestiontobeselected":"CARACTERES DEL CONTRATO DE TRABAJO",
+	     "secondthematic":"EMPLEADOR",
+	     "secondsuggestionvalue":"CONDUCTA DEL EMPLEADOR"  
+	   }
+	]
+}

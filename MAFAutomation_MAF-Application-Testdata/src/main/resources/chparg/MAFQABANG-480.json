@@ -1,0 +1,12 @@
+{
+"_comment":"Verify the Search Result page of actions",
+ "MAFQABANG-480":
+    [
+	   {
+	     "period": "2010",
+	     "denominación":"BANCO DE GALICIA Y BS.AS. S.A.",
+	     "clase":"U$S CTA. EXTERIOR",
+	     "resultlistcolumns":["Acierto","Período fiscal","Denominación","CUIT","Clase","Cotización"]
+	   }
+	]
+}

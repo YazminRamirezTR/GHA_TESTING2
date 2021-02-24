@@ -1,0 +1,11 @@
+{
+"_comment":"Verify suspending on an existing Alert",
+ "MAFQABANG-337":
+    [
+	   {
+	     "alertname": "Test_E2E_Alert",
+	     "suspendtodate":"30/12/2020"
+	   }
+	   
+	]
+}

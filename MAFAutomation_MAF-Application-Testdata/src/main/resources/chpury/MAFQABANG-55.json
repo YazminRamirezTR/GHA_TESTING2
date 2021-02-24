@@ -1,0 +1,9 @@
+{
+"_comment":"Verify search with Natural language field",
+ "MAFQABANG-55":
+    [
+	   {
+	     "naturallang":"aduana"
+	   }
+	]
+}

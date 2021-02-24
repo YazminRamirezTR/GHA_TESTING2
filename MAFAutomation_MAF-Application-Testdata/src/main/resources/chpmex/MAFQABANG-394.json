@@ -1,0 +1,10 @@
+{
+"_comment":"Verify Header Section links available",
+ "MAFQABANG-394":
+    [
+	   {
+	     "headerlinks":["PREFERENCIAS","HISTORIAL","MIS DOCUMENTOS","ALERTAS","AYUDA","FAQS","IR A CHECKPOINT WORLD","IR A CHECKPOINT USA","CERRAR SESIÓN"]
+	   }
+	]
+}
+	     
