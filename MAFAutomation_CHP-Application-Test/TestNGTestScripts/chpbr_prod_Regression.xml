@@ -22,7 +22,7 @@
    </classes>
   </test>
   
-   <test name="SearchTest">
+<!-- <test name="SearchTest">
    <groups>
 		<run>
 			<include name="chpbr"/>
@@ -265,6 +265,6 @@
   </groups>
     <classes>
         	<class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest"/>
-   </classes>
-  </test>
+   </classes> 
+  </test>-->
  </suite>
