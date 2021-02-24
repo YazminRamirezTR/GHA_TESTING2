@@ -28,4 +28,4 @@ jobs:
     - name: Build TESTDATA with Maven
       run: mvn -f MAFAutomation_MAF-Application-Testdata/pom.xml -DBranch=main clean install
     - name: Build TEST with Maven
-      run: mvn -f MAFAutomation_CHP-Application-Test/pom.xml -DBranch=main clean install 
+      run: mvn -f MAFAutomation_CHP-Application-Test/pom.xml test
