@@ -1,0 +1,31 @@
+# This workflow will build a package using Maven and then publish it to GitHub packages when a release is created
+# For more information see: https://github.com/actions/setup-java#apache-maven-with-a-settings-path
+
+name: Java CI with Maven
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.8
+    - name: Install Chrome in Machine
+      run: $Path = $env:TEMP; $Installer = "chrome_installer.exe"; Invoke-WebRequest "http://dl.google.com/chrome/install/375.126/chrome_installer.exe" -OutFile $Path\$Installer; Start-Process -FilePath $Path\$Installer -Args "/silent /install" -Verb RunAs -Wait; Remove-Item $Path\$Installer
+
+    - name: Build CORE with Maven
+      run: mvn -f MAFAutomation_MAF-Application-Core/pom.xml -DBranch=main clean install
+    - name: Build TESTDATA with Maven
+      run: mvn -f MAFAutomation_MAF-Application-Testdata/pom.xml -DBranch=main clean install
+    - name: Build TEST with Maven
+      run: mvn -f MAFAutomation_CHP-Application-Test/pom.xml test
