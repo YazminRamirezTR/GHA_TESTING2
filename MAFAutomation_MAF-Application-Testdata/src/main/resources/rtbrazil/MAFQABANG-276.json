@@ -1,0 +1,18 @@
+{
+"_comment":"Verify search using freeword on the Homepage",
+ "MAFQABANG-276":
+    [
+	   {
+	     "freeword": "arbitragem internacional",
+		 "naturalLanguage":"arbitragem internacional"
+	   },
+	   {
+	     "freeword": "governo",
+		"naturalLanguage":	"governo"	 
+	   },
+	     {
+	     "freeword": "ttpy",
+		 "naturalLanguage":	"ttpy"
+	   }   
+	]
+}

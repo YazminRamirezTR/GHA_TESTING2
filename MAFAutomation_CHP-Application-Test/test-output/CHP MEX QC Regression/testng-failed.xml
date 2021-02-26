@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CHP MEX QC Regression]" guice-stage="DEVELOPMENT">
+  <parameter name="Environment" value="qc"/>
+  <parameter name="ProductToTest" value="chpmex"/>
+  <parameter name="Browser" value="edge"/>
+  <listeners>
+    <listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener"/>
+  </listeners>
+  <test name="FavouritesTest">
+    <groups>
+      <run>
+        <include name="chpmex"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.FavouritesTest"/>
+    </classes>
+  </test> <!-- FavouritesTest -->
+</suite> <!-- Failed suite [CHP MEX QC Regression] -->

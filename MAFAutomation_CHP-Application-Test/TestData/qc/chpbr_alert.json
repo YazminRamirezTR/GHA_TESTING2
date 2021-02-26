@@ -1,0 +1,10 @@
+{
+"AlertName":"Test Alert",
+"Frequency":"Daily",
+"email":"swagatika.rath@thomsonreuters.com",
+"searchkeywordforalert":"Test Alert",
+"duplicatenameerrormessage":"There was an error with the submitted data. Please check the information and try again.",
+"suspendtodate":"30/12/2017",
+"searchFreeWord_for_alertcreation":"lei",
+"search_freeword_legislation_scheduledsearch":"lei"
+}

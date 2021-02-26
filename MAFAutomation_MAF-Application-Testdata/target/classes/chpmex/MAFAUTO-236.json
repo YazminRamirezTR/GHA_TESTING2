@@ -1,0 +1,13 @@
+{
+"_comment":"Validate Content Tree & Issuing Body",
+ "MAFAUTO-236":
+	[
+		{
+			"thematicarea":"Fiscal",
+			"treeitems":"Legislación Federal,Resolución",
+			"documenttitle":"Resolución Miscelánea Fiscal para 2016",
+			"OrrEs": "Secretaría de Hacienda y Crédito Público"
+		}
+		
+	]
+}

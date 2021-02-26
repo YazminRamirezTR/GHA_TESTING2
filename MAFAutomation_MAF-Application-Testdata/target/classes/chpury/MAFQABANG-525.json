@@ -1,0 +1,9 @@
+{
+  "_comment": "Search With Empty Freeword  and verify error message",
+  "MAFQABANG-525": 
+	  [
+	    {
+	      	"expectederrormessage": "Debe completar al menos un campo de búsqueda."
+	    }
+	  ]
+}

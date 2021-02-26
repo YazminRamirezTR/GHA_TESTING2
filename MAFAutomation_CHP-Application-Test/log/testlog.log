@@ -1,0 +1,333 @@
+2017-01-30 10:59:46,830 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-01-30 10:59:46,870 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-01-30 10:59:49,198 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chparg.properties
+2017-01-30 11:01:50,585 - com.trgr.quality.maf.handlers.ElementHandler -ERROR - Please select/give the locator
+2017-01-30 11:59:14,098 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-01-30 11:59:14,138 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-01-30 11:59:15,729 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chparg.properties
+2017-01-30 12:01:43,080 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-01-30 12:01:43,113 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-01-30 12:01:44,633 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-01-30 12:02:33,186 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-01-30 12:02:33,222 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-01-30 12:02:35,459 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpbr.properties
+2017-02-05 11:51:33,878 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-05 11:51:33,909 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-05 11:51:35,696 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chparg.properties
+2017-02-05 14:18:07,461 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-05 14:18:07,502 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-05 14:18:09,482 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-05 14:51:41,155 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-05 14:51:41,190 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-05 14:51:43,109 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-06 09:17:57,620 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-06 09:17:57,667 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-06 09:17:59,730 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-06 10:01:17,323 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-06 10:01:17,370 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-06 10:01:20,339 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-06 10:07:54,679 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-06 10:07:54,711 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-06 10:07:56,849 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-06 10:23:33,971 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-06 10:23:34,012 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-06 10:23:36,748 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-06 16:03:21,522 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-06 16:03:21,566 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-06 16:04:09,134 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-06 16:04:09,172 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-06 16:13:40,429 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-06 16:13:40,466 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-06 16:13:42,542 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-06 16:24:11,339 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-06 16:24:11,378 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-06 16:25:40,826 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-06 20:11:54,473 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-06 20:11:54,514 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-06 20:13:34,139 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-06 20:13:34,180 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-06 20:14:12,750 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-06 20:19:16,436 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-06 20:19:16,468 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-06 20:19:18,069 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-06 22:26:17,076 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-06 22:26:17,115 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-06 22:26:19,604 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-06 22:30:10,213 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-06 22:30:10,251 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-06 22:30:11,850 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-07 09:54:37,452 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-07 09:54:37,493 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-07 09:54:40,536 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-07 09:55:50,722 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-07 09:55:51,219 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-07 09:56:10,990 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-07 09:57:16,292 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-07 09:57:16,348 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-07 09:57:18,429 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-07 10:01:01,456 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-07 10:01:01,504 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-07 10:01:03,679 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-07 10:04:33,016 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-07 10:04:33,064 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-07 10:04:35,201 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-07 10:07:51,721 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-07 10:07:51,790 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-07 10:07:53,420 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-07 10:10:20,486 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-07 10:10:20,535 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-07 10:10:22,157 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-07 10:11:19,451 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-07 10:11:19,500 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-07 10:11:22,243 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-07 10:17:44,417 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-07 10:17:44,468 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-07 10:17:46,103 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-07 10:21:33,747 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-07 10:21:33,793 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-07 10:21:35,419 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-07 10:23:38,118 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-07 10:23:38,165 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-07 10:23:39,757 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-07 10:25:40,957 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-07 10:25:41,004 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-07 10:25:42,649 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-07 10:29:47,455 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-07 10:29:47,494 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-07 10:29:50,317 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-08 09:28:21,746 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-08 09:28:21,784 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-08 09:28:24,388 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chparg.properties
+2017-02-08 09:32:24,202 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-08 09:32:24,237 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-08 09:32:25,783 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chparg.properties
+2017-02-08 10:00:40,355 - com.trgr.quality.maf.handlers.ElementHandler -ERROR - Please select/give the locator
+2017-02-08 10:02:08,916 - com.trgr.quality.maf.handlers.ElementHandler -ERROR - Please select/give the locator
+2017-02-08 10:02:08,916 - com.trgr.quality.maf.handlers.ElementHandler -ERROR - Please select/give the locator
+2017-02-08 10:02:08,916 - com.trgr.quality.maf.handlers.ElementHandler -ERROR - Please select/give the locator
+2017-02-08 10:24:03,238 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-08 10:24:03,280 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-08 10:24:05,318 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-08 11:55:14,161 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-08 11:55:14,199 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-08 11:55:16,370 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chparg.properties
+2017-02-08 15:54:54,973 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-08 15:54:55,012 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-08 15:54:58,517 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-08 16:02:19,319 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-08 16:02:19,360 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-08 16:02:20,997 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-08 21:22:25,735 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-08 21:22:25,778 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-08 21:22:27,884 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-08 22:17:29,443 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-08 22:17:29,483 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-08 22:17:31,838 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 09:32:55,044 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 09:32:55,081 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 09:32:56,986 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 10:17:54,509 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 10:17:54,548 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 10:17:56,213 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 10:20:01,557 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 10:20:01,591 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 10:20:03,648 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 11:10:40,651 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 11:10:40,687 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 11:10:42,612 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 11:20:32,017 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 11:20:32,058 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 11:20:34,251 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 11:31:01,533 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 11:31:01,570 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 11:31:03,155 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 11:40:44,107 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 11:40:44,150 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 11:40:46,830 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 11:47:57,027 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 11:47:57,067 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 11:47:58,707 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 11:56:07,936 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 11:56:07,972 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 11:56:09,528 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 12:04:28,329 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 12:04:28,365 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 12:04:30,463 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 12:46:53,732 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 12:46:53,781 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 12:46:55,860 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 13:48:06,870 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 13:48:06,910 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 13:48:09,174 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 13:55:36,901 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 13:55:36,942 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 13:55:38,583 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 13:56:16,063 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 13:56:16,102 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 13:56:18,282 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 14:15:38,342 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 14:15:38,383 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 14:15:40,410 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-09 14:17:09,892 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-09 14:17:09,930 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-09 14:17:11,538 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 11:53:48,625 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 11:53:48,671 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 11:53:51,270 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 11:58:26,061 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 11:58:26,102 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 11:58:27,745 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 12:01:53,326 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 12:01:53,370 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 12:01:54,992 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 12:12:14,762 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 12:12:14,803 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 12:12:16,415 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 12:56:21,468 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 12:56:21,508 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 12:56:24,086 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 12:59:24,840 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 12:59:24,879 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 12:59:27,001 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 13:05:19,623 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 13:05:19,667 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 13:05:21,422 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 14:04:37,162 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 14:04:37,201 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 14:04:39,476 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 14:11:43,752 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 14:11:43,797 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 14:11:45,414 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 15:05:58,818 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 15:05:58,858 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 15:06:01,029 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 16:07:40,473 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 16:07:40,514 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 16:07:43,055 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 16:09:27,094 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 16:09:27,149 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 16:09:28,903 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 16:11:05,364 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 16:11:05,404 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 16:11:07,605 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 16:27:37,377 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 16:27:37,420 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 16:27:39,143 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 16:32:58,772 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 16:32:58,813 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 16:33:00,980 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 16:42:24,881 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 16:42:24,926 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 16:42:28,079 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 16:50:11,615 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 16:50:11,653 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 16:50:13,284 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 18:40:08,790 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 18:40:08,831 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 18:40:11,709 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-10 18:44:55,317 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-10 18:44:55,356 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-10 18:44:57,411 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-13 10:49:30,998 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-13 10:49:31,035 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-13 10:49:33,133 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-21 14:39:35,122 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-21 14:39:35,161 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-21 14:39:36,839 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-21 14:52:36,192 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-21 14:52:36,227 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-21 14:52:37,828 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-21 14:54:25,380 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-21 14:54:25,416 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-21 14:54:26,956 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-22 11:06:26,403 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-22 11:06:26,443 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-22 11:06:28,535 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-22 12:19:14,557 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-22 12:19:14,591 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-22 12:19:16,545 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-22 12:54:36,622 - com.trgr.quality.maf.handlers.ElementHandler -ERROR - Please select/give the locator
+2017-02-22 12:54:36,623 - com.trgr.quality.maf.handlers.ElementHandler -ERROR - Please select/give the locator
+2017-02-22 12:54:36,623 - com.trgr.quality.maf.handlers.ElementHandler -ERROR - Please select/give the locator
+2017-02-22 13:52:16,035 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-22 13:52:16,035 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-22 13:52:16,079 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-22 13:52:16,080 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-22 13:52:19,037 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-22 13:52:19,114 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-02-22 20:27:42,452 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-22 20:27:42,500 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-22 20:27:44,760 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpbr.properties
+2017-02-22 20:30:56,504 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-22 20:30:56,548 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-22 20:30:58,362 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpbr.properties
+2017-02-22 22:18:36,180 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-22 22:18:36,222 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-22 22:18:38,396 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpbr.properties
+2017-02-22 22:21:54,495 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-02-22 22:21:54,537 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-02-22 22:21:56,223 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpbr.properties
+2017-03-03 16:02:34,233 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-03-03 16:02:34,288 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-03-03 16:02:37,030 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2017-03-03 16:15:08,942 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : TestConfig.properties
+2017-03-03 16:15:08,991 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : log4j.properties
+2017-03-03 16:15:11,290 - com.trgr.quality.maf.fileconfiger.PropertiesRepository -INFO - Loading property file : chpmex.properties
+2020-12-16 14:31:26,995 - freemarker.runtime -ERROR - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> report.systemInfoMap[info]  [in template "Extent.ftl" at line 193, column 95]
+
+----
+Tip: It's the final [] step that caused this error, not those before it.
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${report.systemInfoMap[info]}  [in template "Extent.ftl" at line 193, column 93]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:451)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:374)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59)
+	at freemarker.core.Environment.visit(Environment.java:363)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:292)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:272)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:243)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:596)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:327)
+	at freemarker.core.Environment.visit(Environment.java:333)
+	at freemarker.core.Environment.process(Environment.java:306)
+	at freemarker.template.Template.process(Template.java:386)
+	at com.relevantcodes.extentreports.HTMLReporter.flush(HTMLReporter.java:173)
+	at com.relevantcodes.extentreports.Report.flush(Report.java:464)
+	at com.relevantcodes.extentreports.ExtentReports.flush(ExtentReports.java:903)
+	at com.trgr.quality.maf.basetest.BaseTest.driverclose(BaseTest.java:660)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:351)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)

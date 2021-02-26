@@ -1,0 +1,12 @@
+{
+"_comment":"Official Forms - Document Display - Validate Display Tabs",
+ "MAFAUTO-214":
+    [
+	   {
+	     "freeword":"solicitud",
+	     "ExpectedForm": "32 – Solicitud de devolución ",
+	     "LeftpanelExpected":["Contenido Relacionado,Rdo. de la Búsqueda,Lista de Documentos"],
+	     "ledtfa":"Contenido Relacionado,Rdo. de la Búsqueda,Lista de Documentos"
+	   }
+	]
+}

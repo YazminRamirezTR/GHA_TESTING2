@@ -1,0 +1,10 @@
+{
+"_comment":"Verify message displayed when search results in zero records",
+ "MAFQABANG-454":
+    [
+	   {   
+	    "number":"L-0000"       
+       }
+	   
+	]
+}

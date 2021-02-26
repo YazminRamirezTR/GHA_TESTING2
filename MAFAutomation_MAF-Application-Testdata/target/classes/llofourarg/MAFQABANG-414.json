@@ -1,0 +1,12 @@
+{
+"_comment":"Verify search using Title on Doctrine page and validate search within results",
+ "MAFQABANG-414":
+    [
+	   {
+	    "title":"Ley general de sociedades",
+	    "searchwithin":"Ley general de sociedades-Congreso de Derecho Societario"
+	    
+       }
+      
+	]
+}

@@ -1,0 +1,9 @@
+{
+"_comment":"Verify Search results,document page when only Since Date is entered for News",
+ "MAFQABANG-566":
+    [
+		{
+	     	"sincedate":"08/02/2017"
+  		}
+	]
+}

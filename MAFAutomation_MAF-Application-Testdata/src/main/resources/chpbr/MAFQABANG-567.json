@@ -1,0 +1,12 @@
+{
+"_comment":"Create Alert for advance search Legislation Page",
+ "MAFQABANG-567":
+    [
+	    {
+	     "freeword":"lei",
+	     "alertname":"Test Alert",
+	     "suspendtodate":"30/12/2020",
+	     "email":"Arun.Karthikeyan@thomsonreuters.com"
+	    }
+	]
+}

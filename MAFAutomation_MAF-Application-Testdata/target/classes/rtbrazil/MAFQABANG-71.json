@@ -1,0 +1,10 @@
+{
+"_comment":"Verify the search within on search result",
+ "MAFQABANG-71":
+    [
+	   {
+	     "freeword":"trabalhista",
+	     "searchText":"doméstico"
+	   }
+	]
+}

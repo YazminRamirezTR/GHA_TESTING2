@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ModifyBrowserParameterAllSuites]" guice-stage="DEVELOPMENT">
+  <test name="ModifyBrowserParameterAllSuites">
+    <classes>
+      <class name="com.trgr.quality.maf.tests.XMLParamModifierTest"/>
+    </classes>
+  </test> <!-- ModifyBrowserParameterAllSuites -->
+  <test name="ModifyBrowserParameterAllSuites(failed)">
+    <classes>
+      <class name="com.trgr.quality.maf.tests.XMLParamModifierTest">
+        <methods>
+          <include name="XMLParamModifierTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.XMLParamModifierTest -->
+    </classes>
+  </test> <!-- ModifyBrowserParameterAllSuites(failed) -->
+</suite> <!-- Failed suite [ModifyBrowserParameterAllSuites] -->

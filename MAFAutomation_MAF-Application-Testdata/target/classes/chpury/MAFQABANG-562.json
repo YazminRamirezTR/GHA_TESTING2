@@ -1,0 +1,9 @@
+{
+"_comment":"Redirected url verification when Go to Checkpoint World is clicked",
+ "MAFQABANG-562":
+ 	[
+		{
+		"expected_url":"https://www.checkpointworld.com/maf/app/authentication/formLogin"
+	  	}
+ 	]
+}

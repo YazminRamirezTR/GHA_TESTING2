@@ -1,0 +1,11 @@
+{
+"_comment":"Restart Session after time out",
+ "MAFQABANG-546":
+	[
+		{
+			"waitfortimeout":"Y",
+			"sessiontimeoutinminits":"30",
+			"freeword":"aduana"
+		}
+	]
+}

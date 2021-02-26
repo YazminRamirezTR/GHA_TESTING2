@@ -1,0 +1,12 @@
+{
+"_comment":"Verify search Doctrine using valid and invalid title",
+	"MAFQABANG-285":
+	[
+	 {
+	    "title":"AUTO-SATISFATIVA DE QUEBRA DE SIGILO FISCAL"
+	 },
+	 {
+	    "title":"xyz"
+	 }
+	]
+	}

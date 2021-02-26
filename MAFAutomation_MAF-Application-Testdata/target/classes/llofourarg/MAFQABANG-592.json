@@ -1,0 +1,9 @@
+{
+"_comment":"Verify Thematic search for Jurisprudence without providing Input",
+ "MAFQABANG-592":
+    [
+	   {
+	     "errmsg": "Debe completar al menos un campo de búsqueda."  
+	   }
+	]
+}

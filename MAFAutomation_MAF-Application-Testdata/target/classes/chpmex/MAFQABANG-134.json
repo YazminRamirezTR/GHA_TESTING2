@@ -1,0 +1,13 @@
+{
+"_comment":"Verify delivery using Email with PDF document attached",
+ "MAFQABANG-134":
+	[
+	 {
+		"Email_To":"himabindu.gotteti@thomsonreuters.com",       
+        "documentnumber":"1",
+        "freeword":"governo"
+	 }
+	]
+	
+}
+	

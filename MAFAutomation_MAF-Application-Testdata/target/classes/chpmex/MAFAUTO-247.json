@@ -1,0 +1,15 @@
+{
+"_comment":"Legislación pop-up views with automatic chunking",
+  "MAFAUTO-247":
+	[
+		{
+			"thematicarea":"Fiscal",
+			"treeitems":"Legislación Federal,Ley",
+			"documenttitle":"Ley del Impuesto sobre la Renta (DOF 11-12-2013)",
+			"linksavailable":["Subsidio","Reglamento de la Ley del Impuesto sobre la Renta (2003)","RISR"],
+			"articleno":"2",
+			"hiperlink":"RISR"
+			
+		}
+	]
+}

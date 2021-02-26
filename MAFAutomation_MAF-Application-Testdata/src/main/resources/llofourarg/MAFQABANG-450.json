@@ -1,0 +1,10 @@
+{
+"_comment":"Verify message displayed when search results in zero records using Emisor(Transmitter)",
+ "MAFQABANG-450":
+    [
+	   {   
+	    "emisor":"TTPPY"       
+       }
+	   
+	]
+}

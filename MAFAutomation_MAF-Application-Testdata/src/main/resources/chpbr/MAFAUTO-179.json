@@ -1,0 +1,11 @@
+{
+"_comment":"Common Document Display Features - Document Display - Add to Favourites",
+ "MAFAUTO-179":
+	[
+		{
+			"freeword":"aduana",
+			"errorpopupmessage":"Este documento já existe na pasta selecionada"
+		}
+		
+	]
+}

@@ -1,0 +1,12 @@
+{
+"_comment":"Verify search using freeword on Jurisprudence",
+ "MAFQABANG-183":
+    [
+	   {
+	     "freeword": "emprestitos",
+	     "invalidfreeword":"@#$%",
+	     "errmsg":"Su búsqueda contiene caracteres inválidos."	 ,
+	      "expectedfacet":"Jurisprudencia"	   
+	   }
+	]
+}

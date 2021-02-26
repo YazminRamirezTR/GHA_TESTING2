@@ -1,0 +1,11 @@
+{
+"_comment":"Search using freeword on Doctrine and verify exporting result list",
+ "MAFQABANG-236":
+	[
+		{
+			"freeword":"directores",
+			"documentnumber":"1"
+		}
+		
+	]
+}

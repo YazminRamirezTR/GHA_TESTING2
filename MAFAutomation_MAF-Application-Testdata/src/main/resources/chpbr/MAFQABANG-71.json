@@ -1,0 +1,10 @@
+{
+"_comment":"Search for Routes and then Searchwithin with Freeword",
+ "MAFQABANG-71":
+    [
+	   {
+	     "searchtext":"doméstico",
+	     "searchwithintext":"trabalhista"
+	   }
+	]
+}

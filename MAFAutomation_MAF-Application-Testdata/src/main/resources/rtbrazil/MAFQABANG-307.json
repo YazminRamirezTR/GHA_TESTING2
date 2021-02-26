@@ -1,0 +1,10 @@
+{
+"_comment":"Verify search using Administrative page using freeword",
+	"MAFQABANG-307":
+	[
+	  {
+	     "freeword": "governo"	  
+	   }
+	]
+	
+	}

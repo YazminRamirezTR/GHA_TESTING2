@@ -1,0 +1,9 @@
+{
+"_comment":"Redirected url verification when Click Here for Scheduled Search widget is clicked",
+ "MAFQABANG-492":
+		[
+  		   	{
+		    	"expected_url":"http://www.old.laley.com.ar/checkpoint/chpguiauy.pdf/"
+  		  	}
+		]
+}

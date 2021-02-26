@@ -1,0 +1,15 @@
+{
+"_comment":"Verify delivery from document display for Legislation docs",
+ "MAFAUTO-64":
+	[
+		{
+			"citaonline":"AR/LCON/32HI",
+			"emailid":"mohankumar.bn@thomsonreuters.com"
+		},
+		{
+			"citaonline":"CL/LCON/0YGR",
+			"emailid":"mohankumar.bn@thomsonreuters.com"
+		}
+		
+	]
+}

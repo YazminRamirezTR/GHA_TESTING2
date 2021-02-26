@@ -1,0 +1,10 @@
+{
+"_comment":"Follw Document",
+ "MAFAUTO-139":
+    [
+	   {
+	    "widgetname":"Documentos en seguimiento",
+        "noavailablelinksmsg": "Actualmente no se registran documentos en seguimiento. Para comenzar a seguir las modificaciones, acceda a un documento y haga clic en el botón “Seguir documento”. Si desea información detallada acerca de esta funcionalidad haga clic aquí."
+	   }
+	]
+}

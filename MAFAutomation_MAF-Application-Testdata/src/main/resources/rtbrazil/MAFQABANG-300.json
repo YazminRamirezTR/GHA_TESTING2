@@ -1,0 +1,12 @@
+{
+"_comment":"Verify zero results using freeword on the news page",
+ "MAFQABANG-300":
+    [
+	   {
+	     "noresults": "ttpy"	  
+	   },
+	   {
+	     "noresults": "ttyp"	  
+	   }
+	]
+}

@@ -1,0 +1,9 @@
+{
+"_comment":"Verify display search results based on content type",
+	"MAFQABANG-352":
+	[
+		{
+	     "freeword": "recurso"
+         }
+	]
+	}

@@ -1,0 +1,38 @@
+{
+"_comment":"This test verifies the columns present in view all Events Page",
+ "MAFQABANG-129":
+    [
+	   {
+	    "columnnames":["Ver","Nombre","ID Cliente","Último acceso","Dias para que el evento sea eliminado","Borrar","Renombrar"]
+	   }
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

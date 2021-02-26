@@ -1,0 +1,10 @@
+{
+"_comment":"Verify thematic search with valid input on homepage",
+"MAFQABANG-49":
+	 [
+  		{
+  		"thematicsearch":"ACORDADA",
+  		"suggestionvalue":"REMUNERACION CONVENCIONAL"
+  		}
+     ]
+}

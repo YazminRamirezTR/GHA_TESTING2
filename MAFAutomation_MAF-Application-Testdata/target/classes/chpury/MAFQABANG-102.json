@@ -1,0 +1,10 @@
+{
+"_comment":"Display of SearchResults based on Content type",
+ "MAFQABANG-102":
+		[
+			{
+				"freeword":"lei",
+				"contenttypelinkname":["Legislación Texto Original","Jurisprudencia","Doctrina"]
+			}
+		]
+}

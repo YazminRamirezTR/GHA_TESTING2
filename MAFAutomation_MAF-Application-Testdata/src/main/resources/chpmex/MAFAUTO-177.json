@@ -1,0 +1,15 @@
+{
+"_comment":"verify  Create Alert Not Present in SearchResults Page for Global Search",
+ "MAFAUTO-177":
+    [
+   		{
+		  "freeword":"presentación de declaraciones",
+           "Namealert":"Presentación de declaraciones",
+           "Frecuencyalert": "Mensual",
+           "Emailalert":"Arun.Karthikeyan@thomsonreuters.com",
+           "Notifyalert": "No",
+           "Scheduledalert":"Si"
+
+		}
+	]
+}

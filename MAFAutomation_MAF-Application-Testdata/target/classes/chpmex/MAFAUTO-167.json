@@ -1,0 +1,39 @@
+{
+"_comment":"This test verifies the columns present in History Page",
+ "MAFAUTO-167":
+    [
+	   {
+	   "header": "HISTORIAL ",
+	    "columnnames":["Tipo","Fecha y Hora","Descripción","Acciones"]
+	   }
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

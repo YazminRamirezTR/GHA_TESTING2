@@ -1,0 +1,15 @@
+{
+"_comment":"Verify expected links are displayed on the link utility page",
+"MAFQABANG-560":
+	[
+      {
+      	"links_present":[
+      					"Agencia Peruana De Cooperacion Internacional - APCI",
+						"Agencia De Promocion De La Inversion Privada - PROINVERSION",
+						"Autoridad Nacional Del Servicio Civil - SERVIR",
+						"Banco De La Nación",
+						"Banco Central De Reserva Del Perú"
+						]
+      }
+	]
+} 

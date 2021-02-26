@@ -1,0 +1,9 @@
+{
+  "_comment": "Search With Empty Standard Number and verify error message",
+  "MAFQABANG-511": 
+	  [
+	    {
+	      	"errormsg": "Debe completar al menos un campo de búsqueda."
+	    }
+	  ]
+}

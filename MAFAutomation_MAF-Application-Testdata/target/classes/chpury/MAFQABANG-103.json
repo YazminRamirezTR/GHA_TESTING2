@@ -1,0 +1,10 @@
+{
+"_comment":"Verify the search with in search result",
+ "MAFQABANG-103":
+    [
+	   {
+	     "searchtext":"ley",
+	     "searchwithintext":"tribunal"
+	   }
+	]
+}

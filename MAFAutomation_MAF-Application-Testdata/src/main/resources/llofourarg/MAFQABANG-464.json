@@ -1,0 +1,14 @@
+{
+"_comment":"Verify Quick/Global Search with Thematic Search and Freeword",
+ "MAFQABANG-464":
+    [
+	   {
+	     "thematic": "APPLICACION DE LA LEY",
+	      "freeword": "LEY"
+	   },
+	   {
+	     "thematic": "ACCION CAMBIARIA",
+	     "freeword": "LEY"
+	   }
+	]
+}

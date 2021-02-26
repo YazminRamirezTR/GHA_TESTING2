@@ -1,0 +1,11 @@
+{
+"_comment":"Doctrine Search with Filter By year and sorting fo searchResults",
+ "MAFAUTO-206":
+	[
+		{
+			"freeword":"declaración provisional",
+			"author":"Araceli Paz González",
+			 "authorFind":"Arace"
+		}
+	]
+}

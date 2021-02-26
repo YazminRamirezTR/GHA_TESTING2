@@ -1,0 +1,12 @@
+{
+"_comment":"Legislation-En las unidades RB no se incluye el icono correlaciones ni despliega las voces que tiene indizadas",
+ "MAFAUTO-237":
+    [
+	   {
+	     "thematicarea":"Todas",
+	     "freeword":"Programa Nacional de Normalización 2015",
+	     "title": "SECRETARÍA DE MEDIO AMBIENTE Y RECURSOS NATURALES",
+		 "validation_Voz":"Secretaría de Medio Ambiente y Recursos Naturales"
+	   }
+	]
+}

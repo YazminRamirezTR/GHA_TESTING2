@@ -1,0 +1,13 @@
+{
+"_comment":"Verify the Email is not arrived with invalid email Id",
+"MAFQABANG-136":
+	[
+	 {
+		"invalidemailid":"Vignesh.Rajendran@thomsonreuters.com",
+		  "documentnumber":"1",
+        "freeword":"aduana"
+	 }
+	]
+	
+}
+	

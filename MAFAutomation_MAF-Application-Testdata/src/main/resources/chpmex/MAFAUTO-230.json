@@ -1,0 +1,15 @@
+{
+"_comment":"Legislation - Document Display - Top line link that will display important related docs.",
+ "MAFAUTO-230":
+	[
+		{
+		  "thematicarea":"Fiscal",
+		  "treeitems":"Legislación Federal,Constitución",
+		  "documentname":"Constitución Política de los Estados Unidos Mexicanos",
+		  "relatedlinksonpageone":["CADH","LR76C","LR73CMEX","LCT","LAGR","LGE","LR105C","LGSMIME","LFTAIPG",
+		  					"Ley Reglamentaria de la fracción VI del artículo 76 de la Constitución Política de los Estados Unidos Mexicanos"],
+		  "relatedlinksonpagetwo":["Ley de la Economía Social y Solidaria, Reglamentaria del Párrafo Octavo del Artículo 25 de la Constitución Política de los Estados Unidos Mexicanos, en lo referente al sector social de la economía",
+		  					"LAMP","LGIPE","LGTAIP","CPF","CFPP","CNPP"],
+       }
+	]
+}

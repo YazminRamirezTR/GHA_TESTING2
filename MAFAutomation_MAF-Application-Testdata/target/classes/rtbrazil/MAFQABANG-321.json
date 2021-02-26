@@ -1,0 +1,10 @@
+{
+"_comment":"Verify delivery using email of result list and complete document with Word as format",
+ "MAFQABANG-321":
+    [
+	   {
+	      "freeword": "arbitragem internacional",
+	      "emailid": "surajkumar.behera@thomsonreuters.com"
+	   }
+	]
+}

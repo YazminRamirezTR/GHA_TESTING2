@@ -1,0 +1,13 @@
+{
+"_comment":"Verify search using Parties on Jurisprudence",
+ "MAFQABANG-588":
+    [
+	   {
+	     "freeword": "ley",
+	     "validdate":"08/08/2016",
+	     "invaliddate":"08/08/20154",
+	     "errmsg":"La fecha ingresada no es válida.",
+	     "dateofsentence":"Fecha exacta"  
+	   }
+	]
+}

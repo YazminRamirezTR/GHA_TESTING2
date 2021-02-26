@@ -1,0 +1,14 @@
+{
+"_comment":"Legislation - Document Display - Legislation Versions (Combo Histórico Legislativo)",
+ "MAFAUTO-126":
+    [
+	   {
+		   "thematicarea":"Fiscal",
+		   "treeitems":"Legislación Federal,Ley",
+		   "documenttitle":"Ley del Impuesto sobre la Renta (DOF 11-12-2013)",
+		    "firsttooltip" :" Últimas reformas",
+			"HistoricVersion":"01-01-2014 a 31-12-2015",
+			 "finalvalidity": "12/31/2015"
+	   }
+	]
+}

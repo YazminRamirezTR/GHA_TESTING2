@@ -1,0 +1,9 @@
+{
+"_comment":"This test verifies the Client ID of the user logged in",
+ "MAFQABANG-423":
+    [
+	   {
+	    "clientid":"100"
+	   }
+	]
+}

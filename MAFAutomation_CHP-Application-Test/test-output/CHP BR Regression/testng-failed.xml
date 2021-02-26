@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CHP BR Regression]" guice-stage="DEVELOPMENT">
+  <parameter name="Environment" value="qc"/>
+  <parameter name="ProductToTest" value="chpbr"/>
+  <parameter name="Browser" value="edge"/>
+  <listeners>
+    <listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.LoginTest">
+        <methods>
+          <include name="loginWithValidAndInvalidCredentials"/>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="afterClass"/>
+          <include name="loginUsingSaveUserName"/>
+          <include name="beforeClass"/>
+          <include name="loginUsingSaveUserNameAndPwd"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="SearchTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.SearchTest">
+        <methods>
+          <include name="displayofSearchResultsBasedonContentTypeAll"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="driverclose"/>
+          <include name="searchWithNaturalLanguage"/>
+          <include name="beforeClass"/>
+          <include name="displayOfSearchPage"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchTest -->
+    </classes>
+  </test> <!-- SearchTest(failed) -->
+  <test thread-count="5" name="DeliveryTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.DeliveryTest">
+        <methods>
+          <include name="deliveryOfResultListUsingEmailWithWordAndPDF"/>
+          <include name="docDisplayEmailDeliveryWithPDFFormat"/>
+          <include name="exportSingleDocumentFromDocumentDisplay"/>
+          <include name="ResultListcancelDeliveryByEmail"/>
+          <include name="documentDisplayDeliveryWithInvalidEmail"/>
+          <include name="setup"/>
+          <include name="DeliveryWithInvalidEmailFormat"/>
+          <include name="resultListDocDeliveryByPrint"/>
+          <include name="exportDocumentsFromResultList"/>
+          <include name="driverclose"/>
+          <include name="documentDislplayDeliveryByPrint"/>
+          <include name="startDeliveryTest"/>
+          <include name="SingleDocumentDelivery"/>
+          <include name="docDisplayPageEmailDeliveryWithRTFFormat"/>
+          <include name="endDeliveryTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DeliveryTest -->
+    </classes>
+  </test> <!-- DeliveryTest(failed) -->
+  <test thread-count="5" name="DocumentDisplayTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.DocumentDisplayTest">
+        <methods>
+          <include name="keywordsOnDocumentDisplay"/>
+          <include name="facteingOnResultList"/>
+          <include name="startDocumentDisplayTest"/>
+          <include name="searchResultsWidget"/>
+          <include name="navigationWithIndexOnDocDisplayforAll"/>
+          <include name="fontSizeChangesOnDocument"/>
+          <include name="setup"/>
+          <include name="documentDisplayNavigationOptions"/>
+          <include name="followTheDocument"/>
+          <include name="highlightOfSearchTermOnDocDisplay"/>
+          <include name="driverclose"/>
+          <include name="endTest"/>
+          <include name="navigationUsingcontentTreeOnDocumentDisplay"/>
+          <include name="documentDisplayAndResultListTab"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DocumentDisplayTest -->
+    </classes>
+  </test> <!-- DocumentDisplayTest(failed) -->
+  <test thread-count="5" name="PreferenceTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.PreferenceTest">
+        <methods>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="driverclose"/>
+          <include name="UpdatesToPreferencesPageAllProducts"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.PreferenceTest -->
+    </classes>
+  </test> <!-- PreferenceTest(failed) -->
+  <test thread-count="5" name="MyDocumentTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.MyDocumentTest">
+        <methods>
+          <include name="CreateNewFolder"/>
+          <include name="setup"/>
+          <include name="renameAndDeleteNewFolder"/>
+          <include name="driverclose"/>
+          <include name="beforeClass"/>
+          <include name="MyDocumentBasicFolders"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.MyDocumentTest -->
+    </classes>
+  </test> <!-- MyDocumentTest(failed) -->
+  <test thread-count="5" name="FavouritesTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.FavouritesTest">
+        <methods>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="beforeClass"/>
+          <include name="addToFavorites"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.FavouritesTest -->
+    </classes>
+  </test> <!-- FavouritesTest(failed) -->
+  <test thread-count="5" name="HomeTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HomeTest">
+        <methods>
+          <include name="setup"/>
+          <include name="AvailabilityOfVariousSearchs"/>
+          <include name="ThematicDropdownContent"/>
+          <include name="widgetsinhomepage"/>
+          <include name="ApplicationVerificationpostlogin"/>
+          <include name="beforeClass"/>
+          <include name="driverclose"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HomeTest -->
+    </classes>
+  </test> <!-- HomeTest(failed) -->
+  <test thread-count="5" name="SignoffTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.SignoffTest">
+        <methods>
+          <include name="NavigationfromSignofftologinPage"/>
+          <include name="Signoff"/>
+          <include name="setup"/>
+          <include name="beforeClass"/>
+          <include name="driverclose"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SignoffTest -->
+    </classes>
+  </test> <!-- SignoffTest(failed) -->
+  <test thread-count="5" name="HeaderSectionTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HeaderSectionTest">
+        <methods>
+          <include name="headerSectionUniqueUrls"/>
+          <include name="setup"/>
+          <include name="headerSectionLinks"/>
+          <include name="afterClass"/>
+          <include name="driverclose"/>
+          <include name="beforeClass"/>
+          <include name="goToCheckpointUSA"/>
+          <include name="loggedinUserDetails"/>
+          <include name="goToCheckpointWorld"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HeaderSectionTest -->
+    </classes>
+  </test> <!-- HeaderSectionTest(failed) -->
+  <test thread-count="5" name="HelpTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HelpTest">
+        <methods>
+          <include name="setup"/>
+          <include name="RedirectedHelpLinkValidation"/>
+          <include name="driverclose"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HelpTest -->
+    </classes>
+  </test> <!-- HelpTest(failed) -->
+  <test thread-count="5" name="NewsTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.NewsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="ClearButtonInNewsSearch"/>
+          <include name="SearchNewswithInvalidDateFormat"/>
+          <include name="afterClass"/>
+          <include name="NewsPageDisplayValidation"/>
+          <include name="SearchNewswithBlankInput"/>
+          <include name="driverclose"/>
+          <include name="searchNewsforNoResults"/>
+          <include name="startNewsTest"/>
+          <include name="NewsResultsWithValidInput"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.NewsTest -->
+    </classes>
+  </test> <!-- NewsTest(failed) -->
+  <test thread-count="5" name="AlertTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.AlertTest">
+        <methods>
+          <include name="setup"/>
+          <include name="CreateAlertFromSearchResultsforLegislationPage"/>
+          <include name="startAlertTest"/>
+          <include name="backToHomePage"/>
+          <include name="driverclose"/>
+          <include name="endAlertTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.AlertTest -->
+    </classes>
+  </test> <!-- AlertTest(failed) -->
+  <test thread-count="5" name="ToolsTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.ToolsTest">
+        <methods>
+          <include name="WidgetsInToolstab"/>
+          <include name="setup"/>
+          <include name="endToolsTest"/>
+          <include name="driverclose"/>
+          <include name="DisplayToolsTab"/>
+          <include name="startToolsTest"/>
+          <include name="ExpandAllWidgets"/>
+          <include name="CollapseAllWidgets"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ToolsTest -->
+    </classes>
+  </test> <!-- ToolsTest(failed) -->
+  <test thread-count="5" name="AnnotationsTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.AnnotationsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="editExistingAnnotationOnDocument"/>
+          <include name="driverclose"/>
+          <include name="deleteExistingAnnotationOnDocument"/>
+          <include name="hideOrShowAnnotationsOnDocument"/>
+          <include name="addAnnotationOnDocumentDisplay"/>
+          <include name="endAnnotationsTest"/>
+          <include name="startAnnotationsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.AnnotationsTest -->
+    </classes>
+  </test> <!-- AnnotationsTest(failed) -->
+  <test thread-count="5" name="ContentTreeTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.ContentTreeTest">
+        <methods>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="afterClass"/>
+          <include name="showListOfDocumentFrmContentTree"/>
+          <include name="showSecondLevelContentTree"/>
+          <include name="ContentTreeDisplay"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ContentTreeTest -->
+    </classes>
+  </test> <!-- ContentTreeTest(failed) -->
+  <test thread-count="5" name="FormsSearchTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.FormsSearchTest">
+        <methods>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="driverclose"/>
+          <include name="searchFormsUsingFreeword"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.FormsSearchTest -->
+    </classes>
+  </test> <!-- FormsSearchTest(failed) -->
+  <test thread-count="5" name="LegislationSearchTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.LegislationSearchTest">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeClass"/>
+          <include name="searchLegislationForNoResultsMessage"/>
+          <include name="searchLegislationUsingEditedByOrgan"/>
+          <include name="driverclose"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LegislationSearchTest -->
+    </classes>
+  </test> <!-- LegislationSearchTest(failed) -->
+  <test thread-count="5" name="RoutesSearchTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.RoutesSearchTest">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeClass"/>
+          <include name="searchRoutesUsingStandardNumber"/>
+          <include name="driverclose"/>
+          <include name="searchRoutesAndSearchwithinUsingFreeword"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.RoutesSearchTest -->
+    </classes>
+  </test> <!-- RoutesSearchTest(failed) -->
+</suite> <!-- Failed suite [CHP BR Regression] -->

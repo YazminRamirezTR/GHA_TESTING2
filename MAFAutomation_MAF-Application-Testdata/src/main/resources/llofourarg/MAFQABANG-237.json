@@ -1,0 +1,11 @@
+{
+"_comment":"Search with freeword and deliver document using email in word format",
+ "MAFQABANG-237":
+	[
+		{
+			"freeword":"aduana",
+			"emailid":"mohankumar.bn@thomsonreuters.com"
+		}
+		
+	]
+}

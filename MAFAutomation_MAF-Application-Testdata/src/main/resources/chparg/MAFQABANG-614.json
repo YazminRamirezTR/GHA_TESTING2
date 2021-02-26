@@ -1,0 +1,9 @@
+{
+"_comment":"Verify link is graded out and not clickable in Herramientas - Checklist/Fiscal  page",
+ "MAFQABANG-614":
+    [
+	   {
+	     "fiscalnodelink": ["Antievasión"],
+	   }
+	]
+}

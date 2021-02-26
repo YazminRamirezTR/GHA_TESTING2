@@ -1,0 +1,14 @@
+{
+"_comment":"Home Page Validate Frequently Asked Questions widget for Thematic Area Mercantil",
+ "MAFAUTO-198":
+		[
+			{
+				"thematicarea":  "Mercantil",
+				"expectedlinks":["Código de Comercio",
+								  "Ley General de Sociedades Mercantiles",
+								  "Ley General de Títulos y Operaciones de Crédito",
+								  "Ley de Concursos Mercantiles"
+								  ]
+			}
+		]
+}

@@ -1,0 +1,11 @@
+{
+"_comment":"Verify advance search  for Legislation with Thematic Keyword and Freeword",
+ "MAFQABANG-61":
+    [
+       {
+	     "thematicarea":"Todas",
+	     "thematicsearch":"acta de asamblea",
+	     "freeword":"ley"
+	   }
+	]
+}

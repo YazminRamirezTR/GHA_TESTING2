@@ -1,0 +1,12 @@
+{
+"_comment":"Verify search using thematic value on the Doctrine page",
+ "MAFQABANG-430":
+    [
+	   {
+	    "thematic":"aplicación de la ley" 
+       },
+       {
+       "thematic":"ACCION CAMBIARIA"
+       }
+	]
+}

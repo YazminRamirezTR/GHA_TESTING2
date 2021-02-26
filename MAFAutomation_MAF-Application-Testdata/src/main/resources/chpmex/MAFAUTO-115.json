@@ -1,0 +1,11 @@
+{
+"_comment":"Verify collapsing document list on the content treee to level one",
+ "MAFAUTO-115":
+	[
+		{
+			"freeword":"declaración provisional",
+			"author":"Arace",
+			"contenttreenodename":"Casos Prácticos"
+		}
+	]
+}

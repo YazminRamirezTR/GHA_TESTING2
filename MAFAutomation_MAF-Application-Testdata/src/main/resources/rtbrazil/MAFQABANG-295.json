@@ -1,0 +1,10 @@
+{
+"_comment":"Verify search using freeword on Products page",
+ "MAFQABANG-295":
+    [
+	   {
+	     "freeword":"recurso"	  
+	   }
+	
+	]	
+}

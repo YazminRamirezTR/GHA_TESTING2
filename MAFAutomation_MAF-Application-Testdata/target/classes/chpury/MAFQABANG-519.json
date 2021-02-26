@@ -1,0 +1,10 @@
+{
+  "_comment": "Thematic search with special characters in Homepage and verify the error message",
+  "MAFQABANG-519": 
+	  [
+	    {
+	    	"thematicsearchwithspecialchar":"|&deg;!#$%&amp;/=?¡",
+	     	"expectederrormessage": "No se encontraron documentos para su búsqueda"
+	    }
+	  ]
+}

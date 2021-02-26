@@ -1,0 +1,22 @@
+{
+"_comment":"Home Page - Widget - Usual Laws (Frequently Asked Questions)",
+ "MAFAUTO-140":
+		[
+			{
+				"thematicdropdownvalues": [ "Fiscal",
+											"Laboral",
+											"Seguridad Social",
+											"Contabilidad y Auditoría",
+											"Comercio Exterior",
+											"Administrativo",
+											"Amparo",
+											"Civil",
+											"Constitucional",
+											"Corporativo",
+											"Financiero",
+											"Mercantil",
+											"Penal"
+											]
+			}
+		]
+}

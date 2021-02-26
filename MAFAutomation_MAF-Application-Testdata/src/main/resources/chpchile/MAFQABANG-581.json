@@ -1,0 +1,13 @@
+{
+"_comment":"Verify Advance search for doctrine with Thematic,Author,Title and freeword field",
+ "MAFQABANG-581":
+    [
+       {
+	     "thematicsearch":"APLICACION",
+	     "suggestionvaltobeselected":"APLICACION DE LA LEY",
+	     "author":"Kielmanovich, Jorge L",
+	     "title":"Honorarios",
+	     "freeword":"laboral"
+	   }
+	]
+}

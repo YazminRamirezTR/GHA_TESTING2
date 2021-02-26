@@ -1,0 +1,15 @@
+{
+"_comment":"Home Page Validate Frequently Asked Questions widget for Thematic Area Administrativo",
+ "MAFAUTO-192":
+		[
+			{
+				"thematicarea":  "Administrativo",
+				"expectedlinks":["Ley Federal de Derechos",
+								 "Ley Federal de las Entidades Paraestatales",
+								 "Ley Orgánica de la Administración Pública Federal",
+								 "Ley Federal de Responsabilidades Administrativas de los Servidores Públicos",
+								  "Ley General de Salud",
+								  "Ley de Vías Generales de Comunicación"]
+			}
+		]
+}

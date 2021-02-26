@@ -1,0 +1,11 @@
+{
+"_comment":"Verify to set email id on the preference page",
+ "MAFQABANG-383":
+    [
+	   {
+	     "freeword": "arbitragem internacional",
+	     "emailid":"anusha.macherla@thomsonreuters.com",
+	     "accordion":"68.857" 
+	   }  
+	]
+}

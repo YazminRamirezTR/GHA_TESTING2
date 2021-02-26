@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CHP Peru Regression]" guice-stage="DEVELOPMENT">
+  <parameter name="Environment" value="qc"/>
+  <parameter name="ProductToTest" value="chppe"/>
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener"/>
+  </listeners>
+  <test name="LoginTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.LoginTest"/>
+    </classes>
+  </test> <!-- LoginTest -->
+  <test name="HomeTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HomeTest"/>
+    </classes>
+  </test> <!-- HomeTest -->
+  <test name="HeaderSectionTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HeaderSectionTest"/>
+    </classes>
+  </test> <!-- HeaderSectionTest -->
+  <test name="SearchTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.SearchTest"/>
+    </classes>
+  </test> <!-- SearchTest -->
+  <test name="SearchUsingHomePageTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest"/>
+    </classes>
+  </test> <!-- SearchUsingHomePageTest -->
+  <test name="RoutesSearchTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.RoutesSearchTest"/>
+    </classes>
+  </test> <!-- RoutesSearchTest -->
+  <test name="PublicTitlesTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.PublicTitlesTest"/>
+    </classes>
+  </test> <!-- PublicTitlesTest -->
+  <test name="PreferenceTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.PreferenceTest"/>
+    </classes>
+  </test> <!-- PreferenceTest -->
+  <test name="ActionsTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.ActionsTest"/>
+    </classes>
+  </test> <!-- ActionsTest -->
+  <test name="AlertTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.AlertTest"/>
+    </classes>
+  </test> <!-- AlertTest -->
+  <test name="AnnotationsTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.AnnotationsTest"/>
+    </classes>
+  </test> <!-- AnnotationsTest -->
+  <test name="ContentTreeTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.ContentTreeTest"/>
+    </classes>
+  </test> <!-- ContentTreeTest -->
+  <test name="DoctrineSearchTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.DoctrineSearchTest"/>
+    </classes>
+  </test> <!-- DoctrineSearchTest -->
+  <test name="DocumentDisplayTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.DocumentDisplayTest"/>
+    </classes>
+  </test> <!-- DocumentDisplayTest -->
+  <test name="DocValidationFromSearchResultsTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.DocValidationFromSearchResultsTest"/>
+    </classes>
+  </test> <!-- DocValidationFromSearchResultsTest -->
+  <test name="FavouritesTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.FavouritesTest"/>
+    </classes>
+  </test> <!-- FavouritesTest -->
+  <test name="ForeignCurrencyTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.ForeignCurrencyTest"/>
+    </classes>
+  </test> <!-- ForeignCurrencyTest -->
+  <test name="FormsSearchTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.FormsSearchTest"/>
+    </classes>
+  </test> <!-- FormsSearchTest -->
+  <test name="HelpTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HelpTest"/>
+    </classes>
+  </test> <!-- HelpTest -->
+  <test name="HistoryTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HistoryTest"/>
+    </classes>
+  </test> <!-- HistoryTest -->
+  <test name="JurisprudenceSearchTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.JurisprudenceSearchTest"/>
+    </classes>
+  </test> <!-- JurisprudenceSearchTest -->
+  <test name="LegislationSearchTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.LegislationSearchTest"/>
+    </classes>
+  </test> <!-- LegislationSearchTest -->
+  <test name="LinkUtilityTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.LinkUtilityTest"/>
+    </classes>
+  </test> <!-- LinkUtilityTest -->
+  <test name="MyDocumentTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.MyDocumentTest"/>
+    </classes>
+  </test> <!-- MyDocumentTest -->
+  <test name="NewsTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.NewsTest"/>
+    </classes>
+  </test> <!-- NewsTest -->
+  <test name="ObligacionesTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.ObligacionesTest"/>
+    </classes>
+  </test> <!-- ObligacionesTest -->
+  <test name="SignoffTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.SignoffTest"/>
+    </classes>
+  </test> <!-- SignoffTest -->
+  <test name="ToolsTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.ToolsTest"/>
+    </classes>
+  </test> <!-- ToolsTest -->
+  <test name="ValuationWheelsTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.ValuationWheelsTest"/>
+    </classes>
+  </test> <!-- ValuationWheelsTest -->
+  <test name="DeliveryTest">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.DeliveryTest"/>
+    </classes>
+  </test> <!-- DeliveryTest -->
+  <test name="LoginTest(failed)">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.LoginTest">
+        <methods>
+          <include name="InteractiveDemoLink"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LoginTest -->
+      <class name="com.trgr.quality.maf.tests.HistoryTest">
+        <methods>
+          <include name="startHistoryTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HistoryTest -->
+      <class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchUsingHomePageTest -->
+      <class name="com.trgr.quality.maf.tests.HelpTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HelpTest -->
+      <class name="com.trgr.quality.maf.tests.DeliveryTest">
+        <methods>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="startDeliveryTest"/>
+          <include name="endDeliveryTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DeliveryTest -->
+      <class name="com.trgr.quality.maf.tests.NewsTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="startNewsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.NewsTest -->
+      <class name="com.trgr.quality.maf.tests.SearchTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchTest -->
+      <class name="com.trgr.quality.maf.tests.HeaderSectionTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HeaderSectionTest -->
+      <class name="com.trgr.quality.maf.tests.ToolsTest">
+        <methods>
+          <include name="endToolsTest"/>
+          <include name="startToolsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ToolsTest -->
+      <class name="com.trgr.quality.maf.tests.DoctrineSearchTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DoctrineSearchTest -->
+      <class name="com.trgr.quality.maf.tests.PreferenceTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.PreferenceTest -->
+      <class name="com.trgr.quality.maf.tests.FavouritesTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.FavouritesTest -->
+      <class name="com.trgr.quality.maf.tests.LinkUtilityTest">
+        <methods>
+          <include name="endAlertTest"/>
+          <include name="startAlertTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LinkUtilityTest -->
+      <class name="com.trgr.quality.maf.tests.SignoffTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SignoffTest -->
+      <class name="com.trgr.quality.maf.tests.JurisprudenceSearchTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.JurisprudenceSearchTest -->
+      <class name="com.trgr.quality.maf.tests.HomeTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HomeTest -->
+      <class name="com.trgr.quality.maf.tests.MyDocumentTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.MyDocumentTest -->
+      <class name="com.trgr.quality.maf.tests.ContentTreeTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ContentTreeTest -->
+      <class name="com.trgr.quality.maf.tests.DocumentDisplayTest">
+        <methods>
+          <include name="startDocumentDisplayTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DocumentDisplayTest -->
+      <class name="com.trgr.quality.maf.tests.LegislationSearchTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LegislationSearchTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test name="HeaderSectionTest(failed)">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HistoryTest">
+        <methods>
+          <include name="startHistoryTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HistoryTest -->
+      <class name="com.trgr.quality.maf.tests.LoginTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LoginTest -->
+      <class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchUsingHomePageTest -->
+      <class name="com.trgr.quality.maf.tests.HelpTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HelpTest -->
+      <class name="com.trgr.quality.maf.tests.DeliveryTest">
+        <methods>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="startDeliveryTest"/>
+          <include name="endDeliveryTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DeliveryTest -->
+      <class name="com.trgr.quality.maf.tests.NewsTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="startNewsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.NewsTest -->
+      <class name="com.trgr.quality.maf.tests.SearchTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchTest -->
+      <class name="com.trgr.quality.maf.tests.HeaderSectionTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="goToCheckpointWorld"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HeaderSectionTest -->
+      <class name="com.trgr.quality.maf.tests.ToolsTest">
+        <methods>
+          <include name="endToolsTest"/>
+          <include name="startToolsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ToolsTest -->
+      <class name="com.trgr.quality.maf.tests.DoctrineSearchTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DoctrineSearchTest -->
+      <class name="com.trgr.quality.maf.tests.PreferenceTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.PreferenceTest -->
+      <class name="com.trgr.quality.maf.tests.FavouritesTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.FavouritesTest -->
+      <class name="com.trgr.quality.maf.tests.LinkUtilityTest">
+        <methods>
+          <include name="endAlertTest"/>
+          <include name="startAlertTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LinkUtilityTest -->
+      <class name="com.trgr.quality.maf.tests.SignoffTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SignoffTest -->
+      <class name="com.trgr.quality.maf.tests.JurisprudenceSearchTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.JurisprudenceSearchTest -->
+      <class name="com.trgr.quality.maf.tests.HomeTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HomeTest -->
+      <class name="com.trgr.quality.maf.tests.MyDocumentTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.MyDocumentTest -->
+      <class name="com.trgr.quality.maf.tests.ContentTreeTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ContentTreeTest -->
+      <class name="com.trgr.quality.maf.tests.DocumentDisplayTest">
+        <methods>
+          <include name="startDocumentDisplayTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DocumentDisplayTest -->
+      <class name="com.trgr.quality.maf.tests.LegislationSearchTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LegislationSearchTest -->
+    </classes>
+  </test> <!-- HeaderSectionTest(failed) -->
+  <test name="PreferenceTest(failed)">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HistoryTest">
+        <methods>
+          <include name="startHistoryTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HistoryTest -->
+      <class name="com.trgr.quality.maf.tests.LoginTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LoginTest -->
+      <class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchUsingHomePageTest -->
+      <class name="com.trgr.quality.maf.tests.HelpTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HelpTest -->
+      <class name="com.trgr.quality.maf.tests.DeliveryTest">
+        <methods>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="startDeliveryTest"/>
+          <include name="endDeliveryTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DeliveryTest -->
+      <class name="com.trgr.quality.maf.tests.NewsTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="startNewsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.NewsTest -->
+      <class name="com.trgr.quality.maf.tests.SearchTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchTest -->
+      <class name="com.trgr.quality.maf.tests.HeaderSectionTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HeaderSectionTest -->
+      <class name="com.trgr.quality.maf.tests.ToolsTest">
+        <methods>
+          <include name="endToolsTest"/>
+          <include name="startToolsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ToolsTest -->
+      <class name="com.trgr.quality.maf.tests.DoctrineSearchTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DoctrineSearchTest -->
+      <class name="com.trgr.quality.maf.tests.PreferenceTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="UpdatesToPreferencesPageAllProducts"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.PreferenceTest -->
+      <class name="com.trgr.quality.maf.tests.FavouritesTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.FavouritesTest -->
+      <class name="com.trgr.quality.maf.tests.LinkUtilityTest">
+        <methods>
+          <include name="endAlertTest"/>
+          <include name="startAlertTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LinkUtilityTest -->
+      <class name="com.trgr.quality.maf.tests.SignoffTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SignoffTest -->
+      <class name="com.trgr.quality.maf.tests.JurisprudenceSearchTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.JurisprudenceSearchTest -->
+      <class name="com.trgr.quality.maf.tests.HomeTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HomeTest -->
+      <class name="com.trgr.quality.maf.tests.MyDocumentTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.MyDocumentTest -->
+      <class name="com.trgr.quality.maf.tests.ContentTreeTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ContentTreeTest -->
+      <class name="com.trgr.quality.maf.tests.DocumentDisplayTest">
+        <methods>
+          <include name="startDocumentDisplayTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DocumentDisplayTest -->
+      <class name="com.trgr.quality.maf.tests.LegislationSearchTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LegislationSearchTest -->
+    </classes>
+  </test> <!-- PreferenceTest(failed) -->
+  <test name="ContentTreeTest(failed)">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HistoryTest">
+        <methods>
+          <include name="startHistoryTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HistoryTest -->
+      <class name="com.trgr.quality.maf.tests.LoginTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LoginTest -->
+      <class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchUsingHomePageTest -->
+      <class name="com.trgr.quality.maf.tests.HelpTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HelpTest -->
+      <class name="com.trgr.quality.maf.tests.DeliveryTest">
+        <methods>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="startDeliveryTest"/>
+          <include name="endDeliveryTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DeliveryTest -->
+      <class name="com.trgr.quality.maf.tests.NewsTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="startNewsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.NewsTest -->
+      <class name="com.trgr.quality.maf.tests.SearchTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchTest -->
+      <class name="com.trgr.quality.maf.tests.HeaderSectionTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HeaderSectionTest -->
+      <class name="com.trgr.quality.maf.tests.ToolsTest">
+        <methods>
+          <include name="endToolsTest"/>
+          <include name="startToolsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ToolsTest -->
+      <class name="com.trgr.quality.maf.tests.DoctrineSearchTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DoctrineSearchTest -->
+      <class name="com.trgr.quality.maf.tests.PreferenceTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.PreferenceTest -->
+      <class name="com.trgr.quality.maf.tests.FavouritesTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.FavouritesTest -->
+      <class name="com.trgr.quality.maf.tests.LinkUtilityTest">
+        <methods>
+          <include name="endAlertTest"/>
+          <include name="startAlertTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LinkUtilityTest -->
+      <class name="com.trgr.quality.maf.tests.SignoffTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SignoffTest -->
+      <class name="com.trgr.quality.maf.tests.JurisprudenceSearchTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.JurisprudenceSearchTest -->
+      <class name="com.trgr.quality.maf.tests.HomeTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HomeTest -->
+      <class name="com.trgr.quality.maf.tests.MyDocumentTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.MyDocumentTest -->
+      <class name="com.trgr.quality.maf.tests.ContentTreeTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="showSecondLevelContentTree"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ContentTreeTest -->
+      <class name="com.trgr.quality.maf.tests.DocumentDisplayTest">
+        <methods>
+          <include name="startDocumentDisplayTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DocumentDisplayTest -->
+      <class name="com.trgr.quality.maf.tests.LegislationSearchTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LegislationSearchTest -->
+    </classes>
+  </test> <!-- ContentTreeTest(failed) -->
+  <test name="DocumentDisplayTest(failed)">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HistoryTest">
+        <methods>
+          <include name="startHistoryTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HistoryTest -->
+      <class name="com.trgr.quality.maf.tests.LoginTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LoginTest -->
+      <class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchUsingHomePageTest -->
+      <class name="com.trgr.quality.maf.tests.HelpTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HelpTest -->
+      <class name="com.trgr.quality.maf.tests.DeliveryTest">
+        <methods>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="startDeliveryTest"/>
+          <include name="endDeliveryTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DeliveryTest -->
+      <class name="com.trgr.quality.maf.tests.NewsTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="startNewsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.NewsTest -->
+      <class name="com.trgr.quality.maf.tests.SearchTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchTest -->
+      <class name="com.trgr.quality.maf.tests.HeaderSectionTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HeaderSectionTest -->
+      <class name="com.trgr.quality.maf.tests.ToolsTest">
+        <methods>
+          <include name="endToolsTest"/>
+          <include name="startToolsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ToolsTest -->
+      <class name="com.trgr.quality.maf.tests.DoctrineSearchTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DoctrineSearchTest -->
+      <class name="com.trgr.quality.maf.tests.PreferenceTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.PreferenceTest -->
+      <class name="com.trgr.quality.maf.tests.FavouritesTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.FavouritesTest -->
+      <class name="com.trgr.quality.maf.tests.LinkUtilityTest">
+        <methods>
+          <include name="endAlertTest"/>
+          <include name="startAlertTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LinkUtilityTest -->
+      <class name="com.trgr.quality.maf.tests.SignoffTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SignoffTest -->
+      <class name="com.trgr.quality.maf.tests.JurisprudenceSearchTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.JurisprudenceSearchTest -->
+      <class name="com.trgr.quality.maf.tests.HomeTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HomeTest -->
+      <class name="com.trgr.quality.maf.tests.MyDocumentTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.MyDocumentTest -->
+      <class name="com.trgr.quality.maf.tests.DocumentDisplayTest">
+        <methods>
+          <include name="secondLevelWidgetsForDoctrineAndLegislation"/>
+          <include name="startDocumentDisplayTest"/>
+          <include name="endTest"/>
+          <include name="navigationUsingcontentTreeOnDocumentDisplay"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DocumentDisplayTest -->
+      <class name="com.trgr.quality.maf.tests.ContentTreeTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ContentTreeTest -->
+      <class name="com.trgr.quality.maf.tests.LegislationSearchTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LegislationSearchTest -->
+    </classes>
+  </test> <!-- DocumentDisplayTest(failed) -->
+  <test name="DeliveryTest(failed)">
+    <groups>
+      <run>
+        <include name="chppe"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HistoryTest">
+        <methods>
+          <include name="startHistoryTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HistoryTest -->
+      <class name="com.trgr.quality.maf.tests.LoginTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LoginTest -->
+      <class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchUsingHomePageTest -->
+      <class name="com.trgr.quality.maf.tests.HelpTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HelpTest -->
+      <class name="com.trgr.quality.maf.tests.DeliveryTest">
+        <methods>
+          <include name="setup"/>
+          <include name="exportDocumentsFromResultList"/>
+          <include name="driverclose"/>
+          <include name="startDeliveryTest"/>
+          <include name="ResultListcancelDeliveryByEmail"/>
+          <include name="endDeliveryTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DeliveryTest -->
+      <class name="com.trgr.quality.maf.tests.NewsTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="startNewsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.NewsTest -->
+      <class name="com.trgr.quality.maf.tests.SearchTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchTest -->
+      <class name="com.trgr.quality.maf.tests.HeaderSectionTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HeaderSectionTest -->
+      <class name="com.trgr.quality.maf.tests.ToolsTest">
+        <methods>
+          <include name="endToolsTest"/>
+          <include name="startToolsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ToolsTest -->
+      <class name="com.trgr.quality.maf.tests.DoctrineSearchTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DoctrineSearchTest -->
+      <class name="com.trgr.quality.maf.tests.PreferenceTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.PreferenceTest -->
+      <class name="com.trgr.quality.maf.tests.FavouritesTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.FavouritesTest -->
+      <class name="com.trgr.quality.maf.tests.LinkUtilityTest">
+        <methods>
+          <include name="endAlertTest"/>
+          <include name="startAlertTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LinkUtilityTest -->
+      <class name="com.trgr.quality.maf.tests.SignoffTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SignoffTest -->
+      <class name="com.trgr.quality.maf.tests.JurisprudenceSearchTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.JurisprudenceSearchTest -->
+      <class name="com.trgr.quality.maf.tests.HomeTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HomeTest -->
+      <class name="com.trgr.quality.maf.tests.MyDocumentTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.MyDocumentTest -->
+      <class name="com.trgr.quality.maf.tests.ContentTreeTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ContentTreeTest -->
+      <class name="com.trgr.quality.maf.tests.DocumentDisplayTest">
+        <methods>
+          <include name="startDocumentDisplayTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DocumentDisplayTest -->
+      <class name="com.trgr.quality.maf.tests.LegislationSearchTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LegislationSearchTest -->
+    </classes>
+  </test> <!-- DeliveryTest(failed) -->
+</suite> <!-- Failed suite [CHP Peru Regression] -->

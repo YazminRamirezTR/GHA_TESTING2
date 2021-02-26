@@ -1,0 +1,13 @@
+{
+  "_comment": "Thematic Search With Two level intersection",
+  "MAFQABANG-509": 
+	  [
+	    {
+	      	 "thematickeyword": "ABOGADO",
+		     "thematicsuggestiontitle":"ABOGADO",
+		     
+		     "thematickeywordsecondlevel":"ADUANA",
+		     "thematicsuggestiontitlesecondlevel":"ADUANA"
+	    }
+	  ]
+}

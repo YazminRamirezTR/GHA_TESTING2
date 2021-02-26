@@ -1,0 +1,11 @@
+{
+"_comment":"Labor and Social Security - Advanced Searches - Collective Bargaining Agreements - Field PART SINDICAL",
+ "MAFQABANG-603":
+    [
+	   {
+		   "tradeunion": "Sindicato La Fraternidad",
+		   "invalidinput":"#$%&",
+		   "errorMsg":"Su búsqueda contiene caracteres inválidos."
+	   }
+	]
+}

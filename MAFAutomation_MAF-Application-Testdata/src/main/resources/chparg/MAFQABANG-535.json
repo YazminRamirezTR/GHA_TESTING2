@@ -1,0 +1,12 @@
+{
+"_comment":"Validate basic functionality of Titulos Publicos link and search using all fields on the page",
+ "MAFQABANG-535":
+    [
+	   {
+		    "errormsg":"Debe completar al menos un campo de búsqueda.",
+			"period":"2012",
+			"denominacion": "BONO ACONCAGUA - PCIA.MENDOZA",
+			"clase":"2007 - DÓLAR (U$S)"
+	    }
+	]
+}

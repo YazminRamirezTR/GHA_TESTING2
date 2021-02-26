@@ -1,0 +1,9 @@
+{
+"_comment":"Verify search using thematic value on the Doctrine page",
+ "MAFQABANG-430":
+    [
+	   {
+       "thematic":"ACCION CAMBIARIA"
+       }
+	]
+}

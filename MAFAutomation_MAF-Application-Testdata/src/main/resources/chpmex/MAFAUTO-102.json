@@ -1,0 +1,11 @@
+{
+"_comment":"Display of SearchResults based on Content type",
+ "MAFAUTO-102":
+		[
+			{
+				"freeword":"presentación de declaraciones",
+				"contenttypelinkname":["Legislación","Jurisprudencia","Doctrina"]
+				
+			}
+		]
+}

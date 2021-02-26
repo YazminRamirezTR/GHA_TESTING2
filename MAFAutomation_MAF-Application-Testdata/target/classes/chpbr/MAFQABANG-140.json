@@ -1,0 +1,14 @@
+{
+"_comment":"Verify the Print by Result List Page",
+"MAFQABANG-140":
+	[
+	 {
+		"Email_To":"Arun.Karthikeyan@thomsonreuters.com",
+        "Invalid_Email_To":"Arun.Karthikeyan@thomsonreuters.com",
+        "documentnumber":"1",
+        "freeword":"governo"
+	 }
+	]
+	
+}
+	

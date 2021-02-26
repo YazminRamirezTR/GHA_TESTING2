@@ -1,0 +1,21 @@
+{
+"_comment":"Search using multiple fields on Doctrine and Verify sending result list as email in PDF format",
+ "MAFQABANG-233":
+	[
+		{
+			"freeword":"directores",
+			"title":"El acogimiento de una compañía al",
+			"citationpublication":"AR/DOC/2830/2016",
+			"emailto":"Vignesh.Rajendran@thomsonreuters.com",
+			"documentnumber":"1"
+		},
+		{
+			"freeword":"lei",
+			"title":"Acerca de la actual falta de punibilidad en Chile de los acuerdos de precios",
+			"citationpublication":"CL/DOC/5580/2012",
+			"emailto":"mohankumar.bn@thomsonreuters.com",
+			"documentnumber":"1"
+		}
+		
+	]
+}

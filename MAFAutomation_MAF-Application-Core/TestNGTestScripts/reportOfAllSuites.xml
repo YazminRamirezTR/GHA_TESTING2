@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Report" parallel="false" preserve-order="true">
+
+
+<test name="ReportOfAllTestSuitesFrmJenkins">
+		<classes>
+			<class name="com.trgr.quality.maf.tests.ReportOfAllTestSuitesFrmJenkins" />
+		</classes>
+	</test>
+
+
+</suite>

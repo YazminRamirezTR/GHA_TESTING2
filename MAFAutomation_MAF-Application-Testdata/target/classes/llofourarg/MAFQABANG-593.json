@@ -1,0 +1,9 @@
+{
+"_comment":"Verify search using freeword on Jurisprudence when text Complete Checkbox is Unchecked",
+ "MAFQABANG-593":
+    [
+	   {
+	   "freeword":"encomienda" 
+	   }
+	]
+}

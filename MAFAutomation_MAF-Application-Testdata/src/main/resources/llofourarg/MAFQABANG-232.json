@@ -1,0 +1,15 @@
+{
+"_comment":"Search using multiple fields on doctrine and Verify sending result list as email in RTF format",
+ "MAFQABANG-232":
+	[
+		{
+			"freeword":"directores",
+			"title":"El acogimiento de una compañía al",
+			"citationpublication":"AR/DOC/2830/2016",
+			"emailto":"Vignesh.Rajendran@thomsonreuters.com",
+			"documentnumber":"1"
+			
+		}
+		
+	]
+}

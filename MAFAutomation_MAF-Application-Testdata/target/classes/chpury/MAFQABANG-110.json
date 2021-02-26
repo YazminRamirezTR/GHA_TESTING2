@@ -1,0 +1,11 @@
+{
+"_comment":"Verify Create Alert",
+ "MAFQABANG-110":
+    [
+	   {
+	    "alertname": "Test Alert",
+	    "email":"brahmananda.reddy@thomsonreuters.com",
+	    "suspendtodate":"30/12/2017"
+	   }
+	]
+}

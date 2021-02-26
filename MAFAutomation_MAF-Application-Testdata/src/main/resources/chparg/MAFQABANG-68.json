@@ -1,0 +1,12 @@
+{
+"_comment":"Verify AdvanceSearch  for Jurisprudence with Thematic Search and Freeword",
+ "MAFQABANG-68":
+    [
+	   {
+	     "thematicsearch":"acta de asamblea",
+	     "suggestionvaltobeselected":"acta de asamblea",
+	     "freeword":"tribunal",
+	      "thematicarea":"Todas"
+	   }
+	]
+}

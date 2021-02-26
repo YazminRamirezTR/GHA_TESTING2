@@ -1,0 +1,9 @@
+{
+"_comment":"Verify Logged in UserDetails",
+ "MAFQABANG-188":
+    [
+	   {
+		   "expecteduserdetails": "FABIAN WESTLAW1"  
+	   }
+	]
+}

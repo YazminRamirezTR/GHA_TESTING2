@@ -1,0 +1,11 @@
+{
+"_comment":"Verify advance search  for Legislation with Type of Standard,ambit and Municipality",
+ "MAFQABANG-470":
+    [
+	   {
+	     "typeofStandard": "LEY",
+	     "ambit": "Nacional",
+	     "muncipality":"TODOS"
+	  }
+	]
+}

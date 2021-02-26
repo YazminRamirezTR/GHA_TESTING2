@@ -1,0 +1,14 @@
+{
+"_comment":"Legislation - Tooltip - Add Help icon when versions of articles are compared",
+ "MAFAUTO-252":
+	[
+		{
+			"thematicarea":"Fiscal",
+			"treeitems":"Legislación Federal,Código",
+			"documenttitle":"Código Fiscal de la Federación",
+			"title":"Domicilio fiscal",
+			"articleno":"10"
+		}
+		
+	]
+}

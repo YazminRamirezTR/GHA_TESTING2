@@ -1,0 +1,9 @@
+{
+"_comment":"Verify Advance search  for Doctrine with author field",
+ "MAFQABANG-66":
+	[
+		{
+			"author":"Mario"
+		}
+	]
+}

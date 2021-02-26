@@ -1,0 +1,10 @@
+{
+  "_comment": "Thematic Search without providing input and with valid input",
+  "MAFQABANG-580": 
+	  [
+	    {
+	    	"thematicsearch":"NORMAS INTERNACIONALES DE CONTABILIDAD",
+	    	"errormsg":"Debe completar al menos un campo de búsqueda."
+	    }
+	  ]
+}

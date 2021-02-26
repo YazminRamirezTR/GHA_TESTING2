@@ -1,0 +1,12 @@
+{
+"_comment":"Official Forms - Search Template - Update filters - Add Authority filter and remove Title filter",
+  "MAFAUTO-246":
+	[
+		{
+			"issuingbody":"secretaría de economía",
+			"listissuingbody":"Solicitud de certificación",
+			"thematicarea":"Todas",
+			"AdvanceSearch":"Formularios"			
+		}
+	]
+}

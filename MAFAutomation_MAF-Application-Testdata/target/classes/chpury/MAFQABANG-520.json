@@ -1,0 +1,13 @@
+{
+  "_comment": "Clearing the second Thesaurus voice when there are two voices",
+  "MAFQABANG-520": 
+	  [
+	    {
+	    	 "thematickeyword": "ABOGADO",
+		     "thematicsuggestiontitle":"ABOGADO",
+		     
+		     "thematickeywordsecondlevel":"ADUANA",
+		     "thematicsuggestiontitlesecondlevel":"ADUANA"
+	    }
+	  ]
+}

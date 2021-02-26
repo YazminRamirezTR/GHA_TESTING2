@@ -1,0 +1,12 @@
+{
+"_comment":"Verify search using freeword on the Jurisprudence Administrative",
+ "MAFQABANG-413":
+    [
+	   {
+	     "freeword": "Constitución de la Nación"	  
+	   },
+	   {
+	     "freeword": "aduana"	  
+	   }
+	]
+}

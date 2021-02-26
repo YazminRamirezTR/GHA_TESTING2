@@ -1,0 +1,14 @@
+{
+"_comment":"Verify expected itemized list is displayed for maquila operation",
+ "MAFAUTO-204":
+	[
+		{
+			"title":"Régimen fiscal aplicable a la Industria Manufacturera y Maquiladora de Exportación a partir de 2014",
+			"Document":"Régimen fiscal aplicable a la Industria Manufacturera y Maquiladora de Exportación a partir de 2014 - Carlos Terrazas Limas",
+			"scrolltotextondoc":"“operación de maquila",
+			"numberoforderedlist":"5"
+			
+		}
+		
+	]
+}

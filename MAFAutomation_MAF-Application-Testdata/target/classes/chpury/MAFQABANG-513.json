@@ -1,0 +1,18 @@
+{
+  "_comment": "<Clear Freeword & Thematic Search With Multiple Fields",
+  "MAFQABANG-513": 
+	  [
+	    {
+	      	 "thematickeyword": "abandono",
+		     "thematicsuggestiontitle":"ABANDONO DE BUQUE",
+		     
+		     "thematickeywordsecondlevel":"desalojo",
+		     "thematicsuggestiontitlesecondlevel":"DESALOJO",
+		     
+		     "thematickeywordthirdlevel":"derecho",
+		     "thematicsuggestiontitlethirdlevel":"ABUSO DEL DERECHO",
+		     									 
+		      "freeword":"ley"
+	    }
+	  ]
+}

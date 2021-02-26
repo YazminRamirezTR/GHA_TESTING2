@@ -1,0 +1,12 @@
+{
+"_comment":"Verify search using Cita Online value on the Doctrine page",
+ "MAFQABANG-438":
+    [
+	   {
+	    "citaonline":"AR/DOC/2830/2016"
+	    },
+	    {
+	    "citaonline":"CL/DOC/590/2017"
+	    }
+	]
+}

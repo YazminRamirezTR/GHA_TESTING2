@@ -1,0 +1,11 @@
+{
+  "_comment": "Search With Thematic key for no results",
+  "MAFQABANG-514": 
+	  [
+	    {
+	      	"invalildthematickey":"ttpy",
+		   	 "nosuggestionserror":"No se encontraron resultados",
+		     "expectederrormessage": "No se encontraron documentos para su búsqueda."
+	    }
+	  ]
+}

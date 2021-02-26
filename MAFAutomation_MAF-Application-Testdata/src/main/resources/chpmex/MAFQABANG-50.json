@@ -1,0 +1,11 @@
+{
+"_comment":"Verify search with free text in Home Page with Valid and Invalid Keyword",
+"MAFQABANG-50":
+	 [
+      		{
+      		"freeword":"Impuesto",
+       		"zeroresults":"ttpy",
+       		"errormsg":"No se encontraron documentos para su búsqueda."
+       		}
+     ]
+}

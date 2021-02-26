@@ -1,0 +1,11 @@
+{
+"_comment":"Verify no search results message on Suplement Page",
+	"MAFQABANG-293":
+	[
+	 {
+		"noresults":"ttyp"
+	 }
+	 
+	]
+	
+	}

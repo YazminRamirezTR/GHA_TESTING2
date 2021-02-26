@@ -1,0 +1,10 @@
+{
+"_comment":"Search_Add and Remove Filters in Search Results",
+ "MAFQABANG-72":
+    [
+	   {
+		  "freeword":"aduana",
+		  "doctrinelabel":"Doctrina"
+	   }
+	]
+}

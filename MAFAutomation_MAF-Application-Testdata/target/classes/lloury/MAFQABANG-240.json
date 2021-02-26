@@ -1,0 +1,10 @@
+{
+"_comment":"Search with Freeword and verify save document in PDF and RTF formats",
+ "MAFQABANG-240":
+	[
+		{
+			"freeword":"aduana"
+		}
+		
+	]
+}

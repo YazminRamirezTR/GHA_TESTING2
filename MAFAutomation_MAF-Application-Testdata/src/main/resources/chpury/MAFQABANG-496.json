@@ -1,0 +1,10 @@
+{
+"_comment":"Redirected url verification when Click Here for Follow document widget is clicked",
+ "MAFQABANG-496":
+		[
+  		   	{
+		    	"thematicarea":"Todas",
+  		    	"expected_url":"http://www.old.laley.com.ar/checkpoint/chpguiauy.pdf/"
+  		  	}
+		]
+}

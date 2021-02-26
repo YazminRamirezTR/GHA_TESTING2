@@ -1,0 +1,10 @@
+{
+"_comment":"Verify Search Within Search for Actions",
+ "MAFQABANG-494":
+    [
+	   {
+	   "period": "2012",
+	   "searchwithintext": "METROGAS S.A."
+	   }
+	]
+}

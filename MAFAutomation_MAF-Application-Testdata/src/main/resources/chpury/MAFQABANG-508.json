@@ -1,0 +1,17 @@
+{
+  "_comment": "<Thematic Search With Three level intersection",
+  "MAFQABANG-508": 
+	  [
+	    {
+	      	"thematickeyword": "ABOGADO",
+		     "thematicsuggestiontitle":"ABOGADO",
+		     
+		     "thematickeywordsecondlevel":"ADUANA",
+		     "thematicsuggestiontitlesecondlevel":"ADUANA",
+		     
+		     "thematickeywordthirdlevel":"LEY",
+		     "thematicsuggestiontitlethirdlevel":"APLICACION DE LA LEY"
+		     
+		}
+	  ]
+}

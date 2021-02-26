@@ -1,0 +1,10 @@
+{
+"_comment":"Verify Suspend Alert",
+ "MAFQABANG-620":
+    [
+	   {
+	     "alertname": "L",
+	     "suspendtodate":"30/12/2020"
+	   }
+	]
+}

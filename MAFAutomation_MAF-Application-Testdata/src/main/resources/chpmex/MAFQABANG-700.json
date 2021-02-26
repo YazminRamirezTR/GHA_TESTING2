@@ -1,0 +1,9 @@
+{
+"_comment":"Validation of Thematic area dropdown and its options from search page",
+ "MAFQABANG-700":
+    [
+	   {
+	     "thematic_area":"Amparo"
+	   }
+	]
+}

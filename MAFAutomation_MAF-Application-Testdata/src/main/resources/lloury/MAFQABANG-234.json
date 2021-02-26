@@ -1,0 +1,14 @@
+{
+"_comment":"Search using freeword on Doctrine and verify send email(error) for invalid email id",
+ "MAFQABANG-234":
+	[
+		{
+			"freeword":"lei",
+			"invalidemailid":"Vignesh.Rajendran@",
+			"documentnumber":"1",
+			"expectederrormessage":"Debe ingresar una direccion de e-mail v�lida"
+			
+		}
+		
+	]
+}

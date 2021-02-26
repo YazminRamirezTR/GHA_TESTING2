@@ -1,0 +1,11 @@
+{
+"_comment":"Verifying suggestions dropdown getting dispalyed for all Advance Search and Normal search upto 3 levels",
+ "MAFAUTO-123":
+	[
+		{
+			"thematicarea":"Todas",
+			"thematickeyword": "impuesto"
+		}
+		
+	]
+}

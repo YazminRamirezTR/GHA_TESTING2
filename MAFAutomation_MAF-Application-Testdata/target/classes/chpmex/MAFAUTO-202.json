@@ -1,0 +1,12 @@
+{
+"_comment":"Verify document display with automatic chunking when document is opened from content tree",
+ "MAFAUTO-202":
+	[
+		{
+		    "thematicarea":"Fiscal",
+			"treeitems":"Legislación Federal,Ley",
+			"documenttitle":"Ley del Impuesto sobre la Renta (DOF 11-12-2013)"
+		}
+		
+	]
+}

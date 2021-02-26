@@ -1,0 +1,11 @@
+{
+"_comment":"Validated the results for search in the Search Page",
+ "MAFQABANG-680":
+    [
+	   {
+	     "freeword":"deducción",
+	     "suggestion_search":"arrendamiento de"
+	     
+	   }
+	]
+}

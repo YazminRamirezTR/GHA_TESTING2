@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite allow-return-values="false" configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" guice-stage="DEVELOPMENT" junit="false" name="CHP ARG Regression" parallel="false" preserve-order="true" skipfailedinvocationcounts="false" thread-count="5">
+
+	<parameter name="Environment" value="qc"/>
+	<parameter name="ProductToTest" value="chparg"/>
+	<parameter name="Browser" value="chrome"/>
+	<parameter name="GridEnabled" value="false"/>
+	<parameter name="HubURL" value="http://10.25.30.4"/>
+	<parameter name="Port" value=":4747"/>
+	
+	<!-- 
+	:4747 - CHROME 			:4848 - FIREFOX 			:4949 - IE
+	 -->
+	
+
+	<listeners>
+		<listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener"/>
+	</listeners>
+	
+	<test name="LoginTest">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.LoginTest"/>
+		</classes>
+	</test>
+
+	<test name="SearchTest">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.SearchTest"/>
+		</classes>
+	</test>
+
+
+	<test name="DeliveryTest">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.DeliveryTest"/>
+		</classes>
+	</test>
+
+	<test name="DocumentDisplayTest" >
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.DocumentDisplayTest"/>
+		</classes>
+	</test>
+
+	<test name="PreferenceTest">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.PreferenceTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="MyDocumentTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.MyDocumentTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="FavouritesTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.FavouritesTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="HomeTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.HomeTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="SignoffTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.SignoffTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="HeaderSectionTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.HeaderSectionTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="HelpTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.HelpTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="HistoryTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.HistoryTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="NewsTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.NewsTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="AlertTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.AlertTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="ToolsTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.ToolsTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="AnnotationsTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.AnnotationsTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="ContentTreeTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.ContentTreeTest"/>
+		</classes>
+	</test>
+
+
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="DocValidationFromSearchResultsTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.DocValidationFromSearchResultsTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="ActionsTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.ActionsTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="ForeignCurrencyTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.ForeignCurrencyTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="LinkUtilityTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.LinkUtilityTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="ObligacionesTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.ObligacionesTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="PublicTitlesTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.PublicTitlesTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="ValuationWheelsTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.ValuationWheelsTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="DoctrineSearchTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.DoctrineSearchTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="FormsSearchTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.FormsSearchTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="JurisprudenceSearchTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.JurisprudenceSearchTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="LegislationSearchTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.LegislationSearchTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="RoutesSearchTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.RoutesSearchTest"/>
+		</classes>
+	</test>
+
+	<test allow-return-values="false" group-by-instances="false" junit="false" name="SearchUsingHomePageTest" preserve-order="true" skipfailedinvocationcounts="false">
+		<groups>
+			<run>
+				<include name="chparg"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest"/>
+		</classes>
+	</test>
+
+</suite>

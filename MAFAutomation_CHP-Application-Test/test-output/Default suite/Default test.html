@@ -1,0 +1,304 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/19</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 06 14:11:21 ART 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (90 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.setup()'><b>setup</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Parameters: null, null, null</td>
+<td><div><pre>java.lang.Exception: Unable to load properties
+	at com.trgr.quality.maf.fileconfiger.PropertiesRepository.appendProperties(PropertiesRepository.java:23)
+	at com.trgr.quality.maf.basetest.BaseTest.setup(BaseTest.java:200)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source llofourarg.properties
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:217)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:197)
+	at org.apache.commons.configuration.AbstractFileConfiguration.&lt;init&gt;(AbstractFileConfiguration.java:142)
+	at org.apache.commons.configuration.PropertiesConfiguration.&lt;init&gt;(PropertiesConfiguration.java:237)
+	at com.trgr.quality.maf.fileconfiger.PropertiesRepository.appendProperties(PropertiesRepository.java:20)
+	... 19 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace967460257", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace967460257'><pre>java.lang.Exception: Unable to load properties
+	at com.trgr.quality.maf.fileconfiger.PropertiesRepository.appendProperties(PropertiesRepository.java:23)
+	at com.trgr.quality.maf.basetest.BaseTest.setup(BaseTest.java:200)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source llofourarg.properties
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:217)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:197)
+	at org.apache.commons.configuration.AbstractFileConfiguration.&lt;init&gt;(AbstractFileConfiguration.java:142)
+	at org.apache.commons.configuration.PropertiesConfiguration.&lt;init&gt;(PropertiesConfiguration.java:237)
+	at com.trgr.quality.maf.fileconfiger.PropertiesRepository.appendProperties(PropertiesRepository.java:20)
+	... 19 more
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.startDeliveryTest()'><b>startDeliveryTest</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;com.trgr.quality.maf.basetest.BaseTest.extentReports&quot; is null
+	at com.trgr.quality.maf.basetest.BaseTest.setUpExtentTest(BaseTest.java:387)
+	at com.trgr.quality.maf.tests.DeliveryTest.startDeliveryTest(DeliveryTest.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1299145277", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1299145277'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;com.trgr.quality.maf.basetest.BaseTest.extentReports&quot; is null
+	at com.trgr.quality.maf.basetest.BaseTest.setUpExtentTest(BaseTest.java:387)
+	at com.trgr.quality.maf.tests.DeliveryTest.startDeliveryTest(DeliveryTest.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.DeliveryWithInvalidEmailFormat()'><b>DeliveryWithInvalidEmailFormat</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFQABANG-136</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.ExportSelectedWord()'><b>ExportSelectedWord</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFAUTO-228</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.JurisprudencePageDelivery()'><b>JurisprudencePageDelivery</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFAUTO-187</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.LegislationDeliveryByPrint()'><b>LegislationDeliveryByPrint</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFAUTO-184</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.ResultListcancelDeliveryByEmail()'><b>ResultListcancelDeliveryByEmail</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFQABANG-135</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.SingleDocumentDelivery()'><b>SingleDocumentDelivery</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFQABANG-134</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.deliverDocumentFromDocumentDisplayUsingPrint()'><b>deliverDocumentFromDocumentDisplayUsingPrint</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFQABANG-141</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.deliverGlobalSearchReportUsingPrint()'><b>deliverGlobalSearchReportUsingPrint</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFAUTO-189</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.deliverQuickSearchReportUsingPrint()'><b>deliverQuickSearchReportUsingPrint</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFAUTO-104</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.deliveryOfResultListUsingEmailWithWordAndPDF()'><b>deliveryOfResultListUsingEmailWithWordAndPDF</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFQABANG-133</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.docDisplayEmailDeliveryWithPDFFormat()'><b>docDisplayEmailDeliveryWithPDFFormat</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFQABANG-138</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.docDisplayPageEmailDeliveryWithRTFFormat()'><b>docDisplayPageEmailDeliveryWithRTFFormat</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFQABANG-137</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.documentDislplayDeliveryByPrint()'><b>documentDislplayDeliveryByPrint</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFQABANG-142</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.documentDisplayDeliveryWithInvalidEmail()'><b>documentDisplayDeliveryWithInvalidEmail</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFQABANG-139</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.exportDocumentsFromResultList()'><b>exportDocumentsFromResultList</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFQABANG-143</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.exportEmailandPrintforSingleDocument()'><b>exportEmailandPrintforSingleDocument</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFAUTO-154</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.exportSingleDocumentFromDocumentDisplay()'><b>exportSingleDocumentFromDocumentDisplay</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFQABANG-144</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.resultListDeliveryOptions()'><b>resultListDeliveryOptions</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFAUTO-183</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DeliveryTest.resultListDocDeliveryByPrint()'><b>resultListDocDeliveryByPrint</b><br>Test class: com.trgr.quality.maf.tests.DeliveryTest<br>Test method: MAFQABANG-140</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DeliveryTest@609db546</td></tr>
+</table><p>
+</body>
+</html>

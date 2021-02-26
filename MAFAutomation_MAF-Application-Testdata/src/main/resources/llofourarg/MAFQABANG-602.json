@@ -1,0 +1,12 @@
+{
+"_comment":"Labor and Social Security - Advanced Search - Collective Labor Agreements - Field CONVENIOS.LABEL.NUMNORMA",
+ "MAFQABANG-602":
+    [
+	   {
+		   "numnorma": "1030",
+		   "numnormawithnomatch": "1111",
+		   "invalidinput":"#$%&",
+		   "errorMsg":"Su búsqueda contiene caracteres inválidos."
+	   }
+	]
+}

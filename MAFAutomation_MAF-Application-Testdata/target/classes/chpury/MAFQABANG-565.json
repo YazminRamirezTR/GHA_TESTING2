@@ -1,0 +1,22 @@
+{
+"_comment":"Verify Advance Search Widgets available for various Thematic Areas",
+ "MAFQABANG-565":
+		[
+		  {
+			"thematic_area_value":"Todas",
+			"expectedlinks":["Legislación","Doctrina","Jurisprudencia","Consultas e Instructivos DGI","Disposiciones Comap"]
+	 	  },
+		  {
+			"thematic_area_value":"Fiscal",
+			"expectedlinks":["Legislación","Doctrina","Jurisprudencia","Consultas e Instructivos DGI","Disposiciones Comap"]
+		  },
+		  {
+			"thematic_area_value":"Laboral y Seguridad Social",
+			"expectedlinks":["Legislación","Doctrina","Jurisprudencia"]
+		  },
+		  {
+			"thematic_area_value":"Contabilidad y Comercial",
+			"expectedlinks":["Legislación","Doctrina"]
+		  }
+		]
+}

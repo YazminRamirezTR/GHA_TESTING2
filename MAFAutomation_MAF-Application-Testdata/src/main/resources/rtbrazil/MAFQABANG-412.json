@@ -1,0 +1,13 @@
+{
+"_comment":"Verify advance search Digital Library using freeword",
+ "MAFQABANG-412":
+    [
+	   {
+	     "freeword": "arbitragem internacional"	  
+	   },
+	   {
+	     "freeword": "governo"	  
+	   }
+	    
+	]
+}

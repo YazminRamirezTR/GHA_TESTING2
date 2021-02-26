@@ -1,0 +1,9 @@
+{
+"_comment":"Verify Logged in UserDetails",
+ "MAFQABANG-422":
+	[
+		{
+			"expecteduserdetails": "URUGUAY FULLTEST"
+		}
+	]
+}

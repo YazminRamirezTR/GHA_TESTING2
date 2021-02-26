@@ -1,0 +1,10 @@
+{
+"_comment":"Verify Reactivate Alert",
+ "MAFQABANG-111":
+    [
+	   {
+	     "alertname": "Test Alert"
+	     
+	   }
+	]
+}

@@ -1,0 +1,15 @@
+{
+"_comment":"Verify delivery from document display for Jurisprudence docs",
+ "MAFAUTO-63":
+	[
+		{
+			"citationpublication":"AR/JUR/73944/2016",
+			"emailid":"mohankumar.bn@thomsonreuters.com"
+		},
+		{
+			"citationpublication":"CL/JUR/1219/2017",
+			"emailid":"mohankumar.bn@thomsonreuters.com"
+		}
+		
+	]
+}

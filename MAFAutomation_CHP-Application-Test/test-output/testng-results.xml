@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="16" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-26T07:00:52 ART" name="CHP URY Regression" finished-at="2021-02-26T07:14:27 ART" duration-ms="815534">
+    <groups>
+      <group name="chppe">
+        <method signature="LoginTest.CustomerServicePortlet()[pri:12, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="CustomerServicePortlet" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.FrequentQuestionsLink()[pri:4, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="FrequentQuestionsLink" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.KnowtheServiceLink()[pri:2, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="KnowtheServiceLink" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginUsingSaveUserNameAndPwd()[pri:1, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginUsingSaveUserNameAndPwd" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginWithClientID()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginWithClientID" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginWithValidAndInvalidCredentials()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginWithValidAndInvalidCredentials" class="com.trgr.quality.maf.tests.LoginTest"/>
+      </group> <!-- chppe -->
+      <group name="chparg">
+        <method signature="LoginTest.CustomerServicePortlet()[pri:12, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="CustomerServicePortlet" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.FrequentQuestionsLink()[pri:4, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="FrequentQuestionsLink" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.KnowtheServiceLink()[pri:2, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="KnowtheServiceLink" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginUsingSaveUserNameAndPwd()[pri:1, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginUsingSaveUserNameAndPwd" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginWithClientID()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginWithClientID" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginWithValidAndInvalidCredentials()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginWithValidAndInvalidCredentials" class="com.trgr.quality.maf.tests.LoginTest"/>
+      </group> <!-- chparg -->
+      <group name="chpmex">
+        <method signature="LoginTest.loginUsingSaveUserNameAndPwd()[pri:1, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginUsingSaveUserNameAndPwd" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginWithValidAndInvalidCredentials()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginWithValidAndInvalidCredentials" class="com.trgr.quality.maf.tests.LoginTest"/>
+      </group> <!-- chpmex -->
+      <group name="chpchile">
+        <method signature="LoginTest.CustomerServicePortlet()[pri:12, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="CustomerServicePortlet" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.FrequentQuestionsLink()[pri:4, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="FrequentQuestionsLink" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.KnowtheServiceLink()[pri:2, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="KnowtheServiceLink" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginUsingSaveUserNameAndPwd()[pri:1, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginUsingSaveUserNameAndPwd" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginWithClientID()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginWithClientID" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginWithValidAndInvalidCredentials()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginWithValidAndInvalidCredentials" class="com.trgr.quality.maf.tests.LoginTest"/>
+      </group> <!-- chpchile -->
+      <group name="chpbr">
+        <method signature="LoginTest.loginUsingSaveUserNameAndPwd()[pri:1, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginUsingSaveUserNameAndPwd" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginWithValidAndInvalidCredentials()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginWithValidAndInvalidCredentials" class="com.trgr.quality.maf.tests.LoginTest"/>
+      </group> <!-- chpbr -->
+      <group name="chpury">
+        <method signature="LoginTest.CustomerServicePortlet()[pri:12, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="CustomerServicePortlet" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.FrequentQuestionsLink()[pri:4, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="FrequentQuestionsLink" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.GoToHomeFromServicesPage()[pri:11, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="GoToHomeFromServicesPage" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.KnowtheServiceLink()[pri:2, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="KnowtheServiceLink" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.LoginScreenDesignForAnyUser()[pri:10, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="LoginScreenDesignForAnyUser" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.LoginScreenDesignForFirstTimeUser()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="LoginScreenDesignForFirstTimeUser" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.LoginwithSaveUnamePwdUnchecked()[pri:13, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="LoginwithSaveUnamePwdUnchecked" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginUsingSaveUserNameAndPwd()[pri:1, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginUsingSaveUserNameAndPwd" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginWithClientID()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginWithClientID" class="com.trgr.quality.maf.tests.LoginTest"/>
+        <method signature="LoginTest.loginWithValidAndInvalidCredentials()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" name="loginWithValidAndInvalidCredentials" class="com.trgr.quality.maf.tests.LoginTest"/>
+      </group> <!-- chpury -->
+    </groups>
+    <test started-at="2021-02-26T07:00:52 ART" name="LoginTest" finished-at="2021-02-26T07:14:27 ART" duration-ms="815534">
+      <class name="com.trgr.quality.maf.tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:00:49 ART" name="setup" finished-at="2021-02-26T07:00:52 ART" duration-ms="2224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chpury]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:00:52 ART" name="beforeClass" finished-at="2021-02-26T07:00:52 ART" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="LoginScreenDesignForFirstTimeUser()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:00:52 ART" name="LoginScreenDesignForFirstTimeUser" description="MAFQABANG-530" finished-at="2021-02-26T07:00:58 ART" duration-ms="6717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginScreenDesignForFirstTimeUser -->
+        <test-method signature="loginWithClientID()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:00:58 ART" name="loginWithClientID" description="MAFQABANG-35" finished-at="2021-02-26T07:01:56 ART" duration-ms="57998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithClientID -->
+        <test-method signature="loginWithValidAndInvalidCredentials()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:01:56 ART" name="loginWithValidAndInvalidCredentials" description="MAFQABANG-32" finished-at="2021-02-26T07:05:29 ART" duration-ms="213055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidAndInvalidCredentials -->
+        <test-method signature="loginUsingSaveUserNameAndPwd()[pri:1, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:05:29 ART" name="loginUsingSaveUserNameAndPwd" description="MAFQABANG-45" finished-at="2021-02-26T07:07:19 ART" duration-ms="109993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsingSaveUserNameAndPwd -->
+        <test-method signature="KnowtheServiceLink()[pri:2, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:07:19 ART" name="KnowtheServiceLink" description="MAFQABANG-37" finished-at="2021-02-26T07:08:11 ART" duration-ms="51140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KnowtheServiceLink -->
+        <test-method signature="FrequentQuestionsLink()[pri:4, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:08:11 ART" name="FrequentQuestionsLink" description=" " finished-at="2021-02-26T07:09:06 ART" duration-ms="55161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FrequentQuestionsLink -->
+        <test-method signature="LoginScreenDesignForAnyUser()[pri:10, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:09:06 ART" name="LoginScreenDesignForAnyUser" description="MAFQABANG-532" finished-at="2021-02-26T07:09:57 ART" duration-ms="51439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginScreenDesignForAnyUser -->
+        <test-method signature="GoToHomeFromServicesPage()[pri:11, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:09:57 ART" name="GoToHomeFromServicesPage" description="MAFQABANG-536" finished-at="2021-02-26T07:10:48 ART" duration-ms="51225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToHomeFromServicesPage -->
+        <test-method signature="CustomerServicePortlet()[pri:12, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:10:48 ART" name="CustomerServicePortlet" description="MAFQABANG-542" finished-at="2021-02-26T07:11:39 ART" duration-ms="50987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerServicePortlet -->
+        <test-method signature="LoginwithSaveUnamePwdUnchecked()[pri:13, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:11:39 ART" name="LoginwithSaveUnamePwdUnchecked" description="MAFQABANG-579" finished-at="2021-02-26T07:12:47 ART" duration-ms="67682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithSaveUnamePwdUnchecked -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:12:47 ART" name="afterClass" finished-at="2021-02-26T07:14:27 ART" duration-ms="100095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:com.trgr.quality.maf.tests.LoginTest@21e360a]" started-at="2021-02-26T07:14:27 ART" name="driverclose" finished-at="2021-02-26T07:14:28 ART" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+      </class> <!-- com.trgr.quality.maf.tests.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- CHP URY Regression -->
+</testng-results>

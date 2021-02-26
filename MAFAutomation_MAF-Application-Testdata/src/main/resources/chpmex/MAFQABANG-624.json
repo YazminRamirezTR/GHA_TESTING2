@@ -1,0 +1,128 @@
+{
+	"MAFQABANG-624": 
+	[
+		{
+			"_comment":"MAFQABANG-624:Obligaciones de contribuciones de seguridad social - Dictamen del cumplimiento de obligaciones",
+			"obligaciones":"Obligaciones de contribuciones de seguridad social",
+			"obligacioneschkbox":"Dictamen del cumplimiento de obligaciones",
+			"subjectschkbox":"Patrón, persona moral obligado a dictaminar para IMSS",
+			"conceptschkbox":"Presentación del Aviso de Dictamen para efectos del Seguro Social",
+			"expiry_year":"2017",
+			"month":"Abril",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Seguridad Social"
+		},
+
+		{
+			"_comment":"MAFQABANG-640:Obligaciones de contribuciones de seguridad social - Presentación al INFONAVIT de movimiento afiliatorio de los trabajadores",
+			"obligaciones":"Obligaciones de contribuciones de seguridad social",
+			"obligacioneschkbox":"Presentación al INFONAVIT de movimiento afiliatorio de los trabajadores",
+			"subjectschkbox":"Patrón, persona física con trabajadores a su servicio",
+			"conceptschkbox":"Inscripción de trabajadores de nuevo ingreso o reingreso",
+			"expiry_year":"2017",
+			"month":"Abril",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Seguridad Social"
+		},
+        
+        {
+			"_comment":"MAFQABANG-641:Obligaciones de contribuciones de seguridad social - Determinación y pago de aportaciones de seguridad social",
+			"obligaciones":"Obligaciones de contribuciones de seguridad social",
+			"obligacioneschkbox":"Determinación y pago de aportaciones de seguridad social",
+			"subjectschkbox":"Patrón del campo",
+			"conceptschkbox":"Determinación y pago mensual de cuotas obrero patronales de los seguros de enfermedades y maternidad; riesgos de trabajo; invalidez y vida, y guarderías y prestaciones sociales",
+			"expiry_year":"2017",
+			"month":"Abril",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Seguridad Social"
+		},
+        
+        {
+			"_comment":"MAFQABANG-642:Obligaciones de contribuciones de seguridad social - Presentación al IMSS de movimiento afiliatorio de los trabajadores",
+			"obligaciones":"Obligaciones de contribuciones de seguridad social",
+			"obligacioneschkbox":"Presentación al IMSS de movimiento afiliatorio de los trabajadores",
+			"subjectschkbox":"Patrón, persona física con trabajadores a su servicio",
+			"conceptschkbox":"Inscripción de trabajadores de nuevo ingreso o reingreso",
+			"expiry_year":"2017",
+			"month":"Abril",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Seguridad Social"
+		},
+        
+        {
+			"_comment":"MAFQABANG-643:Obligaciones de contribuciones de seguridad social - Presentación al IMSS de movimiento afiliatorio de los trabajadores por modificación del salario",
+			"obligaciones":"Obligaciones de contribuciones de seguridad social",
+			"obligacioneschkbox":"Presentación al IMSS de movimiento afiliatorio de los trabajadores por modificación del salario",
+			"subjectschkbox":"Patrón, persona física con trabajadores a su servicio",
+			"conceptschkbox":"Modificación del salario fijo",
+			"expiry_year":"2017",
+			"month":"Abril",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Seguridad Social"
+		},
+        
+         {
+			"_comment":"MAFQABANG-644:Obligaciones de contribuciones de seguridad social - Presentación al INFONAVIT de movimiento afiliatorio de los trabajadores por modificación del salario",
+			"obligaciones":"Obligaciones de contribuciones de seguridad social",
+			"obligacioneschkbox":"Presentación al INFONAVIT de movimiento afiliatorio de los trabajadores por modificación del salario",
+			"subjectschkbox":"Patrón, persona física con trabajadores a su servicio",
+			"conceptschkbox":"Modificación del salario fijo",
+			"expiry_year":"2017",
+			"month":"Abril",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Seguridad Social"
+		},
+        
+        
+        {
+			"_comment":"MAFQABANG-645:Obligaciones de contribuciones de seguridad social - Informe al INFONAVIT de contratos outsourcing",
+			"obligaciones":"Obligaciones de contribuciones de seguridad social",
+			"obligacioneschkbox":"Informe al INFONAVIT de contratos outsourcing",
+			"subjectschkbox":"Empresas de outsourcing o subcontratación laboral",
+			"conceptschkbox":"Informe trimestral de los contratos de subcontratación celebrados",
+			"expiry_year":"2017",
+			"month":"Abril",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Seguridad Social"
+		},
+        
+         {
+			"_comment":"MAFQABANG-646:Obligaciones de contribuciones de seguridad social - Declaración de riesgos de trabajo",
+			"obligaciones":"Obligaciones de contribuciones de seguridad social",
+			"obligacioneschkbox":"Declaración de riesgos de trabajo",
+			"subjectschkbox":"Patrón, persona moral con o sin trabajadores a su servicio",
+			"conceptschkbox":"Actualización y aplicación de la prima en el seguro de riesgos de trabajo",
+			"expiry_year":"2017",
+			"month":"Marzo",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Seguridad Social"
+		},
+        
+        
+        {
+			"_comment":"MAFQABANG-647:Obligaciones de contribuciones de seguridad social - Informe al IMSS de contratos outsourcing",
+			"obligaciones":"Obligaciones de contribuciones de seguridad social",
+			"obligacioneschkbox":"Informe al IMSS de contratos outsourcing",
+			"subjectschkbox":"Empresas de outsourcing o subcontratación laboral",
+			"conceptschkbox":"Informe trimestral de los contratos de subcontratación celebrados",
+			"expiry_year":"2017",
+			"month":"Abril",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Seguridad Social"
+		},
+        
+        {
+			"_comment":"MAFQABANG-648:Obligaciones de contribuciones de seguridad social - Entero de amortizaciones de crédito del INFONAVIT",
+			"obligaciones":"Obligaciones de contribuciones de seguridad social",
+			"obligacioneschkbox":"Entero de amortizaciones de crédito del INFONAVIT",
+			"subjectschkbox":"Patrón del campo",
+			"conceptschkbox":"Determinación y pago bimestral de amortizaciones de crédito",
+			"expiry_year":"2017",
+			"month":"Enero",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Seguridad Social"
+		},
+        
+        {
+			"_comment":"MAFQABANG-649:Obligaciones de contribuciones de seguridad social - Revisión de la siniestralidad laboral",
+			"obligaciones":"Obligaciones de contribuciones de seguridad social",
+			"obligacioneschkbox":"Revisión de la siniestralidad laboral",
+			"subjectschkbox":"Patrón, persona física con trabajadores a su servicio",
+			"conceptschkbox":"Revisión de los riesgos de trabajo ocurridos en el centro de trabajo",
+			"expiry_year":"2017",
+			"month":"Enero",
+			"smart_table_tittle":"Tabla Inteligente - Obligaciones de Seguridad Social"
+		}
+      
+	]
+}

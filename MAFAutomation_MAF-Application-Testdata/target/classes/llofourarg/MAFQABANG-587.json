@@ -1,0 +1,11 @@
+{
+"_comment":"Verify search using Parties on Jurisprudence",
+ "MAFQABANG-587":
+    [
+	   {
+	     "partyname": "Lopez",
+	     "invalidpartyname":"@#$%",
+	     "errmsg":"Su búsqueda contiene caracteres inválidos."	  
+	   }
+	]
+}

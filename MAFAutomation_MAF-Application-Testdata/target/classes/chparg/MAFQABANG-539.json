@@ -1,0 +1,12 @@
+{
+"_comment":"Search Within functionality of the search results on Titulos Publicos Page",
+ "MAFQABANG-539":
+	[
+		{
+			"period":"2012",
+			"denominacion": "BONO ACONCAGUA - PCIA.MENDOZA",
+			"clase":"2007 - DÓLAR (U$S)",
+			"searchwithintext":"cotizacion"
+		}
+	]
+}

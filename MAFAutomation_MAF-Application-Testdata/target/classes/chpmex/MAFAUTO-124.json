@@ -1,0 +1,18 @@
+{
+"_comment":"Document Display ToolTips",
+ "MAFAUTO-124":
+    [
+	   {
+	     "freeword":"income tax",
+	     "contenttree":"Legislación Federal/Ley",
+	     "document":" Ley del Impuesto sobre la Renta (DOF 11-12-2013) ",
+	     "thematicarea":"Fiscal",
+	     "firsttooltip":" Últimas reformas",
+         "secondtooltip" :" Legislación Relacionada",
+         "thirdtooltip" :" Voces ",
+         "fourttooltip" :" Seguir doc.",
+         "fivetooltip" :" Indice"
+	     
+	   }
+	]
+}

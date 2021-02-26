@@ -1,0 +1,10 @@
+{
+"_comment":"Verify Delete Alert",
+ "MAFAUTO-175":
+    [
+	   {
+	   "header": "Alertas",
+       "alertname": "CFF 29"
+	   }
+	]
+}

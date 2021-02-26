@@ -1,0 +1,11 @@
+{
+"_comment":"Application Verification of Home Page",
+"_additionalcomment":"<Set this flag to 'Y' if advance search option/link is expected on home'",
+
+ "MAFQABANG-73":
+	[
+		{
+			"checkadvancesearchoptiononhomepage":"Y"		
+		}
+	]
+}

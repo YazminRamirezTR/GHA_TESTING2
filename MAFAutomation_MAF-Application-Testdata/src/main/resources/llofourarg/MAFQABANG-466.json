@@ -1,0 +1,10 @@
+{
+"_comment":"Verify message displayed when search using thematic results in zero records on homepage",
+ "MAFQABANG-466":
+    [
+	   
+	   {
+	     "thematic": "ttpy"	  
+	   }
+	]
+}

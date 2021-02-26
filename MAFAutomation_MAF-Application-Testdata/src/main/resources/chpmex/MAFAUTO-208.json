@@ -1,0 +1,13 @@
+{
+"_comment":"Tools - TIP - Por Vencimiento - Search Template (Daily Expiration Tools)",
+ "MAFAUTO-208":
+    [
+	   {
+	    "expirationdate":"01/01/2018"
+	   },
+	   
+	   {
+	    "expirationdate":"01/01/2017"
+	   }
+	]
+}

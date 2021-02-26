@@ -1,0 +1,10 @@
+{
+"_comment":"Search news with valid Since and Until date",
+ "MAFQABANG-152":
+    [
+	   {
+	     	"untildate":"12/01/2017",
+      		"sincedate":"04/01/2016"
+	    }
+	]
+}

@@ -1,0 +1,14 @@
+{
+"_comment":"Legislation - Document Display - Delivery Selected Text",
+ "MAFAUTO-228":
+    [
+	   {
+	      "thematicarea":"Fiscal",
+	      "treeitems":"Legislación Federal,Ley",
+	      "exportdocument":"Ley Aduanera",
+	      "Article":" 1. Actos que regula al Ley",
+	      "SelectParagraph":"Esta Ley, las de los Impuestos Generales de Importación y Exportación y las demás leyes y ordenamientos aplicables, regulan la entrada al territorio nacional y la salida del mismo de mercancías y de los medios en que se transportan o conducen, el despacho aduanero y los hechos o actos que deriven de éste o de dicha entrada o salida de mercancías. El Código Fiscal de la Federación se aplicará supletoriamente a lo dispuesto en esta Ley." ,
+	      "OptionsDelivery":" Exportar, Imprimir , Email "
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+"_comment":"Thematic Search - Resultlist Tree -  and Voces",
+ "MAFAUTO-101":
+	[
+		{
+		"firstthematicsuggestion" :"impuesto sobre la renta",
+        "secondthematicsuggestion" :"persona física",
+        "thirdthematicsuggestion" :"declaración mensual",
+        "resultsearch": "LISR - Ley del Impuesto sobre la Renta (DOF 11-12-2013)",
+        "articleresultserach": "A.10"
+		}
+	]
+}

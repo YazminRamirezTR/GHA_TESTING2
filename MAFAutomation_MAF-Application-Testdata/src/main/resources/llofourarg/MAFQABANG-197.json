@@ -1,0 +1,18 @@
+{
+"_comment":"Verify search using thematic on the quicksearch (home page)",
+ "MAFQABANG-197":
+    [
+	   {
+	     "thematic": "CONTRATO DE TRABAJO",
+	     "suggestiontobeselected":"CARACTERES DEL CONTRATO DE TRABAJO",
+	     "invalidthematic":"#$%&",
+	     "errmsg":"Su búsqueda contiene caracteres inválidos."  
+	   },
+	   {
+	     "thematic": "ACCION CAMBIARIA",
+	     "suggestiontobeselected":"ACCION CAMBIARIA",
+	     "invalidthematic":"#$%&",
+	     "errmsg":"Su búsqueda contiene caracteres inválidos."	  
+	   }
+	]
+}

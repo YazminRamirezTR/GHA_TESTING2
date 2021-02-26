@@ -1,0 +1,12 @@
+{
+"_comment":"Verify See all Link next to each documentary from home page",
+ "MAFQABANG-686":
+    [
+	   {
+	     "freeword":"deducción",
+	     "doc_type":["Legislación",
+	                 "Jurisprudencia",
+	                 "Doctrina"]
+	   }
+	]
+}

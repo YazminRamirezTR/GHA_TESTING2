@@ -1,0 +1,9 @@
+{
+"_comment":"Verify search with check box view context in search result page is unchecked",
+ "MAFQABANG-281":
+    [
+	   {
+	     "freeword": "governo"	  
+	   }
+	]
+}

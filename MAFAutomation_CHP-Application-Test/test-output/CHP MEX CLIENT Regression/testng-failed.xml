@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CHP MEX CLIENT Regression]" guice-stage="DEVELOPMENT">
+  <parameter name="Environment" value="client"/>
+  <parameter name="ProductToTest" value="chpmex"/>
+  <parameter name="Browser" value="edge"/>
+  <listeners>
+    <listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener"/>
+  </listeners>
+  <test name="DeliveryTest">
+    <groups>
+      <run>
+        <include name="chpmex"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.DeliveryTest"/>
+    </classes>
+  </test> <!-- DeliveryTest -->
+  <test name="AlertTest">
+    <groups>
+      <run>
+        <include name="chpmex"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.AlertTest"/>
+    </classes>
+  </test> <!-- AlertTest -->
+  <test name="DeliveryTest(failed)">
+    <groups>
+      <run>
+        <include name="chpmex"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.DeliveryTest">
+        <methods>
+          <include name="LegislationDeliveryByPrint"/>
+          <include name="deliverQuickSearchReportUsingPrint"/>
+          <include name="JurisprudencePageDelivery"/>
+          <include name="deliverGlobalSearchReportUsingPrint"/>
+          <include name="docDisplayEmailDeliveryWithPDFFormat"/>
+          <include name="exportSingleDocumentFromDocumentDisplay"/>
+          <include name="resultListDeliveryOptions"/>
+          <include name="ExportSelectedWord"/>
+          <include name="exportEmailandPrintforSingleDocument"/>
+          <include name="documentDisplayDeliveryWithInvalidEmail"/>
+          <include name="deliverDocumentFromDocumentDisplayUsingPrint"/>
+          <include name="exportDocumentsFromResultList"/>
+          <include name="documentDislplayDeliveryByPrint"/>
+          <include name="startDeliveryTest"/>
+          <include name="SingleDocumentDelivery"/>
+          <include name="docDisplayPageEmailDeliveryWithRTFFormat"/>
+          <include name="endDeliveryTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DeliveryTest -->
+      <class name="com.trgr.quality.maf.tests.AlertTest">
+        <methods>
+          <include name="setup"/>
+          <include name="startAlertTest"/>
+          <include name="backToHomePage"/>
+          <include name="driverclose"/>
+          <include name="endAlertTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.AlertTest -->
+    </classes>
+  </test> <!-- DeliveryTest(failed) -->
+  <test name="AlertTest(failed)">
+    <groups>
+      <run>
+        <include name="chpmex"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.AlertTest">
+        <methods>
+          <include name="emptyFieldsValidation"/>
+          <include name="createAlertFromSearchResultsOnLegislation"/>
+          <include name="createAnAlert"/>
+          <include name="backToHomePage"/>
+          <include name="modifyAnExistingAlert"/>
+          <include name="endAlertTest"/>
+          <include name="CreateAlertFromSearchResultsFromDoctrine"/>
+          <include name="reactivateAnExistingAlert"/>
+          <include name="CreateAlertForSearchfreeword_globalnotapplicable"/>
+          <include name="setup"/>
+          <include name="createAlertFromSearchResultsOnJurisprudence"/>
+          <include name="startAlertTest"/>
+          <include name="driverclose"/>
+          <include name="deleteExistingAlert"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.AlertTest -->
+      <class name="com.trgr.quality.maf.tests.DeliveryTest">
+        <methods>
+          <include name="startDeliveryTest"/>
+          <include name="endDeliveryTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DeliveryTest -->
+    </classes>
+  </test> <!-- AlertTest(failed) -->
+</suite> <!-- Failed suite [CHP MEX CLIENT Regression] -->

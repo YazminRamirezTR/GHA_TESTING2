@@ -1,0 +1,13 @@
+{
+"_comment":"Add Note For Document In TreeView",
+ "MAFAUTO-125":
+    [
+	   {
+		   "thematicarea":"Fiscal",
+		   "treeitems":"Legislación Federal,Ley",
+		   "documenttitle":"Ley del Impuesto sobre la Renta (DOF 11-12-2013)",
+		   "Addnote":"Nota de LISR prueba creación"
+	   }
+	   
+	]
+}

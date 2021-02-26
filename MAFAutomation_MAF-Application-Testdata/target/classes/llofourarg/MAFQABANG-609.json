@@ -1,0 +1,9 @@
+{
+"_comment":"Quick Search - Without completing fields",
+ "MAFQABANG-609":
+    [
+	   {
+		   "emptysearcherror":"Debe completar al menos un campo de búsqueda."
+	   }
+	]
+}

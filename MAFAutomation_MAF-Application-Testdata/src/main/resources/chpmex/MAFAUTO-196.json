@@ -1,0 +1,14 @@
+{
+"_comment":"Home Page Validate Frequently Asked Questions widget for Thematic Area Corporativo",
+ "MAFAUTO-196":
+		[
+			{
+				"thematicarea":  "Corporativo",
+				"expectedlinks":["Ley Federal del Derecho de Autor",
+								  "Ley Federal de Competencia Económica",
+								  "Ley Federal de Protección al Consumidor",
+								  "Ley de la Propiedad Industrial"
+								  ]
+			}
+		]
+}

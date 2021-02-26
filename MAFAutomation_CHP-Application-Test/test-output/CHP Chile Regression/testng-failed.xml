@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CHP Chile Regression]" guice-stage="DEVELOPMENT">
+  <parameter name="Environment" value="client"/>
+  <parameter name="ProductToTest" value="chpchile"/>
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
+    <groups>
+      <run>
+        <include name="chpchile"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="CustomerServicePortlet"/>
+          <include name="InteractiveDemoLink"/>
+          <include name="FrequentQuestionsLink"/>
+          <include name="driverclose"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="HeaderSectionTest(failed)">
+    <groups>
+      <run>
+        <include name="chpchile"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HeaderSectionTest">
+        <methods>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="driverclose"/>
+          <include name="goToLegalArea"/>
+          <include name="beforeClass"/>
+          <include name="goToCheckpointWorld"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HeaderSectionTest -->
+    </classes>
+  </test> <!-- HeaderSectionTest(failed) -->
+  <test thread-count="5" name="DocumentDisplayTest(failed)">
+    <groups>
+      <run>
+        <include name="chpchile"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.DocumentDisplayTest">
+        <methods>
+          <include name="setup"/>
+          <include name="documentDisplayNavigationOptions"/>
+          <include name="driverclose"/>
+          <include name="startDocumentDisplayTest"/>
+          <include name="endTest"/>
+          <include name="navigationWithIndexOnDocDisplayforAll"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DocumentDisplayTest -->
+    </classes>
+  </test> <!-- DocumentDisplayTest(failed) -->
+  <test thread-count="5" name="HelpTest(failed)">
+    <groups>
+      <run>
+        <include name="chpchile"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HelpTest">
+        <methods>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="HelpLinkPresenceforAll"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HelpTest -->
+    </classes>
+  </test> <!-- HelpTest(failed) -->
+  <test thread-count="5" name="HistoryTest(failed)">
+    <groups>
+      <run>
+        <include name="chpchile"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HistoryTest">
+        <methods>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="startHistoryTest"/>
+          <include name="afterClass"/>
+          <include name="ClientID"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HistoryTest -->
+    </classes>
+  </test> <!-- HistoryTest(failed) -->
+  <test thread-count="5" name="MyDocumentTest(failed)">
+    <groups>
+      <run>
+        <include name="chpchile"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.MyDocumentTest">
+        <methods>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="beforeClass"/>
+          <include name="MyDocumentBasicFolders"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.MyDocumentTest -->
+    </classes>
+  </test> <!-- MyDocumentTest(failed) -->
+  <test thread-count="5" name="DeliveryTest(failed)">
+    <groups>
+      <run>
+        <include name="chpchile"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.DeliveryTest">
+        <methods>
+          <include name="setup"/>
+          <include name="exportDocumentsFromResultList"/>
+          <include name="driverclose"/>
+          <include name="startDeliveryTest"/>
+          <include name="endDeliveryTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DeliveryTest -->
+    </classes>
+  </test> <!-- DeliveryTest(failed) -->
+</suite> <!-- Failed suite [CHP Chile Regression] -->

@@ -1,0 +1,13 @@
+{
+"_comment":"Create Alert from search results",
+ "MAFQABANG-222":
+	[
+		{
+			"alertname":"Test Alert",
+			"frequency":"Daily",
+			"emailid":"swagatika.rath@thomsonreuters.com",
+			"freeword":"aduana",
+			"saveAndScheduleTitle":"INCORPORAR A MIS ALERTAS"
+		} 
+	]
+}

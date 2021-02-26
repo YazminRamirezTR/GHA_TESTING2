@@ -1,0 +1,18 @@
+{
+"_comment":"Validated clear button and Zero input Global Search",
+ "MAFQABANG-200":
+    [
+	   {
+	     "thematic": "LEY",
+	     "suggestionvalue":"ADHESION A LEY NACIONAL",
+	     "freeword": "LEY",
+	      "errmsg":"Debe completar al menos un campo de búsqueda."
+	   },
+	   {
+	     "thematic": "ACCION CAMBIARIA",
+	     "suggestionvalue":"ACCION CAMBIARIA",
+	     "freeword": "LEY",
+	     "errmsg":"Debe completar al menos un campo de búsqueda."
+	   }
+	]
+}

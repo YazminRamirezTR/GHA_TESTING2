@@ -1,0 +1,11 @@
+{
+"_comment":"Verify AdvanceSearch Jurisprudence with Tribunal,Partes and CitaOnline",
+ "MAFQABANG-425":
+    [
+	   {
+	     "citaonline": "UY/JUR/1780/2016",
+	     "court":"Tribunal de lo Contencioso Administrativo, Uruguay",
+	     "partes":"Camejo"  
+	   }
+	]
+}

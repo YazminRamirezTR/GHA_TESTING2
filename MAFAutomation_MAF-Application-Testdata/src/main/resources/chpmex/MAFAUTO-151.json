@@ -1,0 +1,10 @@
+{
+"_comment":"Advance Search Legislation with SortType and Disposition",
+ "MAFAUTO-151":
+    [
+	   {
+	    "typeoforder":"Ley",
+	    "disposition":"Impuesto sobre la Renta"
+	   }
+    ]
+}

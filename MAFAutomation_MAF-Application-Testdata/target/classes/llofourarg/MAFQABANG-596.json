@@ -1,0 +1,10 @@
+{
+"_comment":"Verify search using Jurisdiction and Type of Standard on Homepage",
+ "MAFQABANG-596":
+    [
+	   {
+	     "jurisdiction": "Nacional",
+	     "typeofstandard": "ACORDADA"
+	   }
+    ]
+}

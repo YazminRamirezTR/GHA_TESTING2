@@ -1,0 +1,10 @@
+{
+"_comment":"Verify search using freeword on Labor page",
+	"MAFQABANG-304":
+	[
+	  {
+	     "freeword": "governo"	  
+	   }
+	]
+	
+	}

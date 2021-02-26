@@ -1,0 +1,13 @@
+{
+"_comment":"Verify search using court name on Jurisprudence",
+ "MAFQABANG-184":
+    [
+	   {
+	     "courtlisttreeitems":["Tribunales de Chile"],
+	     "courtname":"Corte Suprema Tercera Sala (Constitucional)",
+	      "invalidtribunal":"$%^&",
+	     "errmsg": "Su búsqueda contiene caracteres inválidos."   ,
+	      "expectedfacet":"Jurisprudencia"		  
+	   }
+	]
+}

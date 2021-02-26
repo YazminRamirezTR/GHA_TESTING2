@@ -1,0 +1,11 @@
+{
+"_comment":"Search News with Invalid date format then verify the error message",
+ "MAFQABANG-572":
+    [
+	   {
+	     "invaliduntildate":"12/06",
+       	 "invalidsincedate":"12/06",
+       	 "error_message":"Debe ingresar una fecha válida DD/MM/AAAA"
+	    }
+	]
+}

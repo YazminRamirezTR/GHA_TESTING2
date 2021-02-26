@@ -1,0 +1,12 @@
+{
+"_comment":"Verify search using thematic on Legislation page",
+ "MAFQABANG-443":
+    [
+	   {
+	     "thematic": "APPLICACION DE LA LEY"	  
+	   },
+	   {
+	     "thematic": "ACCION CAMBIARIA"	  
+	   }
+	]
+}

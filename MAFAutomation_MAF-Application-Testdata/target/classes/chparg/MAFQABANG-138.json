@@ -1,0 +1,14 @@
+{
+"_comment":"Verify the Document sent to intended Email address with PDF attachment",
+"MAFQABANG-138":
+	[
+	 {
+		"Email_To":"Vignesh.Rajendran@thomsonreuters.com",
+        "Invalid_Email_To":"Vignesh.Rajendran@thomsonreuters",
+        "documentnumber":"1",
+        "freeword":"governo"
+	 }
+	]
+	
+}
+	

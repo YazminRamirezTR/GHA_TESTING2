@@ -1,0 +1,22 @@
+{
+"_comment":"Verify if the search links from Advanced search widget on Home page are working",
+ "MAFAUTO-138":
+    [
+	   {
+		"linktoclick":"Legislación",
+		"freeword":"government"
+	  	},
+	   {
+		"linktoclick":"Doctrina",
+		"freeword":"government"
+	  	},
+	   {
+		"linktoclick":"Jurisprudencia",
+		"freeword":"government"
+	  	},
+	   {
+		"linktoclick":"Formularios",
+		"freeword":"government"
+	  	}
+	]
+}

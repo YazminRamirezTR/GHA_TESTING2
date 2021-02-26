@@ -1,0 +1,14 @@
+{
+"_comment":"Verify the Print in document display page",
+"MAFQABANG-142":
+	[
+	 {
+		"Email_To":"Vignesh.Rajendran@thomsonreuters.com",
+        "Invalid_Email_To":"Vignesh.Rajendran@",
+        "documentnumber":"1",
+        "freeword":"governo"
+	 }
+	]
+	
+}
+	

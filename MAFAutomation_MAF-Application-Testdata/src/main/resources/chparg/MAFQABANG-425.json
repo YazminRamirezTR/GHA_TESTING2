@@ -1,0 +1,11 @@
+{
+"_comment":"Verify AdvanceSearch Jurisprudence with Tribunal,Partes and CitaOnline",
+ "MAFQABANG-425":
+    [
+	   {
+	     "citaonline": "AR/JUR/27081/2016",
+	     "court":"Cámara Nacional de Apelaciones en lo Civil",
+	     "partes":"Revello"  
+	   }
+	]
+}

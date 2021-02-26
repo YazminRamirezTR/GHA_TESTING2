@@ -1,0 +1,11 @@
+{
+"_comment":"Search with freeword and validate options on the document page",
+ "MAFAUTO-1":
+	[
+		{
+			"freeword":"LA EXENCIÓN IMPOSITIVA AL PODER JUDICIAL",
+			"searchwithinterm":"AR/DOC/1663/2017"
+		}
+	]
+	
+}

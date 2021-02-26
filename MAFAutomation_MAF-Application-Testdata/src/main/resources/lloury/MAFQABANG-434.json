@@ -1,0 +1,10 @@
+{
+"_comment":"Verify search using title value on the Doctrine page",
+ "MAFQABANG-434":
+    [
+	   {
+	    "title":"Análisis de la Sentencia del TCA No. 324/016 sobre estructura organizativa de la Dirección Nacional de Aduanas." ,
+	    "expectedfacet":"Doctrina"
+       }
+	]
+}

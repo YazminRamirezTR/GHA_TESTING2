@@ -1,0 +1,14 @@
+{
+"_comment":"Verify search using Third level Thematic on Jurisprudence on Homepage",
+ "MAFQABANG-595":
+    [
+	   {
+	     "Thematic": "CONTRATO DE TRABAJO",
+	     "suggestiontobeselected":"CARACTERES DEL CONTRATO DE TRABAJO",
+	     "secondthematic":"EMPLEADOR",
+	     "secondsuggestionvalue":"CONDUCTA DEL EMPLEADOR",
+	     "thirdthematic":"REMUNERACION",
+	     "thirdsuggestionvalue":"ACTUALIZACION DE LA REMUNERACION"  
+	   }
+	]
+}

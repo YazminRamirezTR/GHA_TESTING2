@@ -1,0 +1,11 @@
+{
+"_comment":"Verify deletion of an existing alert",
+ "MAFQABANG-253":
+	[
+		{
+			"alertname":"Test Alert",
+			"emailid":"anusha.macherla@thomsonreuters.com",
+			"freeword":"lei"
+		} 
+	]
+}
