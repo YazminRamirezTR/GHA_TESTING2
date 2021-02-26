@@ -1,9 +1,0 @@
-{
-"_comment":"Search for News with blank input",
- "MAFQABANG-153":
-    [
-	   {
-	     	"error_message":"Debe completar al menos un campo de búsqueda"
-	    }
-	]
-}

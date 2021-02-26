@@ -1,9 +1,0 @@
-{
-"_comment":"Verify Common Headersection links in the home page",
- "MAFQABANG-195":
-    [
-	   {
-	     "headerlinks":["Historial","Preferencias","Mis Carpetas","Mis alertas guardadas","Descargas","Ir a checkpoint","Cerrar Sesión"]
-	   }
-	]
-}

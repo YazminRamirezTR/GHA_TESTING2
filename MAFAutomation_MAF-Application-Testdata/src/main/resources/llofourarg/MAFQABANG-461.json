@@ -1,9 +1,0 @@
-{
-"_comment":"Verify search using article number value on the Legislation page",
- "MAFQABANG-461":
-    [
-	   {
-	     "articlenumber": "793"
-	   }
-	]
-}

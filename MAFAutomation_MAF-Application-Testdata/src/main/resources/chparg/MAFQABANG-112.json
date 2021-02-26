@@ -1,9 +1,0 @@
-{
-"_comment":"Verify Delete Alert",
- "MAFQABANG-112":
-    [
-	   {
-	    "alertname": "Test Alert"
-	   }
-	]
-}
