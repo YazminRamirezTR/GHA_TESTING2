@@ -130,7 +130,7 @@
 					<configuration>
 						<groups>chpury</groups>
 						<suiteXmlFiles>
-							<suiteXmlFile>TestNGTestScripts/chpbr_qc_Regression.xml</suiteXmlFile>
+							<suiteXmlFile>${project.basedir}/TestNGTestScripts/chpbr_qc_Regression.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
