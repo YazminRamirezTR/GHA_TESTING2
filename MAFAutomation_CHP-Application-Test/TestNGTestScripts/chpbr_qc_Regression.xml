@@ -22,7 +22,7 @@
         	<class name="com.trgr.quality.maf.tests.LoginTest"/>
    </classes>
   </test>
- <!-- 
+
    <test allow-return-values="false" group-by-instances="false" junit="false" name="SearchTest" preserve-order="true" skipfailedinvocationcounts="false">
    <groups>
 		<run>
@@ -267,5 +267,5 @@
     <classes>
         	<class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest"/>
    </classes>
-  </test>-->
+  </test>
  </suite>
