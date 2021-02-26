@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>TestNG:  AlertTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AlertTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/12</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 06 06:02:57 ART 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (77 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>chpmex </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.AlertTest.startAlertTest()'><b>startAlertTest</b><br>Test class: com.trgr.quality.maf.tests.AlertTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.trgr.quality.maf.tests.AlertTest.startAlertTest(AlertTest.java:81)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace466319810", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace466319810'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.trgr.quality.maf.tests.AlertTest.startAlertTest(AlertTest.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.AlertTest@2b91004a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.AlertTest.CreateAlertForSearchfreeword_globalnotapplicable()'><b>CreateAlertForSearchfreeword_globalnotapplicable</b><br>Test class: com.trgr.quality.maf.tests.AlertTest<br>Test method: MAFAUTO-177</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.AlertTest@2b91004a</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.AlertTest.CreateAlertFromSearchResultsFromDoctrine()'><b>CreateAlertFromSearchResultsFromDoctrine</b><br>Test class: com.trgr.quality.maf.tests.AlertTest<br>Test method: MAFAUTO-190</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.AlertTest@2b91004a</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.AlertTest.cancelBtnOnAlertCreatePage()'><b>cancelBtnOnAlertCreatePage</b><br>Test class: com.trgr.quality.maf.tests.AlertTest<br>Test method: MAFAUTO-173</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.AlertTest@2b91004a</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.AlertTest.createAlertFromSearchResultsOnJurisprudence()'><b>createAlertFromSearchResultsOnJurisprudence</b><br>Test class: com.trgr.quality.maf.tests.AlertTest<br>Test method: MAFAUTO-114</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.AlertTest@2b91004a</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.AlertTest.createAlertFromSearchResultsOnLegislation()'><b>createAlertFromSearchResultsOnLegislation</b><br>Test class: com.trgr.quality.maf.tests.AlertTest<br>Test method: MAFAUTO-185</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.AlertTest@2b91004a</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.AlertTest.createAnAlert()'><b>createAnAlert</b><br>Test class: com.trgr.quality.maf.tests.AlertTest<br>Test method: MAFQABANG-110</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.AlertTest@2b91004a</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.AlertTest.deleteExistingAlert()'><b>deleteExistingAlert</b><br>Test class: com.trgr.quality.maf.tests.AlertTest<br>Test method: MAFAUTO-175</td>
+<td><div><pre>java.lang.Throwable: Method AlertTest.deleteExistingAlert()[pri:6, instance:com.trgr.quality.maf.tests.AlertTest@2b91004a] depends on not successfully finished methods
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1098737173", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1098737173'><pre>java.lang.Throwable: Method AlertTest.deleteExistingAlert()[pri:6, instance:com.trgr.quality.maf.tests.AlertTest@2b91004a] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.AlertTest.emptyFieldsValidation()'><b>emptyFieldsValidation</b><br>Test class: com.trgr.quality.maf.tests.AlertTest<br>Test method: MAFQABANG-114</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.AlertTest@2b91004a</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.AlertTest.modifyAnExistingAlert()'><b>modifyAnExistingAlert</b><br>Test class: com.trgr.quality.maf.tests.AlertTest<br>Test method: MAFQABANG-113</td>
+<td><div><pre>java.lang.Throwable: Method AlertTest.modifyAnExistingAlert()[pri:2, instance:com.trgr.quality.maf.tests.AlertTest@2b91004a] depends on not successfully finished methods
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1244263056", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1244263056'><pre>java.lang.Throwable: Method AlertTest.modifyAnExistingAlert()[pri:2, instance:com.trgr.quality.maf.tests.AlertTest@2b91004a] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.AlertTest.predesignAlertsOnAlertCreatePage()'><b>predesignAlertsOnAlertCreatePage</b><br>Test class: com.trgr.quality.maf.tests.AlertTest<br>Test method: MAFAUTO-225</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.AlertTest@2b91004a</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.AlertTest.reactivateAnExistingAlert()'><b>reactivateAnExistingAlert</b><br>Test class: com.trgr.quality.maf.tests.AlertTest<br>Test method: MAFQABANG-111</td>
+<td><div><pre>java.lang.Throwable: Method AlertTest.reactivateAnExistingAlert()[pri:4, instance:com.trgr.quality.maf.tests.AlertTest@2b91004a] depends on not successfully finished methods
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1156841091", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1156841091'><pre>java.lang.Throwable: Method AlertTest.reactivateAnExistingAlert()[pri:4, instance:com.trgr.quality.maf.tests.AlertTest@2b91004a] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.AlertTest.suspendAnExistingAlert()'><b>suspendAnExistingAlert</b><br>Test class: com.trgr.quality.maf.tests.AlertTest<br>Test method: MAFAUTO-223</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.AlertTest@2b91004a</td></tr>
+</table><p>
+</body>
+</html>

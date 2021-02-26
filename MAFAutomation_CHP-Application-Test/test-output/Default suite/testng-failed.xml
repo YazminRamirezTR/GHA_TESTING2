@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
+    <classes>
+      <class name="com.trgr.quality.maf.tests.DeliveryTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.trgr.quality.maf.tests.DeliveryTest">
+        <methods>
+          <include name="LegislationDeliveryByPrint"/>
+          <include name="deliverQuickSearchReportUsingPrint"/>
+          <include name="deliveryOfResultListUsingEmailWithWordAndPDF"/>
+          <include name="JurisprudencePageDelivery"/>
+          <include name="deliverGlobalSearchReportUsingPrint"/>
+          <include name="docDisplayEmailDeliveryWithPDFFormat"/>
+          <include name="exportSingleDocumentFromDocumentDisplay"/>
+          <include name="resultListDeliveryOptions"/>
+          <include name="ExportSelectedWord"/>
+          <include name="ResultListcancelDeliveryByEmail"/>
+          <include name="exportEmailandPrintforSingleDocument"/>
+          <include name="documentDisplayDeliveryWithInvalidEmail"/>
+          <include name="deliverDocumentFromDocumentDisplayUsingPrint"/>
+          <include name="setup"/>
+          <include name="DeliveryWithInvalidEmailFormat"/>
+          <include name="resultListDocDeliveryByPrint"/>
+          <include name="exportDocumentsFromResultList"/>
+          <include name="driverclose"/>
+          <include name="documentDislplayDeliveryByPrint"/>
+          <include name="startDeliveryTest"/>
+          <include name="SingleDocumentDelivery"/>
+          <include name="docDisplayPageEmailDeliveryWithRTFFormat"/>
+          <include name="endDeliveryTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DeliveryTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,288 @@
+<html>
+<head>
+<title>TestNG:  ToolsTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ToolsTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 07 16:25:59 ART 2020</td>
+</tr>
+<tr><td>Total time:</td><td>1413 seconds (1413930 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>chpmex </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.ToolsTest.ObligationsOfFederalContribution()'><b>ObligationsOfFederalContribution</b><br>Test class: com.trgr.quality.maf.tests.ToolsTest<br>Test method: MAFQABANG-656</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	MAFQABANG-656:MAFQABANG-656:Obligaciones de contribuciones Federales - Impuesto sobre la renta expected [true] but found [false],
+	MAFQABANG-656:MAFQABANG-657:Obligaciones de contribuciones Federales - Impuesto al valor agregado expected [true] but found [false],
+	MAFQABANG-656:MAFQABANG-658:Obligaciones de contribuciones Federales - Impuesto especial sobre producción y servicios expected [true] but found [false],
+	MAFQABANG-656:MAFQABANG-659:Obligaciones de contribuciones Federales - Código Fiscal de la Federación expected [true] but found [false],
+	MAFQABANG-656:MAFQABANG-661:Obligaciones de contribuciones Federales - Ley de Ingresos de la Federación expected [true] but found [false]
+	at com.trgr.quality.maf.tests.ToolsTest.ObligationsOfFederalContribution(ToolsTest.java:816)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1123664282", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1123664282'><pre>java.lang.AssertionError: The following asserts failed:
+	MAFQABANG-656:MAFQABANG-656:Obligaciones de contribuciones Federales - Impuesto sobre la renta expected [true] but found [false],
+	MAFQABANG-656:MAFQABANG-657:Obligaciones de contribuciones Federales - Impuesto al valor agregado expected [true] but found [false],
+	MAFQABANG-656:MAFQABANG-658:Obligaciones de contribuciones Federales - Impuesto especial sobre producción y servicios expected [true] but found [false],
+	MAFQABANG-656:MAFQABANG-659:Obligaciones de contribuciones Federales - Código Fiscal de la Federación expected [true] but found [false],
+	MAFQABANG-656:MAFQABANG-661:Obligaciones de contribuciones Federales - Ley de Ingresos de la Federación expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.ToolsTest.ObligationsOfFederalContribution(ToolsTest.java:816)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>392</td>
+<td>com.trgr.quality.maf.tests.ToolsTest@26e356f0</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.ToolsTest.ObligationsOfForeignTrade()'><b>ObligationsOfForeignTrade</b><br>Test class: com.trgr.quality.maf.tests.ToolsTest<br>Test method: MAFQABANG-625</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	MAFQABANG-625:MAFQABANG-625:Obligations of Foreign Trade - Payment of uses expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-626:Obligations of Foreign Trade - Filing of petition expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-627:Obligations of Foreign Trade - Submission of consolidated petition expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-628:Obligations of Foreign Trade - Presentation of the rate of the services offered expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-629:Obligations of Foreign Trade - Sending information expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-630:Obligations of Foreign Trade - Proof of payment of annual right expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-631:Obligations of Foreign Trade - Payment of petition expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-632:Obligations of Foreign Trade - Processing of motion expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-633:Obligations of Foreign Trade - Monthly notice by submaquila expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-634:Obligations of Foreign Trade - Processing of definitive import petition expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-635:Obligations of Foreign Trade - Presentation of notice of extension expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-650:Obligations of Foreign Trade - Presentation of annual operations report expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-651:Obligations of Foreign Trade - Presentation of information expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-652:Obligations of Foreign Trade - Presentation of opinion expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-653:Obligations of Foreign Trade - Presentation of monthly notice of shipments and landings expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-654:Obligations of Foreign Trade - Presentation of notice of destruction expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-655:Obligations of Foreign Trade - Presentation of annual operations report expected [true] but found [false]
+	at com.trgr.quality.maf.tests.ToolsTest.ObligationsOfForeignTrade(ToolsTest.java:742)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace274426173", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace274426173'><pre>java.lang.AssertionError: The following asserts failed:
+	MAFQABANG-625:MAFQABANG-625:Obligations of Foreign Trade - Payment of uses expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-626:Obligations of Foreign Trade - Filing of petition expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-627:Obligations of Foreign Trade - Submission of consolidated petition expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-628:Obligations of Foreign Trade - Presentation of the rate of the services offered expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-629:Obligations of Foreign Trade - Sending information expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-630:Obligations of Foreign Trade - Proof of payment of annual right expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-631:Obligations of Foreign Trade - Payment of petition expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-632:Obligations of Foreign Trade - Processing of motion expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-633:Obligations of Foreign Trade - Monthly notice by submaquila expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-634:Obligations of Foreign Trade - Processing of definitive import petition expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-635:Obligations of Foreign Trade - Presentation of notice of extension expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-650:Obligations of Foreign Trade - Presentation of annual operations report expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-651:Obligations of Foreign Trade - Presentation of information expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-652:Obligations of Foreign Trade - Presentation of opinion expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-653:Obligations of Foreign Trade - Presentation of monthly notice of shipments and landings expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-654:Obligations of Foreign Trade - Presentation of notice of destruction expected [true] but found [false],
+	MAFQABANG-625:MAFQABANG-655:Obligations of Foreign Trade - Presentation of annual operations report expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.ToolsTest.ObligationsOfForeignTrade(ToolsTest.java:742)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>562</td>
+<td>com.trgr.quality.maf.tests.ToolsTest@26e356f0</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.ToolsTest.Obligationsofsocialsecuritycontributions()'><b>Obligationsofsocialsecuritycontributions</b><br>Test class: com.trgr.quality.maf.tests.ToolsTest<br>Test method: MAFQABANG-624</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	MAFQABANG-624:MAFQABANG-624:Obligaciones de contribuciones de seguridad social - Dictamen del cumplimiento de obligaciones expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-640:Obligaciones de contribuciones de seguridad social - Presentación al INFONAVIT de movimiento afiliatorio de los trabajadores expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-641:Obligaciones de contribuciones de seguridad social - Determinación y pago de aportaciones de seguridad social expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-642:Obligaciones de contribuciones de seguridad social - Presentación al IMSS de movimiento afiliatorio de los trabajadores expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-643:Obligaciones de contribuciones de seguridad social - Presentación al IMSS de movimiento afiliatorio de los trabajadores por modificación del salario expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-644:Obligaciones de contribuciones de seguridad social - Presentación al INFONAVIT de movimiento afiliatorio de los trabajadores por modificación del salario expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-645:Obligaciones de contribuciones de seguridad social - Informe al INFONAVIT de contratos outsourcing expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-646:Obligaciones de contribuciones de seguridad social - Declaración de riesgos de trabajo expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-647:Obligaciones de contribuciones de seguridad social - Informe al IMSS de contratos outsourcing expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-648:Obligaciones de contribuciones de seguridad social - Entero de amortizaciones de crédito del INFONAVIT expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-649:Obligaciones de contribuciones de seguridad social - Revisión de la siniestralidad laboral expected [true] but found [false]
+	at com.trgr.quality.maf.tests.ToolsTest.Obligationsofsocialsecuritycontributions(ToolsTest.java:891)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace440295203", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace440295203'><pre>java.lang.AssertionError: The following asserts failed:
+	MAFQABANG-624:MAFQABANG-624:Obligaciones de contribuciones de seguridad social - Dictamen del cumplimiento de obligaciones expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-640:Obligaciones de contribuciones de seguridad social - Presentación al INFONAVIT de movimiento afiliatorio de los trabajadores expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-641:Obligaciones de contribuciones de seguridad social - Determinación y pago de aportaciones de seguridad social expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-642:Obligaciones de contribuciones de seguridad social - Presentación al IMSS de movimiento afiliatorio de los trabajadores expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-643:Obligaciones de contribuciones de seguridad social - Presentación al IMSS de movimiento afiliatorio de los trabajadores por modificación del salario expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-644:Obligaciones de contribuciones de seguridad social - Presentación al INFONAVIT de movimiento afiliatorio de los trabajadores por modificación del salario expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-645:Obligaciones de contribuciones de seguridad social - Informe al INFONAVIT de contratos outsourcing expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-646:Obligaciones de contribuciones de seguridad social - Declaración de riesgos de trabajo expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-647:Obligaciones de contribuciones de seguridad social - Informe al IMSS de contratos outsourcing expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-648:Obligaciones de contribuciones de seguridad social - Entero de amortizaciones de crédito del INFONAVIT expected [true] but found [false],
+	MAFQABANG-624:MAFQABANG-649:Obligaciones de contribuciones de seguridad social - Revisión de la siniestralidad laboral expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.ToolsTest.Obligationsofsocialsecuritycontributions(ToolsTest.java:891)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>361</td>
+<td>com.trgr.quality.maf.tests.ToolsTest@26e356f0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.ToolsTest.CollapseAllWidgets()'><b>CollapseAllWidgets</b><br>Test class: com.trgr.quality.maf.tests.ToolsTest<br>Test method: MAFQABANG-149</td>
+<td></td>
+<td>7</td>
+<td>com.trgr.quality.maf.tests.ToolsTest@26e356f0</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.ToolsTest.CreateShortcut()'><b>CreateShortcut</b><br>Test class: com.trgr.quality.maf.tests.ToolsTest<br>Test method: MAFAUTO-217</td>
+<td></td>
+<td>5</td>
+<td>com.trgr.quality.maf.tests.ToolsTest@26e356f0</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.ToolsTest.DailyExpirationTool()'><b>DailyExpirationTool</b><br>Test class: com.trgr.quality.maf.tests.ToolsTest<br>Test method: MAFAUTO-208</td>
+<td></td>
+<td>26</td>
+<td>com.trgr.quality.maf.tests.ToolsTest@26e356f0</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.ToolsTest.DisplayToolsTab()'><b>DisplayToolsTab</b><br>Test class: com.trgr.quality.maf.tests.ToolsTest<br>Test method: MAFQABANG-146</td>
+<td></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.ToolsTest@26e356f0</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.ToolsTest.ExpandAllWidgets()'><b>ExpandAllWidgets</b><br>Test class: com.trgr.quality.maf.tests.ToolsTest<br>Test method: MAFQABANG-148</td>
+<td></td>
+<td>16</td>
+<td>com.trgr.quality.maf.tests.ToolsTest@26e356f0</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.ToolsTest.WidgetsInToolstab()'><b>WidgetsInToolstab</b><br>Test class: com.trgr.quality.maf.tests.ToolsTest<br>Test method: MAFQABANG-147</td>
+<td></td>
+<td>4</td>
+<td>com.trgr.quality.maf.tests.ToolsTest@26e356f0</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CHP ARG Regression]" guice-stage="DEVELOPMENT">
+  <parameter name="HubURL" value="http://10.25.30.4"/>
+  <parameter name="Port" value=":4747"/>
+  <parameter name="Environment" value="qc"/>
+  <parameter name="GridEnabled" value="true"/>
+  <parameter name="ProductToTest" value="chparg"/>
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
+    <groups>
+      <run>
+        <include name="chparg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="CustomerServicePortlet"/>
+          <include name="InteractiveDemoLink"/>
+          <include name="driverclose"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="DeliveryTest(failed)">
+    <groups>
+      <run>
+        <include name="chparg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.DeliveryTest">
+        <methods>
+          <include name="deliveryOfResultListUsingEmailWithWordAndPDF"/>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="startDeliveryTest"/>
+          <include name="endDeliveryTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.DeliveryTest -->
+    </classes>
+  </test> <!-- DeliveryTest(failed) -->
+  <test thread-count="5" name="FavouritesTest(failed)">
+    <groups>
+      <run>
+        <include name="chparg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.FavouritesTest">
+        <methods>
+          <include name="setup"/>
+          <include name="addDocumentsToFavorites"/>
+          <include name="driverclose"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.FavouritesTest -->
+    </classes>
+  </test> <!-- FavouritesTest(failed) -->
+  <test thread-count="5" name="HelpTest(failed)">
+    <groups>
+      <run>
+        <include name="chparg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.HelpTest">
+        <methods>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="HelpLinkPresenceforAll"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.HelpTest -->
+    </classes>
+  </test> <!-- HelpTest(failed) -->
+  <test thread-count="5" name="NewsTest(failed)">
+    <groups>
+      <run>
+        <include name="chparg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.NewsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="SearchNewswithInvalidDateFormat"/>
+          <include name="afterClass"/>
+          <include name="driverclose"/>
+          <include name="startNewsTest"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.NewsTest -->
+    </classes>
+  </test> <!-- NewsTest(failed) -->
+  <test thread-count="5" name="ToolsTest(failed)">
+    <groups>
+      <run>
+        <include name="chparg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.ToolsTest">
+        <methods>
+          <include name="WidgetsInToolstab"/>
+          <include name="setup"/>
+          <include name="endToolsTest"/>
+          <include name="driverclose"/>
+          <include name="startToolsTest"/>
+          <include name="ExpandAllWidgets"/>
+          <include name="CollapseAllWidgets"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ToolsTest -->
+    </classes>
+  </test> <!-- ToolsTest(failed) -->
+  <test thread-count="5" name="ContentTreeTest(failed)">
+    <groups>
+      <run>
+        <include name="chparg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.ContentTreeTest">
+        <methods>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="afterClass"/>
+          <include name="showListOfDocumentFrmContentTree"/>
+          <include name="showSecondLevelContentTree"/>
+          <include name="ContentTreeDisplay"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ContentTreeTest -->
+    </classes>
+  </test> <!-- ContentTreeTest(failed) -->
+  <test thread-count="5" name="ValuationWheelsTest(failed)">
+    <groups>
+      <run>
+        <include name="chparg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.ValuationWheelsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="driverclose"/>
+          <include name="searchUsingAllFieldsAndDeliveryOption"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.ValuationWheelsTest -->
+    </classes>
+  </test> <!-- ValuationWheelsTest(failed) -->
+  <test thread-count="5" name="SearchUsingHomePageTest(failed)">
+    <groups>
+      <run>
+        <include name="chparg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest">
+        <methods>
+          <include name="searchUsingFreewordOnHomepage"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="driverclose"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.SearchUsingHomePageTest -->
+    </classes>
+  </test> <!-- SearchUsingHomePageTest(failed) -->
+</suite> <!-- Failed suite [CHP ARG Regression] -->

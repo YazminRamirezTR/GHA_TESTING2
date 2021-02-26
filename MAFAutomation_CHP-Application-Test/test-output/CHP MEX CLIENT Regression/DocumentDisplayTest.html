@@ -1,0 +1,1168 @@
+<html>
+<head>
+<title>TestNG:  DocumentDisplayTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>DocumentDisplayTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/28/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 30 07:04:20 ART 2020</td>
+</tr>
+<tr><td>Total time:</td><td>1796 seconds (1796072 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>chpmex </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.LegislationReformsAndContentTree()'><b>LegislationReformsAndContentTree</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-126</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	MAFAUTO-126: Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.LegislationReformsAndContentTree(DocumentDisplayTest.java:2843)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1710591086", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1710591086'><pre>java.lang.AssertionError: The following asserts failed:
+	MAFAUTO-126: Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.LegislationReformsAndContentTree(DocumentDisplayTest.java:2843)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.corelationVersionPopupComparison()'><b>corelationVersionPopupComparison</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-252</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.corelationVersionPopupComparison(DocumentDisplayTest.java:3837)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1491676195", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1491676195'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.corelationVersionPopupComparison(DocumentDisplayTest.java:3837)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.deliveryOfJurisprudenceDocument()'><b>deliveryOfJurisprudenceDocument</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-113</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.deliveryOfJurisprudenceDocument(DocumentDisplayTest.java:2642)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace665317128", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace665317128'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.deliveryOfJurisprudenceDocument(DocumentDisplayTest.java:2642)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.deliveryUsingPrintAndExportOnDocDisplay()'><b>deliveryUsingPrintAndExportOnDocDisplay</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-118</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.deliveryUsingPrintAndExportOnDocDisplay(DocumentDisplayTest.java:2522)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1910492961", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1910492961'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.deliveryUsingPrintAndExportOnDocDisplay(DocumentDisplayTest.java:2522)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.displayDocumentForDoctrine()'><b>displayDocumentForDoctrine</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-117</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.displayDocumentForDoctrine(DocumentDisplayTest.java:2444)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2124448375", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2124448375'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.displayDocumentForDoctrine(DocumentDisplayTest.java:2444)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.displayOfDocumentDisplayPage()'><b>displayOfDocumentDisplayPage</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-181</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.displayOfDocumentDisplayPage(DocumentDisplayTest.java:1963)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1353512285", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1353512285'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.displayOfDocumentDisplayPage(DocumentDisplayTest.java:1963)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.displayOfDocumentFromGlobalSearch()'><b>displayOfDocumentFromGlobalSearch</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-176</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.displayOfDocumentFromGlobalSearch(DocumentDisplayTest.java:2725)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace810557024", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace810557024'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.displayOfDocumentFromGlobalSearch(DocumentDisplayTest.java:2725)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.displayOfTabOnFormsSearch()'><b>displayOfTabOnFormsSearch</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-214</td>
+<td><div><pre>java.lang.AssertionError: Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.displayOfTabOnFormsSearch(DocumentDisplayTest.java:3093)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace35874744", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace35874744'><pre>java.lang.AssertionError: Exception in Test expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.displayOfTabOnFormsSearch(DocumentDisplayTest.java:3093)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.facteingOnResultList()'><b>facteingOnResultList</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFQABANG-100</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.facteingOnResultList(DocumentDisplayTest.java:2386)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2018270965", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2018270965'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.facteingOnResultList(DocumentDisplayTest.java:2386)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.followDocumentWidget()'><b>followDocumentWidget</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-100</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.followDocumentWidget(DocumentDisplayTest.java:2081)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace45019084", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace45019084'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.followDocumentWidget(DocumentDisplayTest.java:2081)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.footNotesInDocDisplay()'><b>footNotesInDocDisplay</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-243</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.footNotesInDocDisplay(DocumentDisplayTest.java:3924)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2082673402", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2082673402'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.footNotesInDocDisplay(DocumentDisplayTest.java:3924)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.headerDisplayOnDocument()'><b>headerDisplayOnDocument</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-211</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.headerDisplayOnDocument(DocumentDisplayTest.java:1896)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace905650857", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace905650857'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.headerDisplayOnDocument(DocumentDisplayTest.java:1896)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.highlightOfSearchTextOnDocDisplay()'><b>highlightOfSearchTextOnDocDisplay</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-182</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	MAFAUTO-182:Search failed : expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.highlightOfSearchTextOnDocDisplay(DocumentDisplayTest.java:1146)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace313149846", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace313149846'><pre>java.lang.AssertionError: The following asserts failed:
+	MAFAUTO-182:Search failed : expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.highlightOfSearchTextOnDocDisplay(DocumentDisplayTest.java:1146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>147</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.keywordsOnDocumentDisplay()'><b>keywordsOnDocumentDisplay</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFQABANG-88</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.keywordsOnDocumentDisplay(DocumentDisplayTest.java:2324)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1607020784", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1607020784'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.keywordsOnDocumentDisplay(DocumentDisplayTest.java:2324)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.navigationUsingcontentTreeOnDocumentDisplay()'><b>navigationUsingcontentTreeOnDocumentDisplay</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFQABANG-86</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.navigationUsingcontentTreeOnDocumentDisplay(DocumentDisplayTest.java:1497)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace653774328", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace653774328'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.navigationUsingcontentTreeOnDocumentDisplay(DocumentDisplayTest.java:1497)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.navigationWithIndexOnDocDisplay()'><b>navigationWithIndexOnDocDisplay</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFQABANG-105</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	MAFQABANG-105:Search failed : expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.navigationWithIndexOnDocDisplay(DocumentDisplayTest.java:1314)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1843459456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1843459456'><pre>java.lang.AssertionError: The following asserts failed:
+	MAFQABANG-105:Search failed : expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.navigationWithIndexOnDocDisplay(DocumentDisplayTest.java:1314)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>146</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.navigationWithIndexOnDocDisplayforAll()'><b>navigationWithIndexOnDocDisplayforAll</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFQABANG-105</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	MAFQABANG-105:Search failed  expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.navigationWithIndexOnDocDisplayforAll(DocumentDisplayTest.java:1238)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace749072877", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace749072877'><pre>java.lang.AssertionError: The following asserts failed:
+	MAFQABANG-105:Search failed  expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.navigationWithIndexOnDocDisplayforAll(DocumentDisplayTest.java:1238)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>147</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.pageNavigationOnResultList()'><b>pageNavigationOnResultList</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-150</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.pageNavigationOnResultList(DocumentDisplayTest.java:1840)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace903716563", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace903716563'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.pageNavigationOnResultList(DocumentDisplayTest.java:1840)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.popUpRelationOfCorelation()'><b>popUpRelationOfCorelation</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-235</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.popUpRelationOfCorelation(DocumentDisplayTest.java:3752)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace87845070", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace87845070'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.popUpRelationOfCorelation(DocumentDisplayTest.java:3752)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>22</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.reformsAnalysisForLegislation()'><b>reformsAnalysisForLegislation</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-229</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.reformsAnalysisForLegislation(DocumentDisplayTest.java:3181)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace105393903", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace105393903'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.reformsAnalysisForLegislation(DocumentDisplayTest.java:3181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.relatedDocsForLegislation()'><b>relatedDocsForLegislation</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-230</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.relatedDocsForLegislation(DocumentDisplayTest.java:3319)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace481525476", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace481525476'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.relatedDocsForLegislation(DocumentDisplayTest.java:3319)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.saveAndScheduleDocDisplay()'><b>saveAndScheduleDocDisplay</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFQABANG-83</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.saveAndScheduleDocDisplay(DocumentDisplayTest.java:1020)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace971404566", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace971404566'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.saveAndScheduleDocDisplay(DocumentDisplayTest.java:1020)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>20</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.saveAndScheduleResultList()'><b>saveAndScheduleResultList</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFQABANG-104</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.saveAndScheduleResultList(DocumentDisplayTest.java:929)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1927776715", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1927776715'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.saveAndScheduleResultList(DocumentDisplayTest.java:929)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>67</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.searchResultsWidget()'><b>searchResultsWidget</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFQABANG-102</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.searchResultsWidget(DocumentDisplayTest.java:1567)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace694329275", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace694329275'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.searchResultsWidget(DocumentDisplayTest.java:1567)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.toolTipOnDocumentDisplay()'><b>toolTipOnDocumentDisplay</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-238</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.toolTipOnDocumentDisplay(DocumentDisplayTest.java:3023)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace7646139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace7646139'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.toolTipOnDocumentDisplay(DocumentDisplayTest.java:3023)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.toolTipOnDocumentDisplayforWithoutEffect()'><b>toolTipOnDocumentDisplayforWithoutEffect</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-241</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.toolTipOnDocumentDisplayforWithoutEffect(DocumentDisplayTest.java:3665)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1705366777", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1705366777'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.toolTipOnDocumentDisplayforWithoutEffect(DocumentDisplayTest.java:3665)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.toolTipsOnDocumentDisplay()'><b>toolTipsOnDocumentDisplay</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-124</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.toolTipsOnDocumentDisplay(DocumentDisplayTest.java:2249)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace256703888", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace256703888'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.toolTipsOnDocumentDisplay(DocumentDisplayTest.java:2249)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.withScrollValdiateHeaderTitle()'><b>withScrollValdiateHeaderTitle</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-247</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.withScrollValdiateHeaderTitle(DocumentDisplayTest.java:4018)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1468192631", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1468192631'><pre>java.lang.AssertionError: The following asserts failed:
+	Exception in Test expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.trgr.quality.maf.tests.DocumentDisplayTest.withScrollValdiateHeaderTitle(DocumentDisplayTest.java:4018)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.documentDisplayForDoctrinaAndJurisprudence()'><b>documentDisplayForDoctrinaAndJurisprudence</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFQABANG-77</td>
+<td></td>
+<td>130</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.documentDisplayNavigationOptions()'><b>documentDisplayNavigationOptions</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFQABANG-80</td>
+<td></td>
+<td>72</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.documentValidationForArticleAndVoces()'><b>documentValidationForArticleAndVoces</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-127</td>
+<td></td>
+<td>376</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.enlargeAndReduceFontOnDocument()'><b>enlargeAndReduceFontOnDocument</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-180</td>
+<td></td>
+<td>248</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.followDocumentAlert()'><b>followDocumentAlert</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-186</td>
+<td></td>
+<td>135</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.followExistingDocument()'><b>followExistingDocument</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-139</td>
+<td></td>
+<td>43</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.followTheDocument()'><b>followTheDocument</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFQABANG-99</td>
+<td></td>
+<td>60</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.relationshipAtParagraphLevel()'><b>relationshipAtParagraphLevel</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFAUTO-130</td>
+<td></td>
+<td>11</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+<tr>
+<td title='com.trgr.quality.maf.tests.DocumentDisplayTest.resultListTabNaviagtionOptions()'><b>resultListTabNaviagtionOptions</b><br>Test class: com.trgr.quality.maf.tests.DocumentDisplayTest<br>Test method: MAFQABANG-79</td>
+<td></td>
+<td>67</td>
+<td>com.trgr.quality.maf.tests.DocumentDisplayTest@23e84203</td></tr>
+</table><p>
+</body>
+</html>

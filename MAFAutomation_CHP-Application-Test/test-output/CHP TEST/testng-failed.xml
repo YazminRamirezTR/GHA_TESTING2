@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CHP TEST]" guice-stage="DEVELOPMENT">
+  <parameter name="Environment" value="prod"/>
+  <parameter name="ProductToTest" value="chpbr"/>
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
+    <groups>
+      <run>
+        <include name="chpbr"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.trgr.quality.maf.tests.LoginTest">
+        <methods>
+          <include name="loginWithValidAndInvalidCredentials"/>
+          <include name="setup"/>
+          <include name="driverclose"/>
+          <include name="afterClass"/>
+          <include name="loginUsingSaveUserName"/>
+          <include name="beforeClass"/>
+          <include name="loginUsingSaveUserNameAndPwd"/>
+        </methods>
+      </class> <!-- com.trgr.quality.maf.tests.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [CHP TEST] -->
