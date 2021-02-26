@@ -1,0 +1,9 @@
+{
+"_comment":"News Page validation - Verify All Expected Fields",
+ "MAFQABANG-550":
+    [
+	   {
+	     	"seeifrslinkavailable":"Y"
+	    }
+	]
+}

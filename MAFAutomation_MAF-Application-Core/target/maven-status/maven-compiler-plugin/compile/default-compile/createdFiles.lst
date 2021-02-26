@@ -1,0 +1,17 @@
+com\trgr\quality\maf\handlers\ElementHandler.class
+com\trgr\quality\maf\fileconfiger\PropertiesRepository.class
+com\trgr\quality\maf\basetest\BaseTest.class
+com\trgr\quality\maf\commonutils\RandomUtils.class
+com\trgr\quality\maf\basetest\XMLVerifyTest.class
+com\trgr\quality\maf\commonutils\UnzipUtility.class
+com\trgr\quality\maf\handlers\BaseHandler.class
+com\trgr\quality\maf\jsonreader\JsonReader.class
+com\trgr\quality\maf\fileconfiger\GlobalProperties.class
+com\trgr\quality\maf\commonutils\JiraConnector.class
+com\trgr\quality\maf\commonutils\Utils.class
+com\trgr\quality\maf\commonutils\JiraConnectorTest.class
+com\trgr\quality\maf\commonutils\XMLAttributeModifier.class
+com\trgr\quality\maf\webdriver\WebDriverFactory.class
+com\trgr\quality\maf\webdriver\WebDriverGridInstance.class
+com\trgr\quality\maf\commonutils\ExtentReportTestNGListener.class
+com\trgr\quality\maf\commonutils\DriverAutoDownload.class

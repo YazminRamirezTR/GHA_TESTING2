@@ -1,0 +1,9 @@
+{
+"_comment":"Verify search using index in the Juridiction page",
+ "MAFQABANG-302":
+    [
+	   {
+	     "indexsearch": "dano moral coletivo"	  
+	   }
+	]
+}

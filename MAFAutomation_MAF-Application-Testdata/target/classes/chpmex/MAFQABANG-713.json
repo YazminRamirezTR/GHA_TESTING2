@@ -1,0 +1,8 @@
+{
+	"_comment": "Verify along with filter results the link of each document type found and in paranthesis number of matches from home page",
+	"MAFQABANG-713": [
+		{
+			"freeword": "deducción"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+"_comment":"Validate Widgets in HomePage based on Selected Thematic Area",
+
+ "MAFQABANG-577":
+ 	[
+		{
+		"thematicarea":"Todas",
+		"expectedwidgets":[
+						"Destacados","Mis Accesos Directos","Herramientas",
+						"Búsquedas programadas","Documentos en seguimiento",
+						"Normas de consulta frecuente","Búsqueda avanzada"
+						]
+	  	},
+	  	
+	  	{
+		"thematicarea":"Fiscal",
+		"expectedwidgets":[
+						"Destacados","Mis Accesos Directos","Herramientas",
+						"Búsquedas programadas","Documentos en seguimiento",
+						"Normas de consulta frecuente","Búsqueda avanzada"
+						]
+	  	},
+	  	
+	  	{
+		"thematicarea":"Laboral y Seguridad Social",
+		"expectedwidgets":[
+						"Destacados","Mis Accesos Directos","Herramientas",
+						"Búsquedas programadas","Documentos en seguimiento",
+						"Normas de consulta frecuente","Búsqueda avanzada"
+						]
+	  	},
+	  	
+	  	{
+		"thematicarea":"Contabilidad y Comercial",
+		"expectedwidgets":[
+						"Destacados","Mis Accesos Directos","Herramientas",
+						"Búsquedas programadas","Documentos en seguimiento",
+						"Búsqueda avanzada"
+						]
+	  	}
+	]
+}

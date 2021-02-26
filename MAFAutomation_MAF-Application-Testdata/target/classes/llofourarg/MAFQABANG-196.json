@@ -1,0 +1,10 @@
+{
+"_comment":"Verify Logged in UserDetails",
+ "MAFQABANG-196":
+    [
+	   {
+	     "expecteduserdetails": ["LLO4.0 FULL 2","SEBASTIAN*** URBINA"]
+	     
+	   }
+	]
+}

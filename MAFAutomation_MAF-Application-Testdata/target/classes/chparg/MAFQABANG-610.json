@@ -1,0 +1,11 @@
+{
+"_comment":"Verify recommend in Herramientas - Checklist/Fiscal with no input",
+ "MAFQABANG-610":
+    [
+	   {
+	     "fiscalnodelinks": ["Antievasión","Impuesto sobre los Ingresos Brutos - C.A.B.A.","Regímenes de recaudación","Procedimiento"],
+	     "popuptext":"De las respuestas obtenidas no surgen recomendaciones.",
+	     "expectedtextfields":["Empresa:","Entrevistado:","Cargo:","Confeccionó:","Fecha:","Revisó:","Versión:"]
+	   }
+	]
+}

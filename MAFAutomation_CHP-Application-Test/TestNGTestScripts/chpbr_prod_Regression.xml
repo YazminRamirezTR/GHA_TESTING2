@@ -11,7 +11,7 @@
         <listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener" />
     </listeners>
 
-<!--  <test name="LoginTest">
+  <test name="LoginTest">
    <groups>
 		<run>
 			<include name="chpbr"/>
@@ -22,7 +22,7 @@
    </classes>
   </test>
   
- <test name="SearchTest">
+   <test name="SearchTest">
    <groups>
 		<run>
 			<include name="chpbr"/>
@@ -87,7 +87,7 @@
     <classes>
         	<class name="com.trgr.quality.maf.tests.FavouritesTest"/>
    </classes>
-  </test>-->
+  </test>
   
    <test name="HomeTest">
    <groups>
@@ -100,7 +100,7 @@
    </classes>
   </test>
   
-<!--   <test name="SignoffTest">
+   <test name="SignoffTest">
    <groups>
 		<run>
 			<include name="chpbr"/>
@@ -265,6 +265,6 @@
   </groups>
     <classes>
         	<class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest"/>
-   </classes> 
-  </test>-->
+   </classes>
+  </test>
  </suite>

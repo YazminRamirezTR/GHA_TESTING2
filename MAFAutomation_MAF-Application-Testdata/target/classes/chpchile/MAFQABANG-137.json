@@ -1,0 +1,13 @@
+{
+"_comment":"Verify the Document sent to intended Email address with word document attachment",
+"MAFQABANG-137":
+	[
+	 {
+		"Email_To":"jagannath.konjeti@thomsonreuters.com",       
+        "documentnumber":"1",
+        "freeword":"aduana"
+	 }
+	]
+	
+}
+	 

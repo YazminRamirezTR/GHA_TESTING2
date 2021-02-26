@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite allow-return-values="false" configfailurepolicy="skip"
-	data-provider-thread-count="10" group-by-instances="false"
-	guice-stage="DEVELOPMENT" junit="false" name="CHP URY Regression"
-	parallel="false" preserve-order="true"
-	skipfailedinvocationcounts="false" thread-count="5">
+<suite name="CHP URY Regression" parallel="none" preserve-order="true">
 
 	<parameter name="Environment" value="qc" />
 	<parameter name="ProductToTest" value="chpury" />
 	<parameter name="Browser" value="chrome" />
+	<parameter name="GridEnabled" value="false"/>
+	
 
 	<listeners>
 		<listener
 			class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener" />
 	</listeners>
-
-
-	<test name="ActionsTest" parallel="false">
+	
+	<test name="LoginTest" preserve-order="true">
+		<groups>
+			<run>
+				<include name="chpury" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.LoginTest" />
+		</classes>
+	</test>
+<!-- 
+	<test name="ActionsTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -28,9 +36,7 @@
 	</test>
 
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="AlertTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="AlertTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -41,9 +47,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="AnnotationsTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="AnnotationsTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -54,9 +58,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="ContentTreeTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="ContentTreeTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -67,9 +69,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="DeliveryTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="DeliveryTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -80,9 +80,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="DocumentDisplayTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="DocumentDisplayTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -93,9 +91,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="DocValidationFromSearchResultsTest"
-		preserve-order="true" skipfailedinvocationcounts="false">
+	<test name="DocValidationFromSearchResultsTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -107,9 +103,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="FavouritesTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="FavouritesTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -120,9 +114,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="ForeignCurrencyTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="ForeignCurrencyTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -133,9 +125,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="HeaderSectionTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="HeaderSectionTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -146,9 +136,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="HelpTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="HelpTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -159,9 +147,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="HistoryTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="HistoryTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -173,9 +159,7 @@
 	</test>
 
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="LinkUtilityTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="LinkUtilityTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -186,22 +170,9 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="LoginTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
-		<groups>
-			<run>
-				<include name="chpury" />
-			</run>
-		</groups>
-		<classes>
-			<class name="com.trgr.quality.maf.tests.LoginTest" />
-		</classes>
-	</test>
+	
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="MyDocumentTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="MyDocumentTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -212,9 +183,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="NewsTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="NewsTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -290,9 +259,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="ToolsTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="ToolsTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -303,9 +270,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="ValuationWheelsTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="ValuationWheelsTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -317,9 +282,7 @@
 	</test>
 
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="DoctrineSearchTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="DoctrineSearchTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -330,9 +293,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="FormsSearchTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="FormsSearchTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -343,9 +304,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="JurisprudenceSearchTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="JurisprudenceSearchTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -357,9 +316,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="LegislationSearchTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="LegislationSearchTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -370,9 +327,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="RoutesSearchTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="RoutesSearchTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -383,9 +338,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="SearchUsingHomePageTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="SearchUsingHomePageTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -396,9 +349,7 @@
 				name="com.trgr.quality.maf.tests.SearchUsingHomePageTest" />
 		</classes>
 	</test>
-	<test allow-return-values="false" group-by-instances="false"
-		junit="false" name="HomeTest" preserve-order="true"
-		skipfailedinvocationcounts="false">
+	<test name="HomeTest" preserve-order="true">
 		<groups>
 			<run>
 				<include name="chpury" />
@@ -407,5 +358,5 @@
 		<classes>
 			<class name="com.trgr.quality.maf.tests.HomeTest" />
 		</classes>
-	</test>
+	</test> -->
 </suite>

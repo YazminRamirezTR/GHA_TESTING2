@@ -1,0 +1,11 @@
+{
+"_comment":"Application verification on Widgets in Homepage",
+"_additionalcomment":"<Set this flag to 'Y' to check for all thematic areas",
+
+ "MAFQABANG-76":
+	[
+		{
+			"checkwidgetforallthematicareas":"Y"
+		}
+	]
+}

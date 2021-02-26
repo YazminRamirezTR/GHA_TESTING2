@@ -1,0 +1,11 @@
+{
+"_comment":"Verify search using Emisor(Transmitter) on Legislation page",
+ "MAFQABANG-449":
+    [
+	   {   
+	    "emisor":"ADMINISTRACIÓN DE PROGRAMAS ESPECIALES"       
+       }
+	   
+	   
+	]
+}

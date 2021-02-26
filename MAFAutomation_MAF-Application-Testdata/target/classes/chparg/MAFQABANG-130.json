@@ -1,0 +1,10 @@
+{
+"_comment":"This test verifies creating a new History",
+ "MAFQABANG-130":
+    [
+	   {
+	    "customerid":"1000",
+	    "name": "Test History"
+	   }
+	]
+}

@@ -1,0 +1,9 @@
+{
+"_comment":"Verify message displayed when search using freeword results in zero records",
+ "MAFQABANG-445":
+    [
+	   {
+	     "freeword": "ttpy"	  
+	   }
+	]
+}

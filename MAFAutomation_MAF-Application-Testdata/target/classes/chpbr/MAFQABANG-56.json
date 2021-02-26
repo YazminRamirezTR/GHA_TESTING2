@@ -1,0 +1,9 @@
+{
+"_comment":"Verify search with standard number field",
+ "MAFQABANG-56":
+    [
+	   {
+	     "standardnumber": "4463"
+	   }
+	]
+}

@@ -1,0 +1,58 @@
+{
+"_comment":"SearcTest- DocumentsAvailableForSelectedThematicArea",
+ "MAFQABANG-637":
+    [
+		{
+			"thematicarea": "Fiscal",
+			"freeword": "IMPUESTO"
+		},
+		{
+			"thematicarea": "Laboral",
+			"freeword": "TRABAJO"
+		},
+		{
+			"thematicarea": "Seguridad Social",
+			"freeword": "PENSIÓN"
+		},
+		{
+			"thematicarea": "Contabilidad y Auditoría",
+			"freeword": "CONTABILIDAD"
+		},
+		{
+			"thematicarea": "Comercio Exterior",
+			"freeword": "EXPORTACIÓN"
+		},
+		{
+			"thematicarea": "Administrativo",
+			"freeword": "SUELDO"
+		},
+		{
+			"thematicarea": "Amparo",
+			"freeword": "JUEZ"
+		},
+		{
+			"thematicarea": "Civil",
+			"freeword": "LEY"
+		},
+	  	{
+	  	"thematicarea":"Constitucional",
+		"freeword":"JUEZ"
+	  	},
+	  	{
+	  	"thematicarea":"Corporativo",
+		"freeword":"SUELDO"
+	  	},
+	  	{
+	  	"thematicarea":"Financiero",
+		"freeword":"BANCO"
+	  	},
+	  	{
+	  	"thematicarea":"Mercantil",
+		"freeword":"MERCADO"
+	  	},
+	  	{
+	  	"thematicarea":"Penal",
+		"freeword":"JUICIO"
+	  	}
+	]
+}

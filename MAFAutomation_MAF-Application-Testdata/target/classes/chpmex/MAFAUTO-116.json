@@ -1,0 +1,11 @@
+{
+"_comment":"Verify collapsing document list on the content treee to level one",
+ "MAFAUTO-116":
+	[
+		{
+			"freeword":"declaración provisional",
+			"author":"Arace",
+			"filterbyyear":"2014"
+		}
+	]
+}

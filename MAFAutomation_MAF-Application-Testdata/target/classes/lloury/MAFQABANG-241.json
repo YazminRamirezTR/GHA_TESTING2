@@ -1,0 +1,11 @@
+{
+"_comment":"Verify display of session information on history page",
+ "MAFQABANG-241":
+	[
+		{
+			"expectedhistorylink":"Historial",
+			"expcolumnnames":["Tipo","Fecha y Hora","Descripción","Acciones"]
+		}
+		
+	]
+}

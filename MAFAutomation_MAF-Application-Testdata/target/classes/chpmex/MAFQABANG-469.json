@@ -1,0 +1,9 @@
+{
+"_comment":"Verify Advance Search doctrine with month/year field",
+ "MAFQABANG-469":
+	[
+		{
+			"monthandyear":"08/2015"
+		}
+	]
+}

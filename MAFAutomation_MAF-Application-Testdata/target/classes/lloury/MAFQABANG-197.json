@@ -1,0 +1,13 @@
+{
+"_comment":"Verify search using thematic on the quicksearch (home page)",
+ "MAFQABANG-197":
+    [
+	  
+	   {
+	     "thematic": "ACCION CAMBIARIA",
+	     "suggestiontobeselected":"ACCION CAMBIARIA",
+	     "invalidthematic":"^&$%&$%^$",
+	     "errmsg":"Su búsqueda contiene caracteres inválidos."    
+	   }
+	]
+}

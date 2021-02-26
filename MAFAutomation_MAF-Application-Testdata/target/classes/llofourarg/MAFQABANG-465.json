@@ -1,0 +1,10 @@
+{
+"_comment":"Verify message displayed when search using freeword results in zero records on homepage",
+ "MAFQABANG-465":
+    [
+	   {
+	     "freeword": "ttpy",
+		 "emptysearchmsg":"Debe completar al menos un campo de"		 
+	   }
+	]
+}

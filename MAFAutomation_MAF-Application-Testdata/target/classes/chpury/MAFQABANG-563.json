@@ -1,0 +1,9 @@
+{
+"_comment":"Redirected url verification when Go to Law Online is clicked",
+ "MAFQABANG-563":
+ 	[
+		{
+		"expected_url":"www.laleyonline.com.uy"
+	  	}
+ 	]
+}

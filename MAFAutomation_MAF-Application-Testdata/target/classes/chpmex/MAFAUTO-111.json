@@ -1,0 +1,15 @@
+{
+"_comment":"Verify applying filters on different facets on the search results page using Jurisprudence page",
+ "MAFAUTO-111":
+	[
+		{
+			"freeword":"impuesto sobre la renta",
+			"TFJAselection":"SCJNTodas",
+			"filterbyyear":"2016",
+			"filterbyinstancelink":"Pleno",
+			"Filterby…poca":"Novena …poca",
+			"ThematicArea" :"Administrativo"
+		}
+		
+	]
+}

@@ -1,0 +1,157 @@
+{
+"MAFQABANG-625":
+	[
+	 {
+	 "_comment":"MAFQABANG-625:Obligations of Foreign Trade - Payment of uses",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Pago de aprovechamientos",
+		"month":"Enero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	  {
+	   "_comment":"MAFQABANG-626:Obligations of Foreign Trade - Filing of petition",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Presentación de pedimento",
+		"month":"Enero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	 {
+	  "_comment":"MAFQABANG-627:Obligations of Foreign Trade - Submission of consolidated petition",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Presentación de pedimento consolidado",
+		"month":"Enero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	 {
+	   "_comment":"MAFQABANG-628:Obligations of Foreign Trade - Presentation of the rate of the services offered",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Presentación de la tarifa de los servicios ofrecidos",
+		"month":"Enero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	 {
+	   "_comment":"MAFQABANG-629:Obligations of Foreign Trade - Sending information",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Envío de información",
+		"month":"Enero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	 {
+	   "_comment":"MAFQABANG-630:Obligations of Foreign Trade - Proof of payment of annual right",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Presentación de comprobante de pago de derecho anual",
+		"month":"Febrero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	 {
+	   "_comment":"MAFQABANG-631:Obligations of Foreign Trade - Payment of petition",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Pago de pedimento",
+		"month":"Febrero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	 {
+	   "_comment":"MAFQABANG-632:Obligations of Foreign Trade - Processing of motion",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Tramitación de pedimento",
+		"month":"Enero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	 {
+	   "_comment":"MAFQABANG-633:Obligations of Foreign Trade - Monthly notice by submaquila",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Aviso mensual por submaquila",
+		"month":"Enero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	 {
+	   "_comment":"MAFQABANG-634:Obligations of Foreign Trade - Processing of definitive import petition",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Tramitación de pedimento de importación definitiva",
+		"month":"Enero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	 {
+	   "_comment":"MAFQABANG-635:Obligations of Foreign Trade - Presentation of notice of extension",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Presentación de aviso de prórroga",
+		"month":"Enero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	 {
+	   "_comment":"MAFQABANG-650:Obligations of Foreign Trade - Presentation of annual operations report",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Presentación de aviso de prórroga",
+		"month":"Junio",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	  {
+	   "_comment":"MAFQABANG-651:Obligations of Foreign Trade - Presentation of information",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Presentación de aviso de prórroga",
+		"month":"Febrero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	  {
+	   "_comment":"MAFQABANG-652:Obligations of Foreign Trade - Presentation of opinion",
+		"obligaciones": "Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Presentación de aviso de prórroga",
+		"month":"Enero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	  {
+	   "_comment":"MAFQABANG-653:Obligations of Foreign Trade - Presentation of monthly notice of shipments and landings",
+		"obligaciones":"Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Presentación de aviso de prórroga",
+		"month":"Enero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	  {
+	   "_comment":"MAFQABANG-654:Obligations of Foreign Trade - Presentation of notice of destruction",
+		"obligaciones":"Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Presentación de aviso de prórroga",
+		"month":"Febrero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 },
+	 
+	   {
+	   "_comment":"MAFQABANG-655:Obligations of Foreign Trade - Presentation of annual operations report",
+		"obligaciones":"Obligaciones de comercio exterior",
+		"obligacioneschkbox":"Presentación de aviso de prórroga",
+		"month":"Febrero",
+		"expiry_year": "2017",
+		"smart_table_tittle":"Tabla Inteligente - Obligaciones de Comercio Exterior"
+	 }
+	]
+	
+}
+	

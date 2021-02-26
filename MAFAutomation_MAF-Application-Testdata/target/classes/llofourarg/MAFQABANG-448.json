@@ -1,0 +1,9 @@
+{
+"_comment":"Verify message displayed when search using Bo (date) results in zero records",
+ "MAFQABANG-448":
+	[
+		{
+			"date":"13/06/2017"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "_comment": "Free word Search with special characters in HomePage and verify error message ",
+  "MAFQABANG-518": 
+	  [
+	    {
+	    	"freewordwithspecialcharacters":"|&deg;!#$%&amp;/=?¡",
+	     	"expectederrormessage": "Su búsqueda contiene el símbolo '$'. El símbolo '$' sólo es permitido cuando es inmediatamente seguido por un número."	    }
+	  ]
+}

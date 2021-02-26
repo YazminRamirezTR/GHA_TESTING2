@@ -1,0 +1,11 @@
+{
+"_comment":"Searching news for zero results and verify error message",
+ "MAFQABANG-481":
+    [
+	   {
+	     	"invaliduntildate":"12/06/2117",
+  			"invalidsincedate":"12/06/2117",
+  			"errormessage":"Resultados não encontrados"
+	    }
+	]
+}

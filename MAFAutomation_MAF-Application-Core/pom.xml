@@ -61,7 +61,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>2.53.1</version>
+			<version>3.141.59</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.apache.httpcomponents</groupId>
@@ -166,21 +166,17 @@
 						<target>1.8</target>
 					</configuration>
 				</plugin>
+				
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.0.0-M5</version>
-					<configuration>
-						<suiteXmlFiles>
-							<suiteXmlFile>${project.basedir}/${RegressionPath}</suiteXmlFile>
-						</suiteXmlFiles>
-						<testErrorIgnore>true</testErrorIgnore>
-						<testFailureIgnore>true</testFailureIgnore>
-					</configuration>
 				</plugin>
+				
 				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-clean-plugin</artifactId>
-					<version>2.5</version>
+					<version>3.1.0</version>
 					<executions>
 						<execution>
 							<id>default-clean</id>
@@ -191,7 +187,7 @@
 						</execution>
 					</executions>
 					<configuration>
-						<excludeDefaultDirectories>true</excludeDefaultDirectories>
+						<excludeDefaultDirectories>false</excludeDefaultDirectories>
 						<filesets>
 							<fileset>
 								<directory>target/</directory>

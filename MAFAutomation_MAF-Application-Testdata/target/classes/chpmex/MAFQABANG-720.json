@@ -1,0 +1,15 @@
+{
+"_comment":"Validated the Export,Print and email button in the result Page",
+ "MAFQABANG-720":
+    [
+	   {
+	     "freeword":"deducción",
+	     "link":"Legislación",
+	     "export":"Exportar",
+	     "print":"Imprimir",
+	     "email":"E-mail",
+	     "action":"Ley"
+	     
+	   }
+	]
+}

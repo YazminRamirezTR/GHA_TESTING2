@@ -1,0 +1,10 @@
+{
+"_comment":"Search with freeword and verify Follow document on document",
+ "MAFQABANG-212":
+	[
+		{
+			"citaonline":"AR/LCON/48J4",
+			"followdocmsg":"Este documento ahora está en seguimiento."
+		}
+	]
+}

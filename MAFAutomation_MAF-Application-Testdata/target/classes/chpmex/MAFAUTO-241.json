@@ -1,0 +1,12 @@
+{
+"_comment":"DocDisplay Toll Tip for Without Effect",
+ "MAFAUTO-241":
+    [
+	   {
+	     "layoutnamesearch":"NOM-009-STPS-1999",
+	     "tooltipmsg":"Información que deja sin efecto la disposición",
+	     "thematicdropdown":"Todas",	   
+		 "SearchDocument": "NOM-009-STPS-1999 - Equipo suspendido de acceso-instalación, operación y mantenimiento. Condiciones de seguridad"	     
+	   }
+	]
+}

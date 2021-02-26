@@ -1,0 +1,10 @@
+{
+"_comment":"Verify search term is highlighted",
+ "MAFQABANG-355":
+    [
+	   {
+	     "freeword": "internacional"	  
+	   }
+	   
+	]
+}

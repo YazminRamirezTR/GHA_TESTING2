@@ -1,0 +1,16 @@
+{
+"_comment":"Search using freeword in the  Labor and Social search pages",
+ "MAFAUTO-76":
+    [
+	   {
+	     "author": "Grispo",
+	     "freeword": "lei"
+	   },
+	   {
+	     "author": "Jorge Daniel",
+	     "freeword":  "lei" 
+	   }
+	     
+	     
+	]
+}

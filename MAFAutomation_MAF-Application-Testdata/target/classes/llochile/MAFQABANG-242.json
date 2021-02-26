@@ -1,0 +1,10 @@
+{
+"_comment":"Verify all events columns header on history page",
+ "MAFQABANG-242":
+	[
+		{
+			"expcolumnnames":["Ver","Nombre","ID Cliente","Último acceso","Dias para que el evento sea eliminado","Borrar","Renombrar"]
+		}
+		
+	]
+}

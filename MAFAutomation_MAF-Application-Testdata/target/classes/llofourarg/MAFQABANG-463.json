@@ -1,0 +1,9 @@
+{
+"_comment":"Verify message displayed when search results in zero records on Legislation page",
+ "MAFQABANG-463":
+    [
+	   {
+	     "articlenumber": "625412"
+	   }
+	]
+}

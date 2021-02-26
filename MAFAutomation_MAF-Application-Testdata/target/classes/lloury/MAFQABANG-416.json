@@ -1,0 +1,12 @@
+{
+"_comment":"Verify search using cita online on Jurisprudence page",
+ "MAFQABANG-416":
+    [
+	   {
+	     "citaonline": "UY/JUR/1780/2016",
+	     "invalidcitaonline": "#$%&",
+	     "errmsg":"Su búsqueda contiene una cita en formato inválido.",
+	     "noresultscitaonline":"CL/JUR/1219/2017"
+	   }
+    ]
+}

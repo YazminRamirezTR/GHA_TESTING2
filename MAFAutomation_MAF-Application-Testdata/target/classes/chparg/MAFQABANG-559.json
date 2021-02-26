@@ -1,0 +1,15 @@
+{
+"_comment":"Validate  New Search links and clear button",
+ "MAFQABANG-559":
+    [
+	   {
+	     "period": "2012",
+	     "coin":"DOLAR U.S.A."
+	   },
+	   
+	   {
+	     "period":"2010",
+	     "coin":"EURO"
+	   }
+	]
+}

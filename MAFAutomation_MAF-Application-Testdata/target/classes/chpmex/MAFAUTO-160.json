@@ -1,0 +1,9 @@
+{
+"_comment":"Top Menu - Go to Checkpoint USA",
+ "MAFAUTO-160":
+ 	[
+		{
+		"expected_url":"https://checkpoint.riag.com/app/login?"
+	  	}
+ 	]
+}

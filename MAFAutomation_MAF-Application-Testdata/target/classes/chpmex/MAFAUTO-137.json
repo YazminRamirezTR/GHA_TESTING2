@@ -1,0 +1,120 @@
+{
+"_comment":"Home Page - View by Thematic Area",
+ "MAFAUTO-137":
+    [
+	   {
+		"thematicarea":"Todas",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Búsqueda por Abreviatura","DOF",
+						"Histórico","Normas de consulta frecuente","Mis Accesos Directos",
+						"Herramientas","Documentos en seguimiento","Búsquedas programadas",
+						"Últimos documentos publicados","Indicadores","Consultoría y Soporte"
+						]
+	  	},
+	  	{
+		"thematicarea":"Fiscal",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Mis Accesos Directos","Últimos documentos publicados",
+						"DOF","Búsquedas programadas","Búsqueda por Abreviatura","Normas de consulta frecuente",
+						"Histórico","Documentos en seguimiento","Indicadores","Herramientas","Consultoría y Soporte"
+						]
+	  	},
+	  	{
+		"thematicarea":"Laboral",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Mis Accesos Directos","Últimos documentos publicados",
+						"DOF","Búsquedas programadas","Búsqueda por Abreviatura","Normas de consulta frecuente",
+						"Histórico","Documentos en seguimiento","Indicadores","Herramientas","Consultoría y Soporte"
+						]
+	  	},
+	  	{
+		"thematicarea":"Seguridad Social",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Mis Accesos Directos","Últimos documentos publicados",
+						"DOF","Búsquedas programadas","Búsqueda por Abreviatura","Normas de consulta frecuente",
+						"Histórico","Documentos en seguimiento","Indicadores","Herramientas"
+						]
+	  	},
+	  	{
+		"thematicarea":"Contabilidad y Auditoría",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Mis Accesos Directos","Últimos documentos publicados",
+						"DOF","Búsquedas programadas","Búsqueda por Abreviatura","Normas de consulta frecuente",
+						"Histórico","Documentos en seguimiento","Indicadores","Herramientas","Consultoría y Soporte"
+						]
+	  	},
+	  	{
+		"thematicarea":"Comercio Exterior",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Mis Accesos Directos","Últimos documentos publicados",
+						"DOF","Búsquedas programadas","Búsqueda por Abreviatura","Normas de consulta frecuente",
+						"Histórico","Documentos en seguimiento","Indicadores","Herramientas","Consultoría y Soporte"
+						]
+	  	},
+	  	{
+	  	"thematicarea":"Administrativo",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Mis Accesos Directos","Últimos documentos publicados",
+						"DOF","Búsquedas programadas","Búsqueda por Abreviatura","Normas de consulta frecuente",
+						"Histórico","Documentos en seguimiento","Indicadores","Herramientas","Consultoría y Soporte"
+						]
+	  	},
+	  	{
+	  	"thematicarea":"Amparo",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Mis Accesos Directos","Últimos documentos publicados",
+						"DOF","Búsquedas programadas","Búsqueda por Abreviatura","Normas de consulta frecuente",
+						"Histórico","Documentos en seguimiento","Indicadores","Herramientas","Consultoría y Soporte"
+						]
+	  	},
+	  	{
+	  	"thematicarea":"Civil",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Mis Accesos Directos","Últimos documentos publicados",
+						"DOF","Búsquedas programadas","Búsqueda por Abreviatura","Normas de consulta frecuente",
+						"Histórico","Documentos en seguimiento","Indicadores","Herramientas","Consultoría y Soporte"
+						]
+	  	},
+	  	{
+	  	"thematicarea":"Constitucional",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Mis Accesos Directos","Últimos documentos publicados",
+						"DOF","Búsquedas programadas","Búsqueda por Abreviatura","Normas de consulta frecuente",
+						"Histórico","Documentos en seguimiento","Indicadores","Herramientas","Consultoría y Soporte"
+						]
+	  	},
+	  	{
+	  	"thematicarea":"Corporativo",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Mis Accesos Directos","Últimos documentos publicados",
+						"DOF","Búsquedas programadas","Búsqueda por Abreviatura","Normas de consulta frecuente",
+						"Histórico","Documentos en seguimiento","Indicadores","Herramientas","Consultoría y Soporte"
+						]
+	  	},
+	  	{
+	  	"thematicarea":"Financiero",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Mis Accesos Directos","Últimos documentos publicados",
+						"DOF","Búsquedas programadas","Búsqueda por Abreviatura","Normas de consulta frecuente",
+						"Histórico","Documentos en seguimiento","Indicadores","Herramientas","Consultoría y Soporte"
+						]
+	  	},
+	  	{
+	  	"thematicarea":"Mercantil",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Mis Accesos Directos","Últimos documentos publicados",
+						"DOF","Búsquedas programadas","Búsqueda por Abreviatura","Normas de consulta frecuente",
+						"Histórico","Documentos en seguimiento","Indicadores","Herramientas","Consultoría y Soporte"
+						]
+	  	},
+	  	{
+	  	"thematicarea":"Penal",
+		"expectedwidgets":[
+						"Búsqueda avanzada","Mis Accesos Directos","Últimos documentos publicados",
+						"DOF","Búsquedas programadas","Búsqueda por Abreviatura","Normas de consulta frecuente",
+						"Histórico","Documentos en seguimiento","Indicadores","Herramientas","Consultoría y Soporte"
+						]
+	  	}
+	   
+	]
+}

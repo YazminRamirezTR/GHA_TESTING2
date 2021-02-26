@@ -1,0 +1,10 @@
+{
+"_comment":"Verify search using index on Legislation page",
+ "MAFQABANG-282":
+    [
+	    {
+		"indexsearch":"recurso de revista"
+		 }
+
+	]
+}

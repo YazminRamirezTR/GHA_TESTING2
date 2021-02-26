@@ -1,0 +1,9 @@
+{
+"_comment":"Labor and Social Security - Advanced Searches - Collective Bargaining Agreements - Do not complete fields",
+ "MAFQABANG-607":
+    [
+	   {
+		   "errorMsg":"Debe completar al menos un campo de búsqueda."
+	   }
+	]
+}

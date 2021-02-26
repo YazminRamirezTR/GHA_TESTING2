@@ -1,0 +1,10 @@
+{
+"_comment":"Validated All Links available in Frequently Asked Questions Widget",
+ "MAFQABANG-570":
+ 	[
+		{
+		"thematicarea":"Todas",
+		"expectedlinks":["Código Tributario","Decreto 150/007 - Impuesto a las Rentas de las Actividades Económicas (IRAE)","Decreto 148/007 - Impuesto a la Renta de las Personas Físicas (IRPF)","Decreto 149/007 - Impuesto a las Rentas de los No Residentes (IRNR)","Decreto 220/998 - Impuesto al Valor Agregado (IVA)","Código Tributario","Título 4 - Impuesto a las Rentas de las Actividades Económicas (IRAE)","Título 7 - Impuesto a la Renta de las Personas Físicas (IRPF)","Título 8 - Impuesto a las Rentas de los No Residentes (IRNR)","Título 10 - Impuesto al Valor Agregado (IVA)"]
+	  	}
+ 	]
+}

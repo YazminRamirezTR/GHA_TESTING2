@@ -1,0 +1,10 @@
+{
+"_comment":"Verify the Result list of Foreign Currency",
+ "MAFQABANG-556":
+    [
+	   {
+	     "period": "2012",
+	     "coin":"DOLAR U.S.A."
+	   }
+	]
+}

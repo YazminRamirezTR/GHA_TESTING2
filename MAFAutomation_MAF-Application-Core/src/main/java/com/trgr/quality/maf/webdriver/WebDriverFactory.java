@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriverService;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.ie.InternetExplorerDriverService;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -16,6 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
@@ -23,13 +25,13 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 
-import com.thoughtworks.selenium.webdriven.commands.WaitForPageToLoad;
 import com.trgr.quality.maf.basetest.BaseTest;
 import com.trgr.quality.maf.fileconfiger.GlobalProperties;
 import com.trgr.quality.maf.fileconfiger.PropertiesRepository;
@@ -39,11 +41,13 @@ public class WebDriverFactory extends BaseTest{
 public static WebDriver driver; 
 public static EdgeDriverService edgeService;
 public static String browserType;
-	
+public static boolean GridEnabled;		
+		
+
 	public static WebDriver getInstance(String BrowserType) throws Exception
-	{
+	{	
 		browserType=BrowserType;
-	
+		
 		switch(browserType){
 			
 		   	case GlobalProperties.CHROME:
@@ -52,8 +56,7 @@ public static String browserType;
 		   		break;
 
 		   	case GlobalProperties.IE:
-		   		driver = initializeIEdriver();
-		   		
+		   		driver = initializeIEdriver();		
 		   		log.info("IE driver instance is launched successfully");
 		   		break;
 			
@@ -65,11 +68,14 @@ public static String browserType;
 		   	case GlobalProperties.EDGE:
 		   		driver = initializeEdgeDriver();
 		   		log.info("Edge Driver instance launched succesfully");	
+		   		break;
 		}
 		return driver; 
 	}
 	
+	
 	private static WebDriver initializeEdgeDriver() throws Exception {
+			
 		try{
 			File file = new File("./drivers/msedgedriver.exe");
 			System.setProperty("webdriver.edge.driver", file.getAbsolutePath());
@@ -93,48 +99,64 @@ public static String browserType;
 	}
 	
 	private static WebDriver initializeIEdriver() throws Exception {
-		File file = new File("./drivers/IEDriverServer.exe");
-		System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
-		WebDriver driver = new InternetExplorerDriver();
-		return driver;
-		}
+		
+			File file = new File("./drivers/IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
+			DesiredCapabilities deCap = DesiredCapabilities.internetExplorer();
+			deCap.setCapability("EnableNativeEvents", false);
+			deCap.setCapability("ignoreZoomSetting", true);
+			deCap.setCapability(CapabilityType.BROWSER_NAME, "IE");
+			deCap.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+			deCap.setCapability(InternetExplorerDriver.ENABLE_ELEMENT_CACHE_CLEANUP, true);
+			WebDriver driver = new InternetExplorerDriver();
+			return driver;
+		
+	}
 	private static WebDriver initializeChromeDriver() throws IOException
-	{
-		// start Chrome in maximized window
-		String downloadFilepath = "C:/Downloads";
-		HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
-		chromePrefs.put("profile.default_content_settings.popups", 0);
-		chromePrefs.put("download.default_directory", downloadFilepath);
+	{	
+		
+			// start Chrome in maximized window
+			String downloadFilepath = "C:/Downloads";
+			HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+			chromePrefs.put("profile.default_content_settings.popups", 0);
+			chromePrefs.put("download.default_directory", downloadFilepath);
 
-		final ChromeOptions options = new ChromeOptions();
+			final ChromeOptions options = new ChromeOptions();
 
-		options.addArguments("--start-maximized", "--allow-running-insecure-content");
-		//options.setExperimentalOption("prefs", chromePrefs);
-		final DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-		options.addArguments("--test-type","ignore-certifcate-errors");
-		 options.addArguments("start-maximized"); // https://stackoverflow.com/a/26283818/1689770
-	    options.addArguments("enable-automation"); // https://stackoverflow.com/a/43840128/1689770
-	        desiredCapabilities.setCapability (CapabilityType.ACCEPT_SSL_CERTS, true);
-		desiredCapabilities.setCapability(ChromeOptions.CAPABILITY, options);
-		
-		
-	    //    options.addArguments("--headless"); // only if you are ACTUALLY running headless
-	    //    options.addArguments("--no-sandbox"); //https://stackoverflow.com/a/50725918/1689770
-	    //    options.addArguments("--disable-infobars"); //https://stackoverflow.com/a/43840128/1689770
-	   //     options.addArguments("--disable-dev-shm-usage"); //https://stackoverflow.com/a/50725918/1689770
-	        options.addArguments("--disable-browser-side-navigation"); //https://stackoverflow.com/a/49123152/1689770
-	   //     options.addArguments("--disable-gpu"); //https://stackoverflow.com/questions/51959986/how-to-solve-selenium-chromedriver-timed-out-receiving-message-from-renderer-exc
-		//disabled for temporaily bindu for debugging
-	    
-		//options.addArguments("chrome.switches","--disable-extensions");
-		
-		/*driverService = new ChromeDriverService.Builder().usingDriverExecutable(new File("./drivers/chromedriver.exe")).usingAnyFreePort().build();
-		driverService.start();
-		log.info("Chrome driver instance is intiated successfully");
-		return driver = new ChromeDriver((ChromeDriverService) driverService, options);*/
-	        File file = new File("./drivers/chromedriver.exe");
+			options.addArguments("--start-maximized", "--allow-running-insecure-content");
+			options.setExperimentalOption("prefs", chromePrefs);
+			final DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
+			options.addArguments("--test-type", "ignore-certifcate-errors");
+			//options.addArguments("start-maximized"); // https://stackoverflow.com/a/26283818/1689770
+			options.addArguments("enable-automation"); // https://stackoverflow.com/a/43840128/1689770
+			desiredCapabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+			desiredCapabilities.setCapability(ChromeOptions.CAPABILITY, options);
+
+			//options.addArguments("--headless"); // only if you are ACTUALLY running headless
+			//options.addArguments("--no-sandbox");
+			// //https://stackoverflow.com/a/50725918/1689770
+			//options.addArguments("--disable-infobars");
+			// //https://stackoverflow.com/a/43840128/1689770
+			//options.addArguments("--disable-dev-shm-usage");
+			// //https://stackoverflow.com/a/50725918/1689770
+			// options.addArguments("--disable-browser-side-navigation"); // https://stackoverflow.com/a/49123152/1689770
+			//options.addArguments("--disable-gpu");
+			// //https://stackoverflow.com/questions/51959986/how-to-solve-selenium-chromedriver-timed-out-receiving-message-from-renderer-exc
+
+			// disabled for temporaily bindu for debugging
+			// options.addArguments("chrome.switches","--disable-extensions");
+
+			/*
+			 * driverService = new ChromeDriverService.Builder().usingDriverExecutable(new
+			 * File("./drivers/chromedriver.exe")).usingAnyFreePort().build();
+			 * driverService.start();
+			 * log.info("Chrome driver instance is intiated successfully"); return driver =
+			 * new ChromeDriver((ChromeDriverService) driverService, options);
+			 */
+			File file = new File("./drivers/chromedriver.exe");
 			System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
-	        return driver=new ChromeDriver(desiredCapabilities);
+			return driver = new ChromeDriver(options);
+		
 	}
 
 
@@ -242,7 +264,7 @@ public static String browserType;
 	public static void waitForTextInElement(final WebDriver driver, final By by, final String text, final Integer maxWaitInSeconds)
 	{
 		final int waitInSeconds = (maxWaitInSeconds != null) ? maxWaitInSeconds : 10;
-		(new WebDriverWait(driver, waitInSeconds)).until(ExpectedConditions.textToBePresentInElement(by, text));
+		(new WebDriverWait(driver, waitInSeconds)).until(ExpectedConditions.textToBePresentInElementLocated(by, text));
 	}
 
 
@@ -375,12 +397,7 @@ public static String browserType;
 	/**
 	 * wait for page to load
 	*/
-	public static void WaitforPagetoload(int time)
-	{
-		WaitForPageToLoad waitforpagetoload = new WaitForPageToLoad();
-		waitforpagetoload.setTimeToWait(time);
-	}
- 
+
 	
 	/**
 	 * Gives the current data in format specified.

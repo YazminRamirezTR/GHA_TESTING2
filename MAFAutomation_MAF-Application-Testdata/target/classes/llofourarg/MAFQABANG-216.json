@@ -1,0 +1,9 @@
+{
+"_comment":"Search with freeword and verify Highlight of search term on Resultlist",
+ "MAFQABANG-216":
+	[
+		{
+			"freeword":"gov"
+		}
+	]
+}

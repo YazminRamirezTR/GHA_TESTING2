@@ -1,0 +1,9 @@
+{
+"_comment":"Verify search using freeword on the Products page",
+ "MAFQABANG-294":
+    [
+	   {
+	     "freeword":"Decreto"	  
+	   }
+	]   
+}

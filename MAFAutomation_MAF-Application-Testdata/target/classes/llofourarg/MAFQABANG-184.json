@@ -1,0 +1,20 @@
+{
+"_comment":"Verify search using court name on Jurisprudence",
+ "MAFQABANG-184":
+    [
+	   {
+	     "courtlisttreeitems":["Tribunales Provinciales","Buenos Aires","Buenos Aires"],
+	     "courtname":"Tribunal de Casación Penal de Buenos Aires",
+	      "invalidtribunal":"$%^&",
+	     "errmsg": "Su búsqueda contiene caracteres inválidos.",
+	     "expectedfacet":"Jurisprudencia"
+	   },
+	   {
+	   "courtlisttreeitems":["Corte Suprema de Justicia de la Nación"],
+	    "courtname":"Corte Suprema de Justicia de la Nación",
+	     "invalidtribunal":"$%^&",
+	     "errmsg": "Su búsqueda contiene caracteres inválidos.",
+	     "expectedfacet":"Jurisprudencia"
+	   }
+	]
+}

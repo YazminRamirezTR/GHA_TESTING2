@@ -1,0 +1,16 @@
+{
+"_comment":"Search using freeword Legislations and verify printing result list",
+ "MAFQABANG-235":
+	[
+		{
+			"freeword":"directores",
+			"documentnumber":"1"
+
+		},
+		{
+			"freeword":"lei",
+			"documentnumber":"1"
+		}
+		
+	]
+}

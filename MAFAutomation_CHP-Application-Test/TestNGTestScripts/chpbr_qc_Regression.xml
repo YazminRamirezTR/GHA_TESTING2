@@ -6,6 +6,7 @@
 	<parameter name="ProductToTest" value="chpbr"/>
 	<parameter name="Browser" value="chrome"/>
 	
+	
 	<listeners>
         <listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener"/>
     </listeners>
@@ -21,8 +22,8 @@
         	<class name="com.trgr.quality.maf.tests.LoginTest"/>
    </classes>
   </test>
-  
-  <!-- <test allow-return-values="false" group-by-instances="false" junit="false" name="SearchTest" preserve-order="true" skipfailedinvocationcounts="false">
+ <!-- 
+   <test allow-return-values="false" group-by-instances="false" junit="false" name="SearchTest" preserve-order="true" skipfailedinvocationcounts="false">
    <groups>
 		<run>
 			<include name="chpbr"/>
@@ -266,5 +267,5 @@
     <classes>
         	<class name="com.trgr.quality.maf.tests.SearchUsingHomePageTest"/>
    </classes>
-  </test> -->
+  </test>-->
  </suite>

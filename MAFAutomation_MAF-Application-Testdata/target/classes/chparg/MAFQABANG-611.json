@@ -1,0 +1,13 @@
+{
+"_comment":"CHPARG: Verify recommend in Herramientas - Checklist/Fiscal  with valid input",
+ "MAFQABANG-611":
+    [
+	   {
+	     "fiscalnodelinks": ["Antievasión","Impuesto sobre los Ingresos Brutos - C.A.B.A.","Regímenes de recaudación","Procedimiento"],
+	     "business":"TR",
+	     "interviewed":"Yes",
+	     "popuptext":"De las respuestas obtenidas no surgen recomendaciones.",
+	      "expectedtextfields":["Empresa:","Entrevistado:","Cargo:","Confeccionó:","Fecha:","Revisó:","Versión:"]
+	   }
+	]
+}

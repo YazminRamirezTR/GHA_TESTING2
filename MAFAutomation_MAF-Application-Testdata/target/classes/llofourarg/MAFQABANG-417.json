@@ -1,0 +1,12 @@
+{
+"_comment":"Verify search using citation publication on Jurisprudence page",
+ "MAFQABANG-417":
+    [
+	   {
+	     "citationpublication": "AR/JUR/73944/2016"	  
+	   },
+	   {
+	     "citationpublication": "CL/JUR/1219/2017"	  
+	   }
+	]
+}

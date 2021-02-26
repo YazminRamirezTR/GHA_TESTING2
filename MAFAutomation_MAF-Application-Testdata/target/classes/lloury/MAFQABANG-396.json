@@ -1,0 +1,9 @@
+{
+"_comment":"Validate Go to checkpoint link on the HeaderSection",
+ "MAFQABANG-396":
+ 	[
+		{
+		"expected_url":["https://www-checkpoint-laleyonline-com-uy-clt.int.westgroup.com"]
+	  	}
+ 	]
+}

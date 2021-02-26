@@ -1,0 +1,13 @@
+{
+"_comment":"Labor and Social Security - Advanced Search - Collective Bargaining Agreements - Field Thematic Search (3)",
+ "MAFQABANG-601":
+    [
+	   {
+		   "thematicsearch": "TRANSPORTE",
+		   "firstleveltitle": "EMPLEADO DEL TRANSPORTE",
+		   "secondthematicsearch": "REMUNERACION",
+		   "secondleveltitle": "REMUNERACION",
+		   "thirdthematicsearch": "SALARIO BASICO"
+		}
+	]
+}

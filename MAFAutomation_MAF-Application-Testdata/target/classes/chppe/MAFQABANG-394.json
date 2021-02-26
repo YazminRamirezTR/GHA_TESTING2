@@ -1,0 +1,10 @@
+{
+"_comment":"Verify Header Section links available",
+ "MAFQABANG-394":
+    [
+	   {
+	     "headerlinks":["Preferencias","Mis documentos","Ayuda","Consultas","Ir a Checkpoint World","Cerrar Sesion","Historial","Links Útiles"]
+	   }
+	]
+}
+	     

@@ -5,11 +5,20 @@
 	<parameter name="Environment" value="qc"/>
 	<parameter name="ProductToTest" value="chparg"/>
 	<parameter name="Browser" value="chrome"/>
+	<parameter name="GridEnabled" value="false"/>
+	<parameter name="HubURL" value="http://10.25.30.4"/>
+	<parameter name="Port" value=":4747"/>
+	
+	<!-- 
+	:4747 - CHROME 			:4848 - FIREFOX 			:4949 - IE
+	 -->
+	
 
 	<listeners>
 		<listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener"/>
 	</listeners>
-	<test allow-return-values="false" group-by-instances="false" junit="false" name="LoginTest" preserve-order="true" skipfailedinvocationcounts="false">
+	
+	<test name="LoginTest">
 		<groups>
 			<run>
 				<include name="chparg"/>
@@ -20,7 +29,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false" junit="false" name="SearchTest" preserve-order="true" skipfailedinvocationcounts="false">
+	<test name="SearchTest">
 		<groups>
 			<run>
 				<include name="chparg"/>
@@ -32,7 +41,7 @@
 	</test>
 
 
-	<test allow-return-values="false" group-by-instances="false" junit="false" name="DeliveryTest" preserve-order="true" skipfailedinvocationcounts="false">
+	<test name="DeliveryTest">
 		<groups>
 			<run>
 				<include name="chparg"/>
@@ -43,7 +52,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false" junit="false" name="DocumentDisplayTest" preserve-order="true" skipfailedinvocationcounts="false">
+	<test name="DocumentDisplayTest" >
 		<groups>
 			<run>
 				<include name="chparg"/>
@@ -54,7 +63,7 @@
 		</classes>
 	</test>
 
-	<test allow-return-values="false" group-by-instances="false" junit="false" name="PreferenceTest" preserve-order="true" skipfailedinvocationcounts="false">
+	<test name="PreferenceTest">
 		<groups>
 			<run>
 				<include name="chparg"/>

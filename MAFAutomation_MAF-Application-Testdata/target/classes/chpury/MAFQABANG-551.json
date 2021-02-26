@@ -1,0 +1,9 @@
+{
+"_comment":"Alert page verification - Validate All Expected fields",
+ "MAFQABANG-551":
+	[
+		{
+			"alerttype":["Búsquedas guardadas:","Búsquedas programadas:","Documentos en seguimiento:"]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+"_comment":"Verify Header Section links available",
+ "MAFQABANG-394":
+    [
+	   {
+	     "headerlinks":["PREFERÊNCIAS","MEUS DOCUMENTOS","ALERTAS","SISTEMA DE TAREFAS","AJUDA","PRIMEIRA HORA","BIBLIOTECA E-LEARNING","IR À REVISTA DOS TRIBUNAIS ONLINE","IR AO CHECKPOINT WORLD","IR AO CHECKPOINT USA","SAIR"]
+	   }
+	]
+}
+	     

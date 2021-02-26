@@ -1,0 +1,11 @@
+{
+"_comment":"Verify display of widget information message when there are no saved records on widgets",
+ "MAFAUTO-132":
+    [
+	   {
+	   "widgetname":"Mis Accesos Directos",
+	     "noavailablelinksmsg":"Actualmente no se registran accesos directos. Para agregar un acceso directo, haga clic sobre el ícono en la sección que desea del árbol de contenidos o documento. Si desea información detallada acerca de esta funcionalidad haga clic aquí.",
+		 "shortcutname":""
+	   }
+	]
+}

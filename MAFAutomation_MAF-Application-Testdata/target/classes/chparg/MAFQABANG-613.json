@@ -1,0 +1,13 @@
+{
+"_comment":" Verify recommend in Herramientas -Checklist/Laboral y seguridad social  with valid input",
+ "MAFQABANG-613":
+    [
+	   {
+	     "labournodelinks": ["Asignaciones familiares","Feriados y días no laborables","Jornada de trabajo","Jubilación","Legajo médico","Legajos","Licencias especiales","Registro de empleadores - Ciudad Autónoma de Buenos Aires","Remuneraciones, recibos de sueldo y libro sueldos"],
+	      "business":"TR",
+	      "interviewed":"Yes",
+	      "popuptext":"De las respuestas obtenidas no surgen recomendaciones.",
+	       "expectedtextfields":["Empresa:","Entrevistado:","Cargo:","Confeccionó:","Fecha:","Revisó:","Versión:"]
+	   }
+	]
+}

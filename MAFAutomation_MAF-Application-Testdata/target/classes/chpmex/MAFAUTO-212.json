@@ -1,0 +1,12 @@
+{
+"_comment":"Verify Flags associated with versions for Legislation Documents",
+ "MAFAUTO-212":
+	[
+		{
+			"freeword":"impuesto sobre la renta",
+			"valuewithlink":"01-01-2018 a 31-12-2018",
+			"valuewithoutlink":"01-01-2019",
+			"Document": "LISR - Ley del Impuesto sobre la Renta (DOF 11-12-2013)"
+		}
+	]
+}

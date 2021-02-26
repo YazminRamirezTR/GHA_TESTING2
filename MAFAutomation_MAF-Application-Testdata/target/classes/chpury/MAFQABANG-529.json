@@ -1,0 +1,10 @@
+{
+"_comment":"Specific link to be clicked inside Featured Articles widget & validate document",
+ "MAFQABANG-529":
+		[
+  		   	{
+		    	"thematicarea":"Todas",
+  		    	"expectedlink":"Decreto 299/2015"
+  		  	}
+		]
+}

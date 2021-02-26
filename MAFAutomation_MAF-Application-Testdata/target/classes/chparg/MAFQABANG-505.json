@@ -1,0 +1,13 @@
+{
+"_comment":"Preferences_Verify Preferences End to End Functionality",
+ "MAFQABANG-505":
+    [
+	   {
+	    "freeword":"aduana",
+	    "email":"anusha.macherla@thomsonreuters.com",
+	    "passwordresetapplicable":"N",
+	    "passwordrecoveryapplicable":"N",
+	    "fiscalradioapplicable":"N"
+	    }
+	]
+}

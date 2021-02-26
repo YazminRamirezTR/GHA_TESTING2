@@ -1,24 +1,15 @@
 package com.trgr.quality.maf.basetest;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.io.Writer;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.edge.EdgeDriverService;
-import org.openqa.selenium.remote.Augmenter;
 import org.testng.IResultMap;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -26,14 +17,11 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.trgr.quality.maf.webdriver.*;
-import com.atlassian.jira.rest.client.api.domain.Issue;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.relevantcodes.extentreports.model.Log;
 import com.trgr.quality.maf.commonutils.JiraConnector;
-import com.trgr.quality.maf.commonutils.RandomUtils;
-import com.trgr.quality.maf.commonutils.XMLAttributeModifier;
 import com.trgr.quality.maf.fileconfiger.PropertiesRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -55,8 +43,8 @@ public class BaseTest {
 	IResultMap tests;
 
 	@BeforeSuite(alwaysRun = true)
-	@Parameters({ "Environment", "ProductToTest", "Browser" })
-	public static void setup(@Optional String environment, @Optional String productToTest, @Optional String browser)
+	@Parameters({  "Environment", "ProductToTest", "Browser" })
+	public static void setup( @Optional String environment, @Optional String productToTest, @Optional String browser)
 			throws Exception {
 		PropertiesRepository.appendProperties("TestConfig.properties");
 
@@ -76,15 +64,19 @@ public class BaseTest {
 			productUnderTest = productToTest;
 		else
 			productUnderTest = PropertiesRepository.getString("com.trgr.maf.productToTest");
-
+		
+		/*if(GridEnabled){
+			driver = WebDriverGridInstance.buildInstance(port, HubURL);
+		} 
+		else {}*/
 		if (browser != null && !browser.isEmpty()) {
-			BrowserType = browser;
+			BrowserType = browser;	
 			driver = WebDriverFactory.getInstance(BrowserType);
 		} else {
 			BrowserType = PropertiesRepository.getString("global.browser.name");
 			driver = WebDriverFactory.getInstance(BrowserType);
 		}
-
+		
 		WebDriverFactory.managedriver(driver);
 
 		// Building the product url based on the environment being tested for
@@ -615,7 +607,7 @@ public class BaseTest {
 	 * Takes a screen shot of the browser and Refer the link in extend Reports
 	 * 
 	 * @throws IOException
-	 */
+	 */ /*
 	protected String takeScreenShot(String testName) throws IOException {
 		int randomNum = RandomUtils.generatePsuedoRandomNumber(1, 100);
 		final WebDriver augmentedDriver = new Augmenter().augment(driver);
@@ -623,7 +615,7 @@ public class BaseTest {
 		FileUtils.copyFile(screenShot, new File("./screenshots/" + testName + randomNum + ".jpg"));
 		String imageLocation = System.getProperty("user.dir") + "\\screenshots\\" + testName + randomNum + ".jpg";
 		return imageLocation;
-	}
+	}*/
 
 	/*
 	 * This method takes the Screen shot of the browser and Embed error image in

@@ -1,0 +1,13 @@
+{
+"_comment":"Verify search using Citation Publication value on the Doctrine page",
+ "MAFQABANG-440":
+    [
+	    {
+	    "citapublication":"AR/JUR/73944/2016"
+	    },
+	    {
+	    "citapublication":"CL/JUR/1219/2017"
+	    }   
+	    
+	]
+}

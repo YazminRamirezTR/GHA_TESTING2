@@ -1,0 +1,16 @@
+{
+  "_comment": "Clear Second Thematic Search input with Three intersection inputs",
+  "MAFQABANG-523": 
+	  [
+	    {
+	    	 "thematickeyword": "ABOGADO",
+		     "thematicsuggestiontitle":"ABOGADO",
+		     
+		     "thematickeywordsecondlevel":"ADUANA",
+		     "thematicsuggestiontitlesecondlevel":"ADUANA",
+		     
+		   	 "thematickeywordthirdlevel":"LEY",
+		     "thematicsuggestiontitlethirdlevel":"APLICACION DE LA LEY"
+	    }
+	  ]
+}

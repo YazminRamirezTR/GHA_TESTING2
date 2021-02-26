@@ -2,7 +2,14 @@ package com.trgr.quality.maf.fileconfiger;
 
 
 public class GlobalProperties {
+	
+	//BROWSER NODES PORT
+	public static final String CHROME_NODE=":4747";
+	public static final String FIREFOX_NODE=":4848";
+	public static final String IE_NODE=":4949";
 
+
+	
 	public static final String CHROME="chrome";
 	public static final String FIREFOX="firefox";
 	public static final String IE="internet explorer";

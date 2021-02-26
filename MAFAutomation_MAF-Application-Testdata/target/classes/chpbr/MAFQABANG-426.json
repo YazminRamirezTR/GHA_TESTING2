@@ -1,0 +1,9 @@
+{
+"_comment":"Verify Advance search  Forms using freeword",
+ "MAFQABANG-426":
+	[
+		{
+			"freeword": "tribunal"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+"_comment":"Verify delivery from document display for Doctrine docs",
+ "MAFAUTO-65":
+	[
+		{
+			"citationpublication":"AR/DOC/2830/2016",
+			"emailid":"mohankumar.bn@thomsonreuters.com"
+		},
+		{
+			"citationpublication":"CL/DOC/590/2017",
+			"emailid":"mohankumar.bn@thomsonreuters.com"
+		}
+		
+	]
+}

@@ -21,6 +21,7 @@ import com.trgr.quality.maf.commonutils.RandomUtils;
 import com.trgr.quality.maf.fileconfiger.PropertiesRepository;
 import com.trgr.quality.maf.jsonreader.JsonReader;
 import com.trgr.quality.maf.pages.AlertPage;
+import com.trgr.quality.maf.pages.BasePage;
 import com.trgr.quality.maf.pages.HomePage;
 import com.trgr.quality.maf.pages.LegislationPage;
 import com.trgr.quality.maf.pages.LoginPage;
@@ -99,6 +100,7 @@ public class AlertTest extends BaseTest {
 	@BeforeMethod(alwaysRun = true)
 	public void backToHomePage() {
 		try {
+			homepage = new HomePage(driver);
 			homepage.OpenSearchPage();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

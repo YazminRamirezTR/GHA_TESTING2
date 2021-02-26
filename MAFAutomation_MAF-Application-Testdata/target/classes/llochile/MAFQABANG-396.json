@@ -1,0 +1,9 @@
+{
+"_comment":"Validate Go to checkpoint link on the HeaderSection",
+ "MAFQABANG-396":
+ 	[
+		{
+		"expected_url":["https://www-checkpoint-cl-clt.int.westgroup.com/maf/app","https://www.checkpoint.cl.qc.int.westgroup.com/maf/app"]
+	  	}
+ 	]
+}

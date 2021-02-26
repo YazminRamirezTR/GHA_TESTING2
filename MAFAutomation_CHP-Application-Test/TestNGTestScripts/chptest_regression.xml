@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite allow-return-values="false" configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" guice-stage="DEVELOPMENT" junit="false" name="CHP TEST" parallel="none" preserve-order="true" skipfailedinvocationcounts="false" thread-count="5">
+
+	<parameter name="Environment" value="prod"/>
+	<parameter name="ProductToTest" value="chpbr"/>
+	<parameter name="Browser" value="chrome"/>
+			
+	<listeners>
+		<listener class-name="com.trgr.quality.maf.commonutils.ExtentReportTestNGListener"/>
+	</listeners>
+	
+	<test name="LoginTest">
+		<groups>
+			<run>
+				<include name="chpbr"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.trgr.quality.maf.tests.LoginTest"/>
+		</classes>
+	</test>
+
+</suite>

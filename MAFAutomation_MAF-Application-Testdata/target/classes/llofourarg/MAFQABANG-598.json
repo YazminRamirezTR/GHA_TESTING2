@@ -1,0 +1,12 @@
+{
+"_comment":"Labor and Social Security - Advanced Searches - Collective Bargaining Agreements - Field Activity",
+ "MAFQABANG-598":
+    [
+	   {
+		   "actividad": "ACEITERA",
+		   "actividadwithnomatch": "PIANO",
+		   "invalidinput":"#$%&",
+		   "errorMsg":"Su búsqueda contiene caracteres inválidos."
+	   }
+	]
+}

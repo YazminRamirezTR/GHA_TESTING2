@@ -1,0 +1,15 @@
+{
+"_comment":"Validate the filter results widget and the links present inside it from home page",
+ "MAFQABANG-690":
+    [
+	   {
+	     "freeword":"deducción",
+	     "doc_type":["Legislación",
+	                 "Jurisprudencia",
+	                 "Doctrina"],
+          "widget_name":"Filtrar Resultados"
+	                 
+	     
+	   }
+	]
+}

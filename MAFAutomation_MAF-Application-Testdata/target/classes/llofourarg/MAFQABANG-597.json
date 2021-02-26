@@ -1,0 +1,12 @@
+{
+"_comment":"Verify search using Numero de Norma on Homepage",
+ "MAFQABANG-597":
+    [
+	   {
+	     "numerodenorma": "1003",
+	     "invalidnumerodenorma": "#$%&",
+	     "errmsg":"Su búsqueda contiene caracteres inválidos.",
+	     "noresultsnumerodenorma":"981239"
+	   }
+    ]
+}

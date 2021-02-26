@@ -1,0 +1,11 @@
+{
+"_comment":"Verify the Clear button in action",
+ "MAFQABANG-493":
+    [
+	   {
+	   	 "period": "2010",
+	     "denominación":"BANCO DE GALICIA Y BS.AS. S.A.",
+	     "clase":"U$S CTA. EXTERIOR"
+	   }
+	]
+}

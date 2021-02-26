@@ -1,0 +1,11 @@
+{
+"_comment":"Labor and Social Security - Advanced Search - Collective Labor Agreements - Field BUSINESS PARTNER",
+ "MAFQABANG-604":
+    [
+	   {
+		   "businesswoman": "Asociación Argentina de Empresarios Mineros",
+		   "invalidinput":"#$%&",
+		   "errorMsg":"Su búsqueda contiene caracteres inválidos."
+	   }
+	]
+}

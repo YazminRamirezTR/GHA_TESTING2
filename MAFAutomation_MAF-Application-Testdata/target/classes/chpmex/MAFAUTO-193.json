@@ -1,0 +1,11 @@
+{
+"_comment":"Home Page Validate Frequently Asked Questions widget for Thematic Area Amparo",
+ "MAFAUTO-193":
+		[
+			{
+				"thematicarea":  "Amparo",
+				"expectedlinks":["LAMP - Ley de Amparo, Reglamentaria de los artículos 103 y 107 de la Constitución Política de los Estados Unidos Mexicanos",
+								 "Acuerdo General 3/2013 de los Tribunales de Circuito y de los Juzgados de Distrito" ]
+			}
+		]
+}
