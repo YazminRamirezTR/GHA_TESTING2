@@ -22,36 +22,38 @@ public class LoginPage extends BasePage {
 		super(driver);
 		try {
 			driver.get(productUrl);
-			 if(isDisplayedAdvancedButton()) {
-		   		 Thread.sleep(1000);
-			   	 	elementhandler.clickElement(PropertiesRepository.getString("com.trgr.maf."+BaseTest.productUnderTest+ ".advancedlinkpage"));
-			   	 	Thread.sleep(1000);
-			   	 	elementhandler.clickElement(PropertiesRepository.getString("com.trgr.maf."+BaseTest.productUnderTest+ ".advancedlinkproceed"));
+			if (isDisplayedAdvancedButton()) {
+				Thread.sleep(1000);
+				elementhandler.clickElement(PropertiesRepository
+						.getString("com.trgr.maf." + BaseTest.productUnderTest + ".advancedlinkpage"));
+				Thread.sleep(1000);
+				elementhandler.clickElement(PropertiesRepository
+						.getString("com.trgr.maf." + BaseTest.productUnderTest + ".advancedlinkproceed"));
 
-		   	 }
-			if(BaseTest.productUnderTest.equals("chpmex")) {
-				WebDriverWait wait = new WebDriverWait(driver,60);
-				wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//title[text()='Checkpoint Mexico Signon']")));
-				
 			}
-			WebDriverFactory.waitForElementUsingWebElement(driver,
-					elementhandler.getElement(
-							PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginButton")),
-					20);
+			if (BaseTest.productUnderTest.equals("chpmex")) {
+				WebDriverWait wait = new WebDriverWait(driver, 60);
+				wait.until(ExpectedConditions
+						.presenceOfElementLocated(By.xpath("//title[text()='Checkpoint Mexico Signon']")));
+
+			}
+			WebDriverFactory.waitForElementUsingWebElement(driver, elementhandler.getElement(
+					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginButton")), 20);
 		} catch (Exception e) {
-			//If automatically logged in, then log off & reload URL
+			// If automatically logged in, then log off & reload URL
 			String locator = PropertiesRepository.getString("com.trgr.maf." + productUnderTest + ".SignOff");
 			try {
-				if(IsPopUpWindowPresent()){
+				if (IsPopUpWindowPresent()) {
 					clickOnAlertPopUP();
 				}
-				if(WebDriverFactory.isDisplayed(driver, elementhandler.getElement(locator))){
-					 elementhandler.clickElement(locator);
+				if (WebDriverFactory.isDisplayed(driver, elementhandler.getElement(locator))) {
+					elementhandler.clickElement(locator);
 				}
-				driver.get(productUrl);//Re-load URL
-				if(BaseTest.productUnderTest.equals("chpmex")) {
-					WebDriverWait wait = new WebDriverWait(driver,60);
-					wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//title[text()='Checkpoint Mexico Signon']")));
+				driver.get(productUrl);// Re-load URL
+				if (BaseTest.productUnderTest.equals("chpmex")) {
+					WebDriverWait wait = new WebDriverWait(driver, 60);
+					wait.until(ExpectedConditions
+							.presenceOfElementLocated(By.xpath("//title[text()='Checkpoint Mexico Signon']")));
 				}
 			} catch (Exception exc) {
 				extentLogger.log(LogStatus.INFO, "Error in : LoginPage <br>" + displayErrorMessage(exc));
@@ -59,51 +61,60 @@ public class LoginPage extends BasePage {
 		}
 
 	}
+
 	/*
 	 * This method is used to load the url
 	 */
 	public void LoadLoginPage(String productUrl) throws IOException, IllegalArgumentException {
 		driver.get(productUrl);
-		if(isDisplayedAdvancedButton()) {
-	   		
-		   	 	elementhandler.clickElement(PropertiesRepository.getString("com.trgr.maf."+BaseTest.productUnderTest+ ".advancedlinkpage"));
-		   	 
-		   	 	elementhandler.clickElement(PropertiesRepository.getString("com.trgr.maf."+BaseTest.productUnderTest+ ".advancedlinkproceed"));
+		if (isDisplayedAdvancedButton()) {
 
-	   	 }
+			elementhandler.clickElement(
+					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".advancedlinkpage"));
+
+			elementhandler.clickElement(PropertiesRepository
+					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".advancedlinkproceed"));
+
+		}
 		WebDriverFactory.waitForElementUsingWebElement(driver,
 				elementhandler.getElement(
 						PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginButton")),
 				20);
 
 	}
+
 	/*
-	 * This method is used to log into application. This will return home page drive on success
+	 * This method is used to log into application. This will return home page drive
+	 * on success
 	 */
 	public HomePage Login(String Username, String Password) throws IllegalArgumentException, IOException {
 		try {
-			
-
+			//Wait and get username and password input boxes
 			WebDriverFactory.waitForElementUsingWebElement(driver, elementhandler.getElement(
 					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginUsername")),
 					20);
-			elementhandler.getElement(PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginUsername")).clear();
-			elementhandler.getElement(PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginPassword")).clear();
+			elementhandler.getElement(
+					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginUsername"))
+					.clear();
+			elementhandler.getElement(
+					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginPassword"))
+					.clear();
+			//Write on input boxes
 			elementhandler.writeText(
 					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginUsername"),
 					Username);
-			
+
 			elementhandler.writeText(
 					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginPassword"),
 					Password);
 			Thread.sleep(1000);
-			
-			
+
 			elementhandler.clickElement(
 					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginButton"));
-			if(BaseTest.productUnderTest.equals("chpmex")) {
-				WebDriverWait wait = new WebDriverWait(driver,60);
-				wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//title[text()='Checkpoint  | Búsquedas']")));
+			if (BaseTest.productUnderTest.equals("chpmex")) {
+				WebDriverWait wait = new WebDriverWait(driver, 60);
+				wait.until(ExpectedConditions
+						.presenceOfElementLocated(By.xpath("//title[text()='Checkpoint  | Búsquedas']")));
 			}
 			return new HomePage(driver);
 		} catch (Exception exc) {
@@ -111,38 +122,41 @@ public class LoginPage extends BasePage {
 			return null;
 		}
 	}
-	
+
 	public static boolean isDisplayedAdvancedButton() {
-		boolean flag=false;
+		boolean flag = false;
 		try {
 			return driver.findElement(By.xpath("//button[@id='details-button']")).isDisplayed();
-		}
-		catch (Exception exc) {
-			 flag=false;
+		} catch (Exception exc) {
+			flag = false;
 		}
 		return flag;
 	}
-	
-	public HomePage LoginInvalidScenarios(String Username, String Password) throws IllegalArgumentException, IOException {
+
+	public HomePage LoginInvalidScenarios(String Username, String Password)
+			throws IllegalArgumentException, IOException {
 		try {
 			WebDriverFactory.waitForElementUsingWebElement(driver, elementhandler.getElement(
 					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginUsername")),
 					20);
-			elementhandler.getElement(PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginUsername")).clear();
-			elementhandler.getElement(PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginPassword")).clear();
+			elementhandler.getElement(
+					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginUsername"))
+					.clear();
+			elementhandler.getElement(
+					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginPassword"))
+					.clear();
 			elementhandler.writeText(
 					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginUsername"),
 					Username);
-			
+
 			elementhandler.writeText(
 					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginPassword"),
 					Password);
 			Thread.sleep(1000);
-			
-			
+
 			elementhandler.clickElement(
 					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".LoginButton"));
-			
+
 			return new HomePage(driver);
 		} catch (Exception exc) {
 			extentLogger.log(LogStatus.INFO, "Error in : Login <br>" + displayErrorMessage(exc));
@@ -168,8 +182,10 @@ public class LoginPage extends BasePage {
 			extentLogger.log(LogStatus.INFO, "Error in : Login <br>" + displayErrorMessage(exc));
 		}
 	}
+
 	/*
-	 * This method is used to verify error message is displayed for invalid credentials
+	 * This method is used to verify error message is displayed for invalid
+	 * credentials
 	 */
 	public boolean invalidCredentialsMsgDisplayed() {
 		try {
@@ -192,26 +208,26 @@ public class LoginPage extends BasePage {
 	}
 
 	/*
-	 * This method is used to check the save both user and password check box in the login page
+	 * This method is used to check the save both user and password check box in the
+	 * login page
 	 */
 	public void SelectSaveUsernameAndPassword() {
 		try {
-			WebElement loc = elementhandler.getElement(PropertiesRepository
-					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".saveboth"));
-			if(!loc.isSelected())
-			{
-			((JavascriptExecutor) driver).executeScript("arguments[0].click();",
-					elementhandler.getElement(PropertiesRepository
-							.getString("com.trgr.maf." + BaseTest.productUnderTest + ".saveboth")));
-			}
-			//normal click is throwing Exception.class hence added java script click
-			//elementhandler.clickElement(
-				//	PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".saveboth"));
+			WebElement loc = elementhandler.getElement(
+					PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".saveboth"));
+				((JavascriptExecutor) driver).executeScript("arguments[0].click();", elementhandler.getElement(
+						PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest + ".saveboth")));
+			
+			// normal click is throwing Exception.class hence added java script click
+			// elementhandler.clickElement(
+			// PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest +
+			// ".saveboth"));
 		} catch (Exception exc) {
 			extentLogger.log(LogStatus.INFO,
 					"Error in : SelectSaveUsernameAndPassword <br>" + displayErrorMessage(exc));
 		}
 	}
+
 	/*
 	 * This method is used to check the save user name check box in the login page
 	 */
@@ -220,11 +236,12 @@ public class LoginPage extends BasePage {
 			((JavascriptExecutor) driver).executeScript("arguments[0].click();",
 					elementhandler.getElement(PropertiesRepository
 							.getString("com.trgr.maf." + BaseTest.productUnderTest + ".saveusernamecheckbox")));
-		/*	elementhandler.clickElement(PropertiesRepository
-					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".saveusernamecheckbox"));*/
+			/*
+			 * elementhandler.clickElement(PropertiesRepository .getString("com.trgr.maf." +
+			 * BaseTest.productUnderTest + ".saveusernamecheckbox"));
+			 */
 		} catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO,
-					"Error in : SelectSaveUsername <br>" + displayErrorMessage(exc));
+			extentLogger.log(LogStatus.INFO, "Error in : SelectSaveUsername <br>" + displayErrorMessage(exc));
 		}
 	}
 
@@ -234,10 +251,9 @@ public class LoginPage extends BasePage {
 	public void UnselectSaveUsername() {
 		try {
 			elementhandler.clickElement(PropertiesRepository
-						.getString("com.trgr.maf." + BaseTest.productUnderTest + ".saveusernamecheckbox"));
-			} catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO,
-					"Error in : UnselectSaveUsername <br>" + displayErrorMessage(exc));
+					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".saveusernamecheckbox"));
+		} catch (Exception exc) {
+			extentLogger.log(LogStatus.INFO, "Error in : UnselectSaveUsername <br>" + displayErrorMessage(exc));
 		}
 	}
 
@@ -318,7 +334,7 @@ public class LoginPage extends BasePage {
 		}
 
 	}
-	
+
 	/*
 	 * This method is used to verify service link is displayed in the login page.
 	 */
@@ -332,22 +348,23 @@ public class LoginPage extends BasePage {
 			return false;
 		}
 	}
-	
+
 	/*
 	 * This method is used to click service link in the login page.
 	 */
 	public void clickServiceLink() {
-		try{
+		try {
 			String locator = PropertiesRepository
 					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".customerservicelink");
 			elementhandler.clickElement(locator);
-		}catch (Exception exc) {
+		} catch (Exception exc) {
 			extentLogger.log(LogStatus.INFO, "Error in : clickServiceLink <br>" + displayErrorMessage(exc));
 		}
 	}
-	
+
 	/*
-	 * This method is used to verify service link page displayed on clicking service link
+	 * This method is used to verify service link page displayed on clicking service
+	 * link
 	 */
 	public boolean isServiceLinkPageDisplayed() {
 		try {
@@ -359,7 +376,7 @@ public class LoginPage extends BasePage {
 			return false;
 		}
 	}
-	
+
 	/*
 	 * This method is used to go back to login page
 	 */
@@ -373,7 +390,7 @@ public class LoginPage extends BasePage {
 			extentLogger.log(LogStatus.INFO, "Error in : clickBacktoLoginPage <br>" + displayErrorMessage(exc));
 		}
 	}
-	
+
 	/*
 	 * This method is used to click Interactive Demo Link
 	 */
@@ -387,18 +404,18 @@ public class LoginPage extends BasePage {
 			extentLogger.log(LogStatus.INFO, "Error in : clickInteractiveDemoLink <br>" + displayErrorMessage(exc));
 		}
 	}
-		
-	
+
 	/*
-	 * This method is used to validate  user is redirected to respective url on post clicking header section links
+	 * This method is used to validate user is redirected to respective url on post
+	 * clicking header section links
 	 */
 	public boolean validateRedirectedUrl() {
 		boolean flag = false;
-		try{
-			//Set st = driver.getWindowHandles();
-			//Iterator<String> it = st.iterator();
-			//String parent = it.next();
-			//String child = it.next();
+		try {
+			// Set st = driver.getWindowHandles();
+			// Iterator<String> it = st.iterator();
+			// String parent = it.next();
+			// String child = it.next();
 			String parent = driver.getWindowHandles().toArray()[0].toString();
 			String child = driver.getWindowHandles().toArray()[1].toString();
 
@@ -436,7 +453,7 @@ public class LoginPage extends BasePage {
 			return false;
 		}
 	}
-		
+
 	/*
 	 * This method is used to click FQA link
 	 */
@@ -444,16 +461,15 @@ public class LoginPage extends BasePage {
 		try {
 			String locator = PropertiesRepository
 					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".frequentlyaskedquestionslink");
-			if(WebDriverFactory.isDisplayed(driver, elementhandler.getElement(locator)))
-			{
-			elementhandler.clickElement(locator);
-			Thread.sleep(3000);
+			if (WebDriverFactory.isDisplayed(driver, elementhandler.getElement(locator))) {
+				elementhandler.clickElement(locator);
+				Thread.sleep(3000);
 			}
 		} catch (Exception exc) {
 			extentLogger.log(LogStatus.INFO, "Error in : clickFrequentQuestionsLink <br>" + displayErrorMessage(exc));
 		}
 	}
-		
+
 	/*
 	 * This method is used to verify FQA page is displayed
 	 */
@@ -461,18 +477,18 @@ public class LoginPage extends BasePage {
 		try {
 			String locator = PropertiesRepository
 					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".frequentquestionslabel");
-			if(WebDriverFactory.isDisplayed(driver, elementhandler.findElement(locator)));
-			
-		boolean flag;
-			flag= elementhandler.getElement(locator).isDisplayed();
+			if (WebDriverFactory.isDisplayed(driver, elementhandler.findElement(locator)))
+				;
+
+			boolean flag;
+			flag = elementhandler.getElement(locator).isDisplayed();
 			return flag;
 
 		} catch (Exception exc) {
 			extentLogger.log(LogStatus.INFO, "Error in : isFreqQuesPageDisplayed <br>" + displayErrorMessage(exc));
 			return false;
 		}
-		
-		
+
 	}
 
 	/*
@@ -492,9 +508,9 @@ public class LoginPage extends BasePage {
 			elementhandler.clickElement(locator);
 		} catch (Exception exc) {
 			extentLogger.log(LogStatus.INFO, "Error in : clickonClientIDLink <br>" + displayErrorMessage(exc));
-			}
+		}
 	}
-	
+
 	/*
 	 * This method is used to verify client id page is displayed
 	 */
@@ -510,7 +526,7 @@ public class LoginPage extends BasePage {
 	}
 
 	/*
-	 * This method is used to enter client id 
+	 * This method is used to enter client id
 	 */
 	public void enterClientID(String clientid) {
 		try {
@@ -521,8 +537,9 @@ public class LoginPage extends BasePage {
 			extentLogger.log(LogStatus.INFO, "Error in : enterClientID <br>" + displayErrorMessage(exc));
 		}
 	}
+
 	/*
-	 * This method is checking the client id is displayed 
+	 * This method is checking the client id is displayed
 	 */
 	public boolean ClientIdIsDisplayed(String clientid) {
 		try {
@@ -534,44 +551,43 @@ public class LoginPage extends BasePage {
 			return false;
 		}
 	}
-	
-	
+
 	/*
 	 * This method is used to verify Forgot USername link displayed
 	 */
 	public boolean isForgotUsernameLinkDispalyed() {
-		try{
+		try {
 			String locator = PropertiesRepository
 					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_forgotusername");
 			return elementhandler.findElement(locator).isDisplayed();
-		}catch (Exception exc) {
+		} catch (Exception exc) {
 			extentLogger.log(LogStatus.INFO,
 					"Error in : isForgotUsernameLinkDispalyed <br>" + displayErrorMessage(exc));
 			return false;
 		}
 	}
-	
+
 	/*
-	 * This method is used to click Forgot USername link 
+	 * This method is used to click Forgot USername link
 	 */
 	public void clickForgotUsernameLink() {
-		try{
+		try {
 			String locator = PropertiesRepository
 					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_forgotusername");
 			elementhandler.clickElement(locator);
-		}catch (Exception exc) {
+		} catch (Exception exc) {
 			extentLogger.log(LogStatus.INFO,
 					"Error in : validateforgotusername  in onepass page <br>" + displayErrorMessage(exc));
-			}
+		}
 	}
-	
+
 	/*
 	 * This method is used to verify create one pass profile link displayed
 	 */
 	public boolean isCreateOnePassProfileLinkAvailable() {
 		try {
-			String locator = PropertiesRepository
-					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_validatecreateonepassprofilelink");
+			String locator = PropertiesRepository.getString(
+					"com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_validatecreateonepassprofilelink");
 			return elementhandler.findElement(locator).isDisplayed();
 		} catch (Exception exc) {
 			extentLogger.log(LogStatus.INFO,
@@ -580,23 +596,22 @@ public class LoginPage extends BasePage {
 		}
 	}
 	/*
-	 * This method is used to verify  one pass signin link displayed
+	 * This method is used to verify one pass signin link displayed
 	 */
-	
+
 	public boolean isOnePassSignInLinkAvailable() {
 		try {
 			String locator = PropertiesRepository
 					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_onepasssigninlink");
 			return elementhandler.findElement(locator).isDisplayed();
 		} catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO,
-					"Error in : isOnePassSignInLinkAvailable <br>" + displayErrorMessage(exc));
+			extentLogger.log(LogStatus.INFO, "Error in : isOnePassSignInLinkAvailable <br>" + displayErrorMessage(exc));
 			return false;
 		}
 	}
-	
+
 	/*
-	 * This method is used to verify  user is redirected to one pass signin page
+	 * This method is used to verify user is redirected to one pass signin page
 	 */
 	public boolean isOnePassSignInPageDisplayed() {
 		try {
@@ -604,12 +619,11 @@ public class LoginPage extends BasePage {
 					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_onepasssigninpage");
 			return elementhandler.findElement(locator).isDisplayed();
 		} catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO,
-					"Error in : isOnePassSignInPageDisplayed <br>" + displayErrorMessage(exc));
+			extentLogger.log(LogStatus.INFO, "Error in : isOnePassSignInPageDisplayed <br>" + displayErrorMessage(exc));
 			return false;
 		}
 	}
-	
+
 	/*
 	 * This method is used to click One pass profile link
 	 */
@@ -620,11 +634,10 @@ public class LoginPage extends BasePage {
 			elementhandler.clickElement(locator);
 
 		} catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO,
-					"Error in : clickOnePassProfileLink<br>" + displayErrorMessage(exc));
+			extentLogger.log(LogStatus.INFO, "Error in : clickOnePassProfileLink<br>" + displayErrorMessage(exc));
 		}
 	}
-	
+
 	/*
 	 * This method is used to verify back to checkpoint link is available
 	 */
@@ -640,20 +653,20 @@ public class LoginPage extends BasePage {
 			return false;
 		}
 	}
+
 	/*
-	 * This method is used to click back to checkpoint link 
+	 * This method is used to click back to checkpoint link
 	 */
 	public void clickbacktoCheckpointLink() {
 		try {
 			String locator = PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest
 					+ ".loginpage_validateonepassprofilelinkwithreturntocheckpoint");
 			elementhandler.clickElement(locator);
-			} catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO,
-					"Error in : clickbacktoCheckpointLink<br>" + displayErrorMessage(exc));
-			}
+		} catch (Exception exc) {
+			extentLogger.log(LogStatus.INFO, "Error in : clickbacktoCheckpointLink<br>" + displayErrorMessage(exc));
+		}
 	}
-	
+
 	/*
 	 * This method is used to verify update one pass profile link available
 	 */
@@ -668,9 +681,9 @@ public class LoginPage extends BasePage {
 			return false;
 		}
 	}
-	
+
 	/*
-	 * This method is used to click on update one pass profile link 
+	 * This method is used to click on update one pass profile link
 	 */
 	public void clickUpdateonepassprofileLink() {
 		try {
@@ -683,28 +696,27 @@ public class LoginPage extends BasePage {
 					"Error in : clickUpdateonepassprofileLink <br>" + displayErrorMessage(exc));
 		}
 	}
-	
+
 	// This is duplicate method
 	public boolean isupdateonepassprofileLinkPresent() {
 		try {
-			
-			return elementhandler.findElement(PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest
-					+ ".loginpage_validateupdatepassprofilelink")).isDisplayed();
-			} catch (Exception exc) {
+
+			return elementhandler
+					.findElement(PropertiesRepository.getString(
+							"com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_validateupdatepassprofilelink"))
+					.isDisplayed();
+		} catch (Exception exc) {
 			extentLogger.log(LogStatus.INFO,
 					"Error in : isupdateonepassprofileLinkPresent <br>" + displayErrorMessage(exc));
 			return false;
 		}
 	}
 
-	
 	public void Validateheader(String property, String Validateheader) throws Exception {
 		elementhandler.findElement(property).isDisplayed();
 		elementhandler.findElement(property).getText().contains(Validateheader);
 	}
 
-	
-	
 	public boolean isUseOnePassPasswordLinkDisplayed() {
 		boolean linkDisplayed = false;
 		try {
@@ -740,7 +752,7 @@ public class LoginPage extends BasePage {
 		}
 		return linkDisplayed;
 	}
-	
+
 	/*
 	 * This method is used to verify forgot password link is available
 	 */
@@ -751,8 +763,9 @@ public class LoginPage extends BasePage {
 					.getString("com.trgr.maf." + productUnderTest + ".loginpage_forgotpassword");
 			if (WebDriverFactory.isDisplayed(driver, elementhandler.findElement(selector))) {
 				String linkText = elementhandler.getText(selector).trim();
- 				linkDisplayed = linkText.equals("¿Has olvidado la contraseña?")
-						|| linkText.equals("Forgot your password?") || linkText.equals("Forgot password?") || linkText.equals("Recuperar contraseña") ;
+				linkDisplayed = linkText.equals("¿Has olvidado la contraseña?")
+						|| linkText.equals("Forgot your password?") || linkText.equals("Forgot password?")
+						|| linkText.equals("Recuperar contraseña");
 			}
 		} catch (Exception exc) {
 			extentLogger.log(LogStatus.INFO,
@@ -794,107 +807,102 @@ public class LoginPage extends BasePage {
 					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_Sendemailforverifcation");
 			return elementhandler.getElement(locator).isDisplayed();
 		} catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO, "Error in : isemailforforgotuname_pwddisplayed <br>"
-					+ displayErrorMessage(exc));
+			extentLogger.log(LogStatus.INFO,
+					"Error in : isemailforforgotuname_pwddisplayed <br>" + displayErrorMessage(exc));
 			return false;
 		}
 	}
-			
-	public void enterRecoveryEmail(String email)	{
-		try{
+
+	public void enterRecoveryEmail(String email) {
+		try {
 			String locator = PropertiesRepository
 					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_Sendemailforverifcation");
-			elementhandler.writeText(locator,email);
-		}catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO, "Error in : enterRecoveryEmail <br>"
-					+ displayErrorMessage(exc));
+			elementhandler.writeText(locator, email);
+		} catch (Exception exc) {
+			extentLogger.log(LogStatus.INFO, "Error in : enterRecoveryEmail <br>" + displayErrorMessage(exc));
 		}
 	}
-	
-	public void enterUserName(String username)	{
-		try{
+
+	public void enterUserName(String username) {
+		try {
 			String locator = PropertiesRepository
 					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_username");
-			elementhandler.writeText(locator,username);
-		}catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO, "Error in : enterUserName <br>"
-					+ displayErrorMessage(exc));
+			elementhandler.writeText(locator, username);
+		} catch (Exception exc) {
+			extentLogger.log(LogStatus.INFO, "Error in : enterUserName <br>" + displayErrorMessage(exc));
 		}
 	}
-	
-	public void clickOnSubmitButton()	{
-		try{
+
+	public void clickOnSubmitButton() {
+		try {
 			String locator = PropertiesRepository
 					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_submit");
 			elementhandler.clickElement(locator);
-		}catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO, "Error in : clickOnSubmitButton <br>"
-					+ displayErrorMessage(exc));
+		} catch (Exception exc) {
+			extentLogger.log(LogStatus.INFO, "Error in : clickOnSubmitButton <br>" + displayErrorMessage(exc));
 		}
 	}
-	
+
 	public boolean isAnswerTheQuestionDisplayed() {
 		try {
-			String locator = PropertiesRepository.getString(
-					"com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_answerthequestion");
+			String locator = PropertiesRepository
+					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_answerthequestion");
 			return elementhandler.findElement(locator).isDisplayed();
 		} catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO,
-					"Error in : isAnswerTheQuestionDisplayed <br>" + displayErrorMessage(exc));
+			extentLogger.log(LogStatus.INFO, "Error in : isAnswerTheQuestionDisplayed <br>" + displayErrorMessage(exc));
 			return false;
 		}
 	}
-	
-	
+
 	public boolean isContinuebtnForSendEmailDisplayed() {
 		try {
-			
+
 			String locator = PropertiesRepository.getString(
 					"com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_Sendemailforverifcationcontinuebutton");
-			WebDriverFactory.waitForElementUsingWebElement(driver, elementhandler.findElement(PropertiesRepository
-					.getString("com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_Sendemailforverifcationcontinuebutton")), 30);
+			WebDriverFactory
+					.waitForElementUsingWebElement(driver,
+							elementhandler.findElement(PropertiesRepository.getString("com.trgr.maf."
+									+ BaseTest.productUnderTest + ".loginpage_Sendemailforverifcationcontinuebutton")),
+							30);
 			return elementhandler.findElement(locator).isDisplayed();
 		} catch (Exception exc) {
-			//extentLogger.log(LogStatus.INFO,
-			//		"Error in : isContinuebtnForSendEmailDisplayed <br>" + displayErrorMessage(exc));
+			// extentLogger.log(LogStatus.INFO,
+			// "Error in : isContinuebtnForSendEmailDisplayed <br>" +
+			// displayErrorMessage(exc));
 			return false;
 		}
 	}
-	
+
 	public void clickContinueButton() {
-		try{
+		try {
 			elementhandler.clickElement(PropertiesRepository.getString(
 					"com.trgr.maf." + BaseTest.productUnderTest + ".loginpage_Sendemailforverifcationcontinuebutton"));
-		}catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO, "Error in : clickContinueButton <br>"
-					+ displayErrorMessage(exc));
-			
+		} catch (Exception exc) {
+			extentLogger.log(LogStatus.INFO, "Error in : clickContinueButton <br>" + displayErrorMessage(exc));
+
 		}
 	}
-	
-	public boolean isReturnToCheckpointDisplayed(String email)
-	{
-		try{
+
+	public boolean isReturnToCheckpointDisplayed(String email) {
+		try {
 			String locator = PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest
 					+ ".loginpage_Sendemailforverifcationreturntocheckpoint");
 			return elementhandler.findElement(locator).isDisplayed() && driver.getPageSource().contains(email);
-		}catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO, "Error in : isReturnToCheckpointDisplayed <br>"
-					+ displayErrorMessage(exc));
+		} catch (Exception exc) {
+			extentLogger.log(LogStatus.INFO,
+					"Error in : isReturnToCheckpointDisplayed <br>" + displayErrorMessage(exc));
 			return false;
 		}
 	}
-	
-	public void clickReturnToCheckpoint()
-	{
-		try{
+
+	public void clickReturnToCheckpoint() {
+		try {
 			String locator = PropertiesRepository.getString("com.trgr.maf." + BaseTest.productUnderTest
 					+ ".loginpage_Sendemailforverifcationreturntocheckpoint");
 			elementhandler.clickElement(locator);
-		}catch (Exception exc) {
-			extentLogger.log(LogStatus.INFO, "Error in : clickReturnToCheckpoint <br>"
-					+ displayErrorMessage(exc));
-			}
+		} catch (Exception exc) {
+			extentLogger.log(LogStatus.INFO, "Error in : clickReturnToCheckpoint <br>" + displayErrorMessage(exc));
+		}
 	}
 
 	public boolean isRememberDataOnThisComputerEnabled() {

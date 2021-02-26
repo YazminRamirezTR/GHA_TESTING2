@@ -55,6 +55,8 @@ public class LoginTest extends BaseTest {
 	 * 
 	 * 
 	 */
+	
+	
 	@Test(priority = 0, groups = { "chparg", "chpury", "chpmex", "chpbr" ,"chppe","chpchile"}, description = "MAFQABANG-32")
 	public void loginWithValidAndInvalidCredentials() throws Exception {
 		testResult = Reporter.getCurrentTestResult();
@@ -129,6 +131,8 @@ public class LoginTest extends BaseTest {
 	 * MAFQABANG-35
 	 * Login_Verify valid customer id
 	 */
+	
+	
 	@Test(priority = 0, groups = { "chparg", "chpury", "chppe","chpchile"}, description = "MAFQABANG-35")
 	public void loginWithClientID() throws Exception {
 		testResult = Reporter.getCurrentTestResult();
@@ -201,7 +205,7 @@ public class LoginTest extends BaseTest {
 			homepage.clickSignOff();
 
 			loginpage = new LoginPage(driver, ProductUrl);
-//			Thread.sleep(2000);
+			Thread.sleep(2000);
  			boolean flag = loginpage.isUsernameSaved(username) && loginpage.isPasswordSaved(
 					PropertiesRepository.getString("com.trgr.maf." + productUnderTest + ".passwordkey"));
 			softas.assertTrue(flag,
@@ -250,36 +254,7 @@ public class LoginTest extends BaseTest {
 		}
 	}
 
-	@Test(priority = 3, groups = { "chparg", "chpury","chppe","chpchile"}, description = "MAFQABANG-38")
-	public void InteractiveDemoLink() throws IllegalArgumentException, IOException, InterruptedException {
-		softas = new SoftAssert();
-		try {
-			testResult = Reporter.getCurrentTestResult();
-			extentLogger = setUpExtentTest(extentLogger, "Login", testResult.getMethod().getMethodName());
-
-			String jiraNumber = testResult.getMethod().getDescription();
-			String issueSummary = getIssueTitle(jiraNumber, "Verification of Interactive Demo Link");
-
-			LoginPage loginpage = new LoginPage(driver, ProductUrl);
-			loginpage.clickInteractiveDemoLink();
-			boolean interactiveDemolinkValidated = loginpage.validateRedirectedUrl();
-
-			softas.assertTrue(interactiveDemolinkValidated,jiraNumber + ":" + issueSummary);
-			logExtentStatus(extentLogger, interactiveDemolinkValidated, issueSummary,jiraNumber);
-			if(!interactiveDemolinkValidated){//Log existing bug
-				//testResult.setAttribute("defect", "MAFAUTO-276");
-				testResult.setAttribute("defect", "MAFAUTO-269");
-			}
-
-		} catch (Exception exc) {
-			logTestExceptionToExtentLogger(testResult.getMethod().getMethodName(), exc, extentLogger);
-			softas.assertTrue(false, "Exception in Test");
-
-		} finally {
-			extentReports.endTest(extentLogger);
-			softas.assertAll();
-		}
-	}
+	
 
 	@Test(priority = 4, groups = { "chparg", "chpury","chppe","chpchile"}, description = " ")
 	public void FrequentQuestionsLink() throws IllegalArgumentException, IOException {
@@ -815,7 +790,8 @@ public class LoginTest extends BaseTest {
 			softas.assertAll();
 		}
 	}
-
+	
+	
 	@Test(priority = 13, groups = { "chpury" }, description = "MAFQABANG-579")
 	public void LoginwithSaveUnamePwdUnchecked() throws IOException {
 		SoftAssert softas = new SoftAssert();
